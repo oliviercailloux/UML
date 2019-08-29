@@ -1,0 +1,78 @@
+= Exercices
+
+Voici quelques énoncés pour vous entrainer à la modélisation UML.
+
+Les exercices suivants sont extraits du  https://www.lamsade.dauphine.fr/~manouvri/UML/CORRECTION_EXOS/[site] de leur auteure, Maude Manouvrier, et publiés ici sous licence Creative Commons avec sa permission. Si vous les réutilisez, merci de citer son nom, pas le mien.
+
+Pour chacun des sujets de modélisation ci-dessous donner : (1) le diagrammes de classes, (2)
+pour les classes qui le nécessitent, un diagramme d'états, (3) les cas d'utilisation, (4) un ou
+deux diagrammes de séquences, et (5) un ou deux diagrammes d'activité.
+
+Sujet 1 : Un(e) enseignant(e) souhaite construire une application permettant de gérer les projets des
+étudiants pour l'année scolaire courante. Un étudiant est identifié par un numéro unique et est caractérisé
+par un nom et un prénom. Un étudiant appartient à une formation. Une formation est identifiée par
+un numéro unique et est caractérisée par un nom (ex. MIAGE-ID, MIAGE-IF ou MIAGE-SITN) et une
+promotion (ex. "Initiale", "En Alternance" ou "Formation Continue"). Un étudiant réalise, au cours de sa
+formation, plusieurs projets en binôme (i.e. en groupe de 2 personnes maximum). Un projet est identifié
+par un numéro unique et est caractérisé par un nom de matière, un sujet et une date de remise prévue du
+rapport. Un binôme est identifié par un numéro relatif au projet (le binôme N°1 du projet d’Entrepôt de
+données peut différer du binôme N°1 du projet de J2EE). A chaque projet correspond deux notes : (1) une
+note de rapport qui est commune aux deux membres du binôme et (2) une note de soutenance qui, quant
+à elle, est individuelle et peut donc être différente pour les membres d'un même binôme. Pour chaque
+binôme et chaque projet, la base de données stocke la date de remise effective du rapport à l'enseignant.
+Cette date permet de calculer un nombre de points à déduire de la note finale du projet en fonction du
+nombre de jours de retards. La note finale du projet n'est pas stockée dans la base de données mais est
+calculée à partir des notes de rapport et de soutenance (qui sont stockées dans la base de données) et du
+nombre de points en moins par jour de retard calculé à partir de la date de remise du rapport).
+
+Sujet 2 : Une auto-école souhaite construire une base de données pour gérer les examens théoriques du
+code de la route de ses élèves. Chaque élève est identifié par un numéro unique et est caractérisé par un
+nom, un prénom, une adresse et une date de naissance. Chaque élève assiste à plusieurs séances de code
+(autant qu'il le souhaite). Chaque séance est caractérisée par une date et une heure. A chaque séance
+de code, le directeur de l'auto-école choisit une série de questions sur un CD-ROM. Chaque CD-ROM
+est identifié par un numéro et est caractérisé par un nom d'éditeur. Chaque CD-ROM est composé de 6
+séries, numérotées de 1 à 6. Chaque série est composée de 40 questions. Chaque question est identifiée par
+un intitulé et est caractérisée par une réponse, un niveau de difficulté et un thème. Une même question
+peut apparaître dans plusieurs séries avec un numéro d'ordre pour chaque série ; par exemple une même
+question peut apparaître comme question N°2 de la série 5 du CD-ROM 15 et comme question N°12
+de la série 3 du CD-ROM 4. Une même série peut être projetée plusieurs fois à des séances différentes.
+Lorsqu'un élève assiste à une séance, il obtient le nombre de fautes (une note sur 40) qu'il a fait pour la
+série passée pendant la séance. Lorsqu'un élève a obtenu, au cours des quatre dernières séances auxquelles
+il a assistées, un nombre de fautes inférieur ou égal à 5, le directeur de l'auto-école l'autorise à passer
+l'examen théorique du code de la route à une date donnée (un seul examen pour une date donnée). L'auto-
+école ne peut présenter que 8 élèves maximum à chaque date d'examen. Les élèves ayant obtenu plus de
+5 fautes à l'examen sont recalés et doivent assister de nouveau à des séances de code avant de pouvoir se
+représenter à l'examen.
+La base de données doit permettre de répondre à des requêtes telles que "Quel est le nombre moyen de
+fautes pour la série
+5
+du CD-ROM
+14 ?",
+"Quels élèves peuvent se présenter au prochain examen du code
+de la route ?", "Quels élèves ont échoué au moins une fois à l'examen ?" etc.
+
+Sujet 3 : On souhaite construire une base de données gérant des revues et les articles de ces revues. Une
+revue est caractérisée par un nom et a un rédacteur en chef. Une même personne peut être rédacteur en
+chef de plusieurs revues. Chaque revue parait sous la forme de numéros à diverses fréquences (quotidiennes,
+bimensuelles ou mensuelles, par exemple). Chaque numéro est identifié par un nombre relatif à la revue et
+à l'année en cours (ex. le numéro N°12 de Linux Magazine en 2009 est différent du numéro N°12 de Linux
+Magazine en 2010). Chaque numéro contient des articles écrits par un ou plusieurs auteurs. Un auteur est
+caractérisé par un nom, un prénom, ainsi qu'un numéro de carte professionnelle. Un auteur est engagé par
+une revue mais peut néanmoins écrire dans plusieurs revues différentes. Le rédacteur en chef d'une revue
+est un auteur employé par la revue. Chaque article possède un titre et un contenu. Un même article peut
+apparaître dans plusieurs revues différentes mais jamais dans plusieurs numéros d'une même revue.
+La base de données doit permettre de répondre à des requêtes telles que "Combien de numéros de Linux
+Magazine sont parus en 2010 ?", "Quels sont les titres des articles parus dans au moins deux revues
+différentes ?", "Quels sont les auteurs ayant publiés dans le numéro 3 de la revue L'Histoire en 2010 ?"
+etc.
+
+Sujet 4 : Un organisme de sécurité sociale souhaite développer une application gérant des patients,
+leur médecin traitant et des médecins spécialistes. Une personne est soit un assuré, soit un médecin,
+un médecin pouvant être malade et être assuré. Un médecin est soit généraliste, soit spécialiste, un
+généraliste ne pouvant pas être spécialiste et inversement. Un patient a choisi ou non son médecin traitant.
+Un patient consulte, à une date donnée, un généraliste. Lors des consultations, le généraliste peut ou
+non prescrire une ou plusieurs consultations chez un spécialiste. Cette application peut être utilisée par
+l'organisme de sécurité sociale pour inscrire un assuré, enregistrer un médecin traitant pour un assuré,
+enregistrer des feuilles de maladie et effectuer des remboursements. Tout médecin peut également, via
+l'application, enregistrer une feuille de maladie, prescrire des médicaments et prescrire une consultation
+chez un spécialiste.
