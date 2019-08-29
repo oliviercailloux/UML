@@ -11,6 +11,34 @@ Pour chacun des sujets de modélisation ci-dessous donner :
 * un ou deux diagrammes de séquences
 * un ou deux diagrammes d'activité
 
+== Revues (ex sujet 3)
+On souhaite construire une base de données gérant des revues et les articles de ces revues. Une
+revue est caractérisée par un nom et a un rédacteur en chef. Une même personne peut être rédacteur en
+chef de plusieurs revues. Chaque revue parait sous la forme de numéros à diverses fréquences (quotidiennes,
+bimensuelles ou mensuelles, par exemple). Chaque numéro est identifié par un nombre relatif à la revue et
+à l’année en cours (ex. le numéro N°12 de Linux Magazine en 2009 est différent du numéro N°12 de Linux
+Magazine en 2010). Chaque numéro contient des articles écrits par un ou plusieurs auteurs. Un auteur est
+caractérisé par un nom, un prénom, ainsi qu’un numéro de carte professionnelle. Un auteur est engagé par
+une revue mais peut néanmoins écrire dans plusieurs revues différentes. Le rédacteur en chef d’une revue
+est un auteur employé par la revue. Chaque article possède un titre et un contenu. Un même article peut
+apparaître dans plusieurs revues différentes mais jamais dans plusieurs numéros d’une même revue.
+La base de données doit permettre de répondre à des requêtes telles que "Combien de numéros de Linux
+Magazine sont parus en 2010 ?", "Quels sont les titres des articles parus dans au moins deux revues
+différentes ?", "Quels sont les auteurs ayant publiés dans le numéro 3 de la revue L’Histoire en 2010 ?"
+etc.
+
+== Soins de santé (ex sujet 4)
+Un organisme de sécurité sociale souhaite développer une application gérant des patients,
+leur médecin traitant et des médecins spécialistes. Une personne est soit un assuré, soit un médecin,
+un médecin pouvant être malade et être assuré. Un médecin est soit généraliste, soit spécialiste, un
+généraliste ne pouvant pas être spécialiste et inversement. Un patient a choisi ou non son médecin traitant.
+Un patient consulte, à une date donnée, un généraliste. Lors des consultations, le généraliste peut ou
+non prescrire une ou plusieurs consultations chez un spécialiste. Cette application peut être utilisée par
+l’organisme de sécurité sociale pour inscrire un assuré, enregistrer un médecin traitant pour un assuré,
+enregistrer des feuilles de maladie et effectuer des remboursements. Tout médecin peut également, via
+l’application, enregistrer une feuille de maladie, prescrire des médicaments et prescrire une consultation
+chez un spécialiste.
+
 == Projets (ex sujet 1)
 Une enseignante souhaite construire une application permettant de gérer les projets des
 étudiants pour l’année scolaire courante. Un étudiant est identifié par un numéro unique et est caractérisé
@@ -55,32 +83,4 @@ du CD-ROM
 14 ?",
 "Quels élèves peuvent se présenter au prochain examen du code
 de la route ?", "Quels élèves ont échoué au moins une fois à l’examen ?" etc.
-
-== Revues (ex sujet 3)
-On souhaite construire une base de données gérant des revues et les articles de ces revues. Une
-revue est caractérisée par un nom et a un rédacteur en chef. Une même personne peut être rédacteur en
-chef de plusieurs revues. Chaque revue parait sous la forme de numéros à diverses fréquences (quotidiennes,
-bimensuelles ou mensuelles, par exemple). Chaque numéro est identifié par un nombre relatif à la revue et
-à l’année en cours (ex. le numéro N°12 de Linux Magazine en 2009 est différent du numéro N°12 de Linux
-Magazine en 2010). Chaque numéro contient des articles écrits par un ou plusieurs auteurs. Un auteur est
-caractérisé par un nom, un prénom, ainsi qu’un numéro de carte professionnelle. Un auteur est engagé par
-une revue mais peut néanmoins écrire dans plusieurs revues différentes. Le rédacteur en chef d’une revue
-est un auteur employé par la revue. Chaque article possède un titre et un contenu. Un même article peut
-apparaître dans plusieurs revues différentes mais jamais dans plusieurs numéros d’une même revue.
-La base de données doit permettre de répondre à des requêtes telles que "Combien de numéros de Linux
-Magazine sont parus en 2010 ?", "Quels sont les titres des articles parus dans au moins deux revues
-différentes ?", "Quels sont les auteurs ayant publiés dans le numéro 3 de la revue L’Histoire en 2010 ?"
-etc.
-
-== Soins de santé (ex sujet 4)
-Un organisme de sécurité sociale souhaite développer une application gérant des patients,
-leur médecin traitant et des médecins spécialistes. Une personne est soit un assuré, soit un médecin,
-un médecin pouvant être malade et être assuré. Un médecin est soit généraliste, soit spécialiste, un
-généraliste ne pouvant pas être spécialiste et inversement. Un patient a choisi ou non son médecin traitant.
-Un patient consulte, à une date donnée, un généraliste. Lors des consultations, le généraliste peut ou
-non prescrire une ou plusieurs consultations chez un spécialiste. Cette application peut être utilisée par
-l’organisme de sécurité sociale pour inscrire un assuré, enregistrer un médecin traitant pour un assuré,
-enregistrer des feuilles de maladie et effectuer des remboursements. Tout médecin peut également, via
-l’application, enregistrer une feuille de maladie, prescrire des médicaments et prescrire une consultation
-chez un spécialiste.
 
