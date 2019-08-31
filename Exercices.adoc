@@ -1,6 +1,7 @@
 = Exercices
 :toc:
 
+== Introduction
 Voici quelques énoncés pour vous entrainer à la modélisation UML.
 
 Les exercices suivants sont extraits du https://www.lamsade.dauphine.fr/~manouvri/UML/CORRECTION_EXOS/[site] de leur auteure, Maude Manouvrier, légèrement modifiés par mes soins et publiés ici sous licence Creative Commons avec sa permission. Si vous les réutilisez, merci de citer son nom, pas le mien.
