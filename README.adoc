@@ -12,9 +12,9 @@ Links taken from the https://www.edx.org/bio/eric-s-lander[course] “Introducti
 //https://www.edx.org/course/introduction-to-biology-the-secret-of-life-4
 
 == Références
-* https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
-* https://www.uml-diagrams.org/uml-core.html Most recommended
+* https://www.uml-diagrams.org/uml-core.html[UML Core Elements] Informations précises concernant les modèles et diagrammes d’UML
 * Papyrus https://www.eclipse.org/papyrus/download.html[2019-06 release (4.4.0)], une implémentation open source très respectueuse de la spécification (mais difficile d’usage)
+* https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
 
 ifdef::diagrams[]
 Diagrams
