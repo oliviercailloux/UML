@@ -1,12 +1,15 @@
-= Introduction
+= Notes
 
+Voici un aperçu (très succinct) de ce qui a été vu en séance.
+
+== Introduction
 Parcours, objectif du cours et procédé.
 
 Décrire ce qui fait d’UML un langage et la structure sur laquelle il est construit.
 
 Sans diapos, explications théoriques mais cours très appliqué. Feedback attendu.
 
-== Langage
+=== Langage
 
 Langage : pour transmettre des informations.
 
@@ -26,7 +29,7 @@ Langage UML défini donc précisément les termes : classe ; association ; attri
 
 Termes s’assemblent selon des règles précises : une classe contient des attributs et peut être associée à d’autres classes, une classe peut en généraliser une autre ; un objet peut réagir à un événement ; …
 
-== Modèle
+=== Modèle
 
 UML n’est pas un ensemble de diagrammes. C’est un langage de modélisation. Une spécification en UML est d’abord un modèle abstrait (non représenté graphiquement). De ce modèle dérivent des diagrammes.
 
@@ -38,17 +41,15 @@ Quand on efface un diagramme, on a toujours le modèle.
 
 Par exemple, dans un diagramme de séquence, invoquer getTotalAmount() sur un objet incapable de calculer le résultat total permet d’observer l’erreur de conception suffisamment tôt.
 
-== Unifié
-
+=== Unifié
 UML est un standard de l’OMG (autres réalisations ?).
 
 https://en.wikipedia.org/wiki/Unified_Modeling_Language#/media/File:OO_Modeling_languages_history.jpg
 
 2015 : 2.5.0. 2017 : 2.5.1.
 
-= Cas d’utilisation
-
-Services à rendre ou rendus + frontière du système + qui agit avec le système : à qui les services sont rendus ; qui contribue à rendre le service (hors système)
+== Cas d’utilisation
+Services à rendre ou rendus ; frontière du système ; qui agit avec le système : à qui les services sont rendus et qui contribue à rendre le service (hors système)
 
 Cas d’utilisation : un service rendu par le système en interaction avec un ou plusieurs acteurs, qui produit un résultat observable ayant de la valeur à l’extérieur du système.
 
@@ -84,7 +85,7 @@ Considérer éventuellement les packages.
 
 Notons qu’un modèle est construit en vue d’un objectif : le nombre de détails à modéliser pour représenter fidèlement un objet réel est non borné.
 
-= Classes
+== Classes
 
 Modéliser les classes d’objets composant le système. Représenter la structure du système (ou d’un sous-système).
 
@@ -134,7 +135,7 @@ Retour sur la notion de langage : syntaxe, sémantique ; combinaisons non restre
 
 Exercices. 1. Diagramme de classes avec deux instances et leurs liens. 2. Diagramme de cas d’utilisation ayant un de ces classifieurs comme sujet.
 
-= État
+== État
 
 Structure : ce qui peut exister à un moment donné. Comportement : comment les choses changent dans le temps.
 
