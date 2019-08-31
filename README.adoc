@@ -1,0 +1,57 @@
+= Introduction à UML
+
+* https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
+* https://github.com/oliviercailloux/UML/blob/master/Exercices.adoc[exercices]
+* The https://app.gosoapbox.com/event/290081765/[confusion barometer]
+
+== Prenez des notes
+* 5 ways of taking notes https://www.youtube.com/watch?v=AffuwyJZTQQ[video]
+* https://doi.org/10.1177/0956797614524581[Research] shows that taking notes, and especially writing what is said in your own words after some mental processing, permits more effective study
+
+Links taken from the https://www.edx.org/bio/eric-s-lander[course] “Introduction to Biology - The Secret of Life”, MITx
+//https://www.edx.org/course/introduction-to-biology-the-secret-of-life-4
+
+== Références
+* https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
+* https://www.pearson.com/us/higher-education/program/Blaha-Object-Oriented-Modeling-and-Design-with-UML-2nd-Edition/PGM73371.html (traduit par MM et MZ)
+* https://www.uml-diagrams.org/uml-core.html Most recommended
+* Papyrus https://www.eclipse.org/papyrus/download.html[2019-06 release (4.4.0)], une implémentation open source très respectueuse de la spécification (mais difficile d’usage)
+
+ifdef::diagrams[]
+Diagrams
+
+From Fowler, about UML 2: 13 diagrams (plus non-official Collaborations diagram) (Ch. 3 to 17, 15 chapters for 14 diagrams)
+
+* Structure
+** Class
+** Object
+** Package
+** Component
+** Composite Structure [plus non-official Collaborations diagram]
+** Deployment
+** Profile [non in Fowler but in WA]
+* Behavior
+** Use Case
+** State Machine
+** Activity
+** Interaction
+*** Sequence
+*** Communication [In UML 1.x, called Collaboration]
+*** Interaction Overview [Mix of sequence and activity]
+*** Timing
+
+Maude
+
+* Intro : 1 to 12
+* Modèle de classes : 13 to 32; 33 to 45 [33]
+** Diagramme de classes
+* Modèle d’états : 46 to 60; 61 to 68 [23]
+** Diagramme d’états
+* Modèles d’interactions : 69 to 85; 86 to 96 [28]
+** Cas d’utilisation
+** Diagramme de séquence
+** Diagramme d’activités
+* Résumé : 97 to 103
+* Résumé des notations : 104 to 119
+endif::[]
+
