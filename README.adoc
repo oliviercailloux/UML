@@ -1,8 +1,8 @@
 = Introduction à UML
 
+* Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
-* https://github.com/oliviercailloux/UML/blob/master/Exercices.adoc[exercices]
-* The https://app.gosoapbox.com/event/290081765/[confusion barometer]
+* https://github.com/oliviercailloux/UML/blob/master/Exercices.adoc[Exercices]
 
 == Prenez des notes
 * 5 ways of taking notes https://www.youtube.com/watch?v=AffuwyJZTQQ[video]
