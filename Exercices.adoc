@@ -1,4 +1,5 @@
 = Exercices
+:toc:
 
 Voici quelques énoncés pour vous entrainer à la modélisation UML.
 
