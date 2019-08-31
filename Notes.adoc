@@ -1,0 +1,156 @@
+= Introduction
+
+Parcours, objectif du cours et procédé.
+
+Décrire ce qui fait d’UML un langage et la structure sur laquelle il est construit.
+
+Sans diapos, explications théoriques mais cours très appliqué. Feedback attendu.
+
+== Langage
+
+Langage : pour transmettre des informations.
+
+Langage formel : codifie précisément les termes et leur sémantique et les interactions permises entre les termes.
+
+Exemple : Java. if (a < 3) { …} ok mais if (a is smaller than 3) pas permis.
+
+Opposition : langage naturel. Règles existent mais pas entièrement formalisées ; langage utilisé par les locuteurs natifs de manière « créative » (néologismes, poésie, argot…)
+
+Pour : décrire, modéliser dans un langage précis.
+
+Habituellement : modéliser un système à implémenter ou implémenté (en vue de la maintenance). Un logiciel pour organiser les cours ; une application téléphone pour chercher les éclipses dans le monde.
+
+Mais aussi : modéliser un phénomène naturel ou une organisation humaine => comprendre et analyser. Exemple : le cycle de l’eau sur terre ; le processus d’engagement d’un nouvel enseignant-chercheur à Paris-Dauphine.
+
+Langage UML défini donc précisément les termes : classe ; association ; attribut ; généralisation ; événement…
+
+Termes s’assemblent selon des règles précises : une classe contient des attributs et peut être associée à d’autres classes, une classe peut en généraliser une autre ; un objet peut réagir à un événement ; …
+
+== Modèle
+
+UML n’est pas un ensemble de diagrammes. C’est un langage de modélisation. Une spécification en UML est d’abord un modèle abstrait (non représenté graphiquement). De ce modèle dérivent des diagrammes.
+
+Modèle abstrait appuyé sur termes du langage formel. Modèle contient classes, associations, etc. Enregistré dans un fichier informatique.
+
+De ce modèle, on tire plusieurs diagrammes. Par exemple : les classes ; les classes intervenant dans telle partie du système ; les classes à développer pour lundi prochain ; les classes associées à la classe Truc ; la séquence d’interaction entre l’objet Machin et l’objet Chose pour effectuer telle tâche.
+
+Quand on efface un diagramme, on a toujours le modèle.
+
+Par exemple, dans un diagramme de séquence, invoquer getTotalAmount() sur un objet incapable de calculer le résultat total permet d’observer l’erreur de conception suffisamment tôt.
+
+== Unifié
+
+UML est un standard de l’OMG (autres réalisations ?).
+
+https://en.wikipedia.org/wiki/Unified_Modeling_Language#/media/File:OO_Modeling_languages_history.jpg
+
+2015 : 2.5.0. 2017 : 2.5.1.
+
+= Cas d’utilisation
+
+Services à rendre ou rendus + frontière du système + qui agit avec le système : à qui les services sont rendus ; qui contribue à rendre le service (hors système)
+
+Cas d’utilisation : un service rendu par le système en interaction avec un ou plusieurs acteurs, qui produit un résultat observable ayant de la valeur à l’extérieur du système.
+
+Définit le comportement attendu par l’acteur.
+
+Exemple simple de cas d’utilisation.
+
+Un acteur (représenté par un bonhomme bâton au-dessus de son nom) représente un rôle. Une personne physique peut correspondre à plusieurs acteurs, et inversement.
+
+Associations entre acteurs et cas, ligne continue (par défaut pour les associations), multiplicité côté acteur : parmi tous les acteurs connectés au cas, combien simultanément de chaque type. Multiplicité côté cas : combien actifs simultanément pour l’acteur. Souvent omis.
+
+Une Relationship peut être (une DirectedRelationship ou) une Association.
+
+Acteurs peuvent aussi être notés comme une class rectangle avec le stéréotype « actor ».
+
+Cas peut inclure des variantes : erreurs, exceptions, options.
+
+Ce qui est décrit par « système » ci-dessus s’applique également pour d’autres sujets, par exemple une classe ou un composant.
+
+On est invité à placer les cas dans leur sujet (en haut à gauche du cadre), pour montrer la frontière.
+
+Inclusion : l’ajouté dépend de l’ajouteur, il n’a généralement pas de sens seul (car includes prévu pour factorisation). Pas de condition. Pas de point d’extension. La relation est donc une dépendance. Pointillés et flèche ouverte (comme souvent les dépendances), « include ».
+
+Une Dependency est une (directed relationship, elle-même une) Relationship.
+
+Extension : l’extension n’a généralement pas de sens seul. Le cas étendu, si. Peut être lié à une condition. [Un seul comportement bien que plusieurs cas impliqués lorsque l’extension est activée.] Le cas étendu indique ses points d’extension dans un compartiment. Pointillés et flèche ouverte, « extend », commentaire (rectangle corné), lié par une ligne pointillée, avec condition et point d’extension.
+
+Généralisation. (Une sorte de DirectedRelationship.) Ligne droite avec triangle vide.
+
+Exemple (issu de Roques) : un distributeur de billets permettant de consulter son solde et de déposer de l’argent (ATM). Le mainteneur recharger les billets et consulte les logs. Considérer le système d’autorisation global et le SI de la banque. Certains peuvent inclure Authentification. Consulter le solde peut étendre Retirer de l’argent. Déposer de l’argent peut être spécialisé, dépôt d’un montant faible et d’un gros montant, qui requièrent de prévenir des acteurs distincts. Dans ce cas, il faut le rendre abstrait.
+
+Considérer éventuellement les packages.
+
+Notons qu’un modèle est construit en vue d’un objectif : le nombre de détails à modéliser pour représenter fidèlement un objet réel est non borné.
+
+= Classes
+
+Modéliser les classes d’objets composant le système. Représenter la structure du système (ou d’un sous-système).
+
+Élément fondamental de la structure (cf. séparation structure et comportement en UML ; les cas d’utilisation sont à cheval).
+
+Une classe décrit un ensemble d’objets, instances de la classe.
+
+Un objet est un individu avec un état et des liens. A des valeurs associées aux propriétés.
+
+Une classe a des attributs (qui sont des propriétés [elles-mêmes des MultiplicityElements]) : nom, type, multiplicité ; et valeur par défaut éventuelle.
+
+Une classe est représentée avec des compartiments : attributs, opérations, …
+
+Exemples…
+
+Un attribut [en fait, une propriété] peut être statique (souligné). Il a une visibilité. Il peut être dérivé (précédé de /).
+
+Une classe a des opérations : nom, type de retour, paramètres (de nom facultatif, avec défaut éventuel). [Un paramètre est un MultiplicityElement possédant facultativement une valeur par défaut, comme une Propriété.]
+
+Une classe peut être associée à d’autres classes. (Une association lie des propriétés, dont le nom est souvent masqué.) (Property de type Class est généralement une fin d’Association.) Multiplicité généralement indiquée. L’aggrégation renseigne que l’objet sert à regrouper des instances, généralement, en les contenant dans un sens plus ou moins litéraire.
+
+Association peut être vers même classe. On peut préciser : {ordered}, {sequence}…
+
+Une association peut indiquer, à un bout, une aggrégation [en fait indiquée par la propriété], soit shared soit composite. Association qualifiée pour dictionnaires (modifier la multiplicité à un). 
+
+Une classe association (à la fois classe et association) peut être accolée à l’association, via une ligne pointillée.
+
+Une classe peut en généraliser une autre, auquel cas elle récupère ses attributs et opérations (en fait, ses membres) non privées. Toute instance du fils est aussi une instance du parent. Une classe peut être abstraite.
+
+Contrainte : entre accolades, dans une note liée par des pointillés (ou près de l’élément contraint, ou entre deux associations avec une flèche éventuelle).
+
+Tout ceci est en fait vrai de tout Classifieur. Un Classifieur peut être entre autres une Classe ou une Interface.
+
+Une interface peut être représentée comme un Classifieur avec le mot-clé « interface » ; une Énumération (est un DataType qui est un Classifieur), avec le mot-clé « enumeration ».
+
+Une classe est un StructuredClassifier, un EncapsulatedClassifier et un BehavioredClassifier. (Str. offre des rôles, des parties, des connecteurs pour lier les rôles ; EncapsulatedClassifier permet à la classe de contenir des ports, indiquant des points de connexion avec interfaces requises et fournies.)
+
+Un BehavioredClassifier peut implémenter des Interfaces. La relation est une InterfaceRealization. L’interface peut être représentée par un cercle (ou lollipop) à son nom, joint au BehavioredClassifier. (Ou une flèche pointillée avec un triangle ouvert, comme toute bonne réalisation.)
+
+Un Classifieur qui requiert une interface est dans une relation de dépendance Usage. Représentée par un demi-cercle (ou socket) à son nom attaché au classifieur. (Ou une flèche ouverte pointillée, comme toute bonne dépendance, marquée « use ».)
+
+Instance Specification a un classifieur qui indique de quoi elle est instance (peut aussi être vide ou multiple, sémantique non définie ; si est un classifieur de type Association, l’instance est un Lien). Un slot indique la valeur d’une propriété, certaines propriétés peuvent être laissées sans valeur si sans intérêt. Noter que cette instance peut être impossible en réalité (utilisée pour illustration par exemple). Montrée avec son nom souligné (soulignement facultatif), deux points, classifieur, et la même apparence que le classifieur. Si c’est une association, aussi une ligne droite (entre instances). [Une Association est un Classifieur qui a pour Features, donc y compris ses attributs et ses opérations, uniquement des propriétés, apparaissant comme des fins de lignes.]
+
+Notons qu’un Use Case et un Acteur sont des BehavioredClassifiers.
+
+Retour sur la notion de langage : syntaxe, sémantique ; combinaisons non restreintes.
+
+Exercices. 1. Diagramme de classes avec deux instances et leurs liens. 2. Diagramme de cas d’utilisation ayant un de ces classifieurs comme sujet.
+
+= État
+
+Structure : ce qui peut exister à un moment donné. Comportement : comment les choses changent dans le temps.
+
+Une classe peut être liée à une machine à état.
+
+Une machine à état (une sorte de comportement) est composée de sommets et de transitions (éventuellement partitionnés en régions).
+
+Un sommet est un état ou un pseudo-état [ou une référence à un point de connexion]. Une transition est un passage d’un sommet à un autre munie de Déclencheurs, d’une garde éventuelle (de type Contrainte), et d’un effet éventuel [un Comportement, souvent OpaqueBehavior].
+
+Un Déclencheur annonce une réaction à un Événement [et est lié à des Ports]. Un Événement est un Message (Appel d’une Opération ou Événement Signal lié à un Signal [ou AnyReceiveEvent]), un Changement (noté when suivi d’une expression booléenne), ou un Événement Temporel (noté after x ou at x). Un Événement est ponctuel. (On ne se soucie pas ici de sa provenance.)
+
+Exemple : transition suite à opération (retour livre). Transition suite à changement. Transition op()[cond] inopérante quand condition n’est pas validée. Exemple d’effet : incrémentation, appel.
+
+Pseudo-états : État initial, disque noir (max une transition sortante sans Déclencheurs ni garde, peut avoir un effet) ; État terminal, disque noir cerclé ; Point de choix, losange… [Aussi états d’entrée (cercle) et de sortie (croix dans cercle) dans un composite encapsulé.]
+
+État peut avoir un Comportement associé à entry, do, exit. Exemples : do/ring alarm ; entry/start air conditioning…
+
+Plus généralement, un BehavioredClassifier  (Classe, Use Case, Acteur, Collaboration) peut avoir un classifierBehavior [et des ownedBehavior] de type Comportement. Un BehavioralFeature (à savoir, une Opération ou une Réception) a des méthodes de type Comportement. Une machine à état est une sorte de Comportement. [Elle a donc des paramètres, ceux de l’opération correspondante.]
+
