@@ -1,6 +1,6 @@
 = Notes
 
-Voici un aperçu (très succinct) de ce qui a été vu en séance.
+Voici un aperçu (très succinct) de ce qui est vu en séance.
 
 == Introduction
 Parcours, objectif du cours et procédé.
