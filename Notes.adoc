@@ -44,9 +44,7 @@ Par exemple, dans un diagramme de séquence, invoquer getTotalAmount() sur un ob
 === Unifié
 UML est un standard de l’OMG (autres réalisations ?).
 
-https://en.wikipedia.org/wiki/Unified_Modeling_Language#/media/File:OO_Modeling_languages_history.jpg
-
-2015 : 2.5.0. 2017 : 2.5.1.
+https://en.wikipedia.org/wiki/Unified_Modeling_Language#/media/File:OO_Modeling_languages_history.jpg[Histoire] (2015 : 2.5.0. 2017 : 2.5.1).
 
 == Cas d’utilisation
 Services à rendre ou rendus ; frontière du système ; qui agit avec le système : à qui les services sont rendus et qui contribue à rendre le service (hors système)
