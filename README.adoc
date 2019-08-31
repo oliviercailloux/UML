@@ -13,7 +13,6 @@ Links taken from the https://www.edx.org/bio/eric-s-lander[course] “Introducti
 
 == Références
 * https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
-* https://www.pearson.com/us/higher-education/program/Blaha-Object-Oriented-Modeling-and-Design-with-UML-2nd-Edition/PGM73371.html (traduit par MM et MZ)
 * https://www.uml-diagrams.org/uml-core.html Most recommended
 * Papyrus https://www.eclipse.org/papyrus/download.html[2019-06 release (4.4.0)], une implémentation open source très respectueuse de la spécification (mais difficile d’usage)
 
