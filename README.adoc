@@ -13,7 +13,7 @@ Links taken from the https://www.edx.org/bio/eric-s-lander[course] “Introducti
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
-* https://www.eclipse.org/papyrus/download.html[Papyrus] (2019-06 release, 4.4.0), une implémentation open source très respectueuse de la spécification (mais d’abord difficile) (alternative : http://staruml.io/[StarUML], mais closed-source et payant)
+* https://www.eclipse.org/papyrus/download.html[Papyrus] (2019-06 release, 4.4.0), une implémentation open source très respectueuse de la spécification (mais d’abord difficile) (alternative : http://staruml.io/[StarUML], mais closed source et payant)
 * https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
 
 ifdef::diagrams[]
