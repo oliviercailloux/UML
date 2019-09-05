@@ -3,6 +3,7 @@
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
 * https://github.com/oliviercailloux/UML/blob/master/Exercices.adoc[Exercices]
+* https://www.wooclap.com/UML[Quizz]
 
 == Prenez des notes
 * 5 ways of taking notes https://www.youtube.com/watch?v=AffuwyJZTQQ[video]
@@ -15,6 +16,9 @@ Links taken from the https://www.edx.org/bio/eric-s-lander[course] “Introducti
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
 * https://www.eclipse.org/papyrus/download.html[Papyrus] (2019-06 release, 4.4.0), une implémentation open source très respectueuse de la spécification (mais d’abord difficile) (alternative : http://staruml.io/[StarUML], mais closed source et payant)
 * https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
+* https://www.lamsade.dauphine.fr/~negre/coursfr.html[Cours] de Elsa Negre
+* Livre : Fowler - UML Distilled: A Brief Guide to the Standard Object Modeling Language (2003), comment bien ne pas respecter la specification
+* Livre : Roques - UML 2 par la pratique - Études de cas et exercices corrigés, Sixième édition (2008)
 
 ifdef::diagrams[]
 Diagrams
