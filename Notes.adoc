@@ -1,4 +1,5 @@
 = Notes
+:toc:
 
 Voici un aperçu (très succinct) de ce qui est vu en séance.
 
@@ -35,6 +36,8 @@ Quand on efface un diagramme, on a toujours le modèle.
 
 Par exemple, dans un diagramme de séquence, invoquer getTotalAmount() sur un objet incapable de calculer le résultat total permet d’observer l’erreur de conception suffisamment tôt.
 
+Un modèle est construit en vue d’un objectif : le nombre de détails à modéliser pour représenter fidèlement un objet réel est non borné.
+
 === Unifié
 UML est un standard de l’OMG (autres réalisations ?). Depuis : ISO.
 
@@ -47,7 +50,7 @@ Cas d’utilisation : un service rendu par le système en interaction avec un ou
 
 Définit le comportement attendu par l’acteur.
 
-On est invité à placer les cas dans leur sujet (en haut à gauche du cadre), pour montrer la frontière.
+On est invité à placer les cas dans leur sujet (en haut à gauche du cadre), pour montrer la frontière. [Un sujet est un Classifieur.]
 
 Exemple simple de cas d’utilisation.
 
@@ -55,9 +58,9 @@ Un acteur (représenté par un bonhomme bâton au-dessus de son nom) représente
 
 Associations entre acteurs et cas, ligne continue (par défaut pour les associations), multiplicité côté acteur : parmi tous les acteurs connectés au cas, combien simultanément de chaque type. Multiplicité côté cas : combien actifs simultanément pour l’acteur. Souvent omis.
 
-Une Relationship peut être (une DirectedRelationship ou) une Association.
+Une Relationship peut être [une DirectedRelationship ou] une Association.
 
-Acteurs peuvent aussi être notés comme une class rectangle avec le stéréotype « actor ».
+Acteurs peuvent aussi être notés comme un classifieur avec le stéréotype « actor ».
 
 Cas peut inclure des variantes : erreurs, exceptions, options.
 
@@ -74,8 +77,6 @@ Généralisation. (Une sorte de DirectedRelationship.) Ligne droite avec triangl
 Exemple (issu de Roques) : un distributeur de billets permettant de consulter son solde et de déposer de l’argent (ATM). Le mainteneur recharge les billets et consulte les logs. Considérer le système d’autorisation global et le SI de la banque. Certains peuvent inclure Authentification. Consulter le solde peut étendre Retirer de l’argent. Déposer de l’argent peut être spécialisé, dépôt d’un montant faible et d’un gros montant, qui requièrent de prévenir des acteurs distincts. Dans ce cas, il faut le rendre abstrait.
 
 Considérer éventuellement les packages.
-
-Notons qu’un modèle est construit en vue d’un objectif : le nombre de détails à modéliser pour représenter fidèlement un objet réel est non borné.
 
 == Classes
 Modéliser les classes d’objets composant le système. Représenter la structure du système (ou d’un sous-système).
@@ -118,23 +119,24 @@ Un BehavioredClassifier peut implémenter des Interfaces. La relation est une In
 
 Un Classifieur qui requiert une interface est dans une relation de dépendance Usage. Représentée par un demi-cercle (ou socket) à son nom attaché au classifieur. (Ou une flèche ouverte pointillée, comme toute bonne dépendance, marquée « use ».)
 
-Instance Specification a un classifieur qui indique de quoi elle est instance (peut aussi être vide ou multiple, sémantique non définie ; si est un classifieur de type Association, l’instance est un Lien). Un slot indique la valeur d’une propriété, certaines propriétés peuvent être laissées sans valeur si sans intérêt. Noter que cette instance peut être impossible en réalité (utilisée pour illustration par exemple). Montrée avec son nom souligné (soulignement facultatif), deux points, classifieur, et la même apparence que le classifieur. Si c’est une association, aussi une ligne droite (entre instances). [Une Association est un Classifieur qui a pour Features, donc y compris ses attributs et ses opérations, uniquement des propriétés, apparaissant comme des fins de lignes.]
+InstanceSpecification a un classifieur qui indique de quoi elle est instance [peut aussi être vide ou multiple, sémantique non définie]. Un slot indique la valeur d’une propriété, certaines propriétés peuvent être laissées sans valeur si sans intérêt. Pas de déduction nécessaire avec les instances de la réalite : cette instance peut être impossible en réalité (utilisée pour illustration par exemple). Montrée avec son nom souligné (soulignement facultatif), deux points, classifieur, et la même apparence que le classifieur. Si c’est une association, aussi une ligne droite (entre instances). Un slot se note comme la propriété qu’il désigne (donc avec visibilité facultative) et = valeur.
+
+Une Association est un Classifieur qui a pour Features, donc y compris ses attributs et ses opérations, uniquement des propriétés, apparaissant comme des fins de lignes. Si le classifieur d’une InstanceSpecification est une Association, l’instance est un Lien.
 
 Notons qu’un Use Case et un Acteur sont des BehavioredClassifiers.
 
 Retour sur la notion de langage : syntaxe, sémantique ; combinaisons non restreintes.
 
-Exercices. 1. Diagramme de classes avec deux instances et leurs liens. 2. Diagramme de cas d’utilisation ayant un de ces classifieurs comme sujet.
+Exercices. Revues. Diagramme de classes avec deux instances et leurs liens, montrant le domaine (domain model). Soins. Mêmes instructions.
 
 == État
-
 Structure : ce qui peut exister à un moment donné. Comportement : comment les choses changent dans le temps.
 
 Une classe peut être liée à une machine à état.
 
 Une machine à état (une sorte de comportement) est composée de sommets et de transitions (éventuellement partitionnés en régions).
 
-Un sommet est un état ou un pseudo-état [ou une référence à un point de connexion]. Une transition est un passage d’un sommet à un autre muni de Déclencheurs, d’une garde éventuelle (de type Contrainte), et d’un effet éventuel [un Comportement, souvent OpaqueBehavior].
+Un sommet est un état ou un pseudo-état [ou une référence à un point de connexion]. Une transition est un passage d’un sommet à un autre muni de Déclencheurs, d’une garde éventuelle (de type Contrainte), et d’un effet éventuel [un Comportement, souvent OpaqueBehavior]. Un état est noté avec des bords ronds.
 
 Un Déclencheur annonce une réaction à un Événement [et est lié à des Ports]. Un Événement est un Message (Appel d’une Opération ou Événement Signal lié à un Signal [ou AnyReceiveEvent]), un Changement (noté when suivi d’une expression booléenne), ou un Événement Temporel (noté after x ou at x). Un Événement est ponctuel. (On ne se soucie pas ici de sa provenance.)
 
@@ -142,7 +144,29 @@ Exemple : transition suite à opération (retour livre). Transition suite à cha
 
 Pseudo-états : État initial, disque noir (max une transition sortante sans Déclencheurs ni garde, peut avoir un effet) ; État terminal, disque noir cerclé ; Point de choix, losange… [Aussi états d’entrée (cercle) et de sortie (croix dans cercle) dans un composite encapsulé.]
 
-État peut avoir un Comportement associé à entry, do, exit. Exemples : do/ring alarm ; entry/start air conditioning…
+État peut avoir un Comportement associé à entry, do, exit. Exemples : do/ring alarm ; entry/start air conditioning. Notés dans un compartiment.
 
-Plus généralement, un BehavioredClassifier (Classe, Use Case, Acteur, Collaboration) peut avoir un classifierBehavior [et des ownedBehavior] de type Comportement. Un BehavioralFeature (à savoir, une Opération ou une Réception) a des méthodes de type Comportement. Une machine à état est une sorte de Comportement. [Elle a donc des paramètres, ceux de l’opération correspondante.]
+Plus généralement, un BehavioredClassifier (Classe, Use Case, Acteur, Collaboration) peut avoir un classifierBehavior [et des ownedBehavior] de type Comportement. [Un BehavioralFeature (à savoir, une Opération ou une Réception) a des méthodes de type Comportement. Une machine à état est une sorte de Comportement. Elle a donc des paramètres, ceux de l’opération correspondante.]
+
+Exercices. Revues. 1. Diagramme d’état d’une Revue dans le domaine modèle. Une revue peut avoir cinq (voire six) états. Montrez également la classe Revue et ses opérations dans un diagramme de classe. 2. Diagramme d’état du Cas d’utilisation Ajout de rédacteur en chef. Montrez les attributs et les opérations dans un diagramme de cas d’utilisation.
+
+== Séquence
+Une Interaction est un Comportement. [Elle est incluse dans un Classifieur et connecte ses ConnectableElements (Variable, Paramètre ou Propriété).]
+
+Une Lifeline représente typiquement [un ConnectableElement, soit typiquement] une Propriété du Classifieur décrit. Elle se note d’un rectangle comprenant le nom du ConnectableElement, deux-points suivi de son type, d’où descend une ligne verticale [pas obligatoirement] pointillée. [Elle est couverte d’InteractionFragments, généralement des OccurrenceSpecifications.]
+
+Un Message a une [éventuelle] signature (de nom correspondant à une Opération [ou un Signal]), des arguments [de type ValueSpecification] [et un éventuel Connecteur, un éventuel sendEvent, un éventuel receiveEvent, soient au total maximum deux messageEnd, tous deux de type MessageEnd, typiquement de type concret MessageOccurrenceSpecification, qui est aussi une OccurrenceSpecification]. La tête de flèche le représentant est pleine [pour un message synchrone et ouverte pour asynchrone]. La ligne est pointillée pour une réponse.
+
+Un message de retour peut indiquer : attribut = opération() : résultat. Où attribut est un attribut de la Lifeline recevant le message de retour ou du Classifieur l’entourant.
+
+Un interaction peut inclure des CombinedFragments. Représenté par un cadre à pentagone en haut à gauche, tel que alt. 
+
+Exercice. Revues. Proposer un diagramme de séquence montrant la création d’un auteur à partir du GUI. Inclure les détails de connexion, la possibilité d’erreur.
+
+== Conclusion
+
+* Fowler : do not follow the spec, adapt it. Complémentez vos diagrammes pour en préciser le sens, entre autres, préciser ce que UML ne dit pas (exemple : association peut signifier une référence en Java)
+* UML et méthodologie : compatible agile, mais pas exclusif.
+* Focalisation : ce qu’est UML. Manque : comment mettre en œuvre UML. Comment penser à tout, comment répartir les tâches, découper la tâche de création du diagramme…
+
 
