@@ -136,7 +136,9 @@ Une classe peut être liée à une machine à état.
 
 Une machine à état (une sorte de comportement) est composée de sommets et de transitions (éventuellement partitionnés en régions).
 
-Un sommet est un état ou un pseudo-état [ou une référence à un point de connexion]. Une transition est un passage d’un sommet à un autre muni de Déclencheurs, d’une garde éventuelle (de type Contrainte), et d’un effet éventuel [un Comportement, souvent OpaqueBehavior]. Un état est noté avec des bords ronds.
+Un sommet est un état ou un pseudo-état [ou une référence à un point de connexion]. 
+Un état est noté avec des bords ronds. 
+Une transition est un passage d’un sommet à un autre muni de Déclencheurs, d’une garde éventuelle (de type Contrainte), et d’un effet éventuel [un Comportement, souvent OpaqueBehavior].
 
 Un Déclencheur annonce une réaction à un Événement [et est lié à des Ports]. Un Événement est un Message (Appel d’une Opération ou Événement Signal lié à un Signal [ou AnyReceiveEvent]), un Changement (noté when suivi d’une expression booléenne), ou un Événement Temporel (noté after x ou at x). Un Événement est ponctuel. (On ne se soucie pas ici de sa provenance.)
 
@@ -153,7 +155,7 @@ Exercices. Revues. 1. Diagramme d’état d’une Revue dans le domaine modèle.
 == Séquence
 Une Interaction est un Comportement. [Elle est incluse dans un Classifieur et connecte ses ConnectableElements (Variable, Paramètre ou Propriété).]
 
-Une Lifeline représente typiquement [un ConnectableElement, soit typiquement] une Propriété du Classifieur décrit. Elle se note d’un rectangle comprenant le nom du ConnectableElement, deux-points suivi de son type, d’où descend une ligne verticale [pas obligatoirement] pointillée. [Elle est couverte d’InteractionFragments, généralement des OccurrenceSpecifications.]
+Une Lifeline représente typiquement [un ConnectableElement, soit typiquement] une Propriété du Classifieur décrit. Elle se note d’un rectangle comprenant le nom du ConnectableElement, deux-points suivi de son type (non souligné), d’où descend une ligne verticale [pas obligatoirement] pointillée. [Elle est couverte d’InteractionFragments, généralement des OccurrenceSpecifications.]
 
 Un Message a une [éventuelle] signature (de nom correspondant à une Opération [ou un Signal]), des arguments [de type ValueSpecification] [et un éventuel Connecteur, un éventuel sendEvent, un éventuel receiveEvent, soient au total maximum deux messageEnd, tous deux de type MessageEnd, typiquement de type concret MessageOccurrenceSpecification, qui est aussi une OccurrenceSpecification]. La tête de flèche le représentant est pleine [pour un message synchrone et ouverte pour asynchrone]. La ligne est pointillée pour une réponse.
 
