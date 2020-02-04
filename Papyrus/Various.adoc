@@ -1,0 +1,28 @@
+= Various remarks about Papyrus
+
+[[Install]]
+== Installing Papyrus
+Installing Papyrus over the “Eclipse IDE for Java Developers” does not seem easy (following the https://www.eclipse.org/papyrus/download.html[instructions] does install the main “Papyrus for UML” feature, but I did not manage to install the Java profile in this way). I recommend to run the command provided for installing Papyrus https://github.com/oliviercailloux/java-course/blob/master/Automated%20Eclipse%20install.adoc[here], adapting it to the path of your eclipse installation.
+
+== Storage of properties
+Papyrus unfortunately stores some of the properties of your model not in the file hierarchy of the project itself, but in your Eclipse workspace (specifically, in `.metadata/.plugins/org.eclipse.papyrus.infra…`). Thus, if you transfer the project to someone else, these properties will not be transferred, and are not versioned easily in a CVS. This concerns generally those properties that belong to Papyrus and not to UML, including: the enabled `Architecture Viewpoints`, the choice of using internationalization, or the profiles to load (the imports, however, are part of your UML model and are stored in the `.uml` file). Fortunately, these files do not matter much as they do not change the semantics of your model.
+
+== Delete from diagram VS delete from model
+An important aspect of a real UML modeling software (compared to a software designed to allow to draw graphics without having a model as a basis, such as https://draw.io/) is that what is shown in a diagram are model elements, that exist independently of their representation in a diagram. Thus, it is important to distinguish deleting a _representation_ of an element from a diagram and deleting _the element_ itself. Right-click on a representation in a diagram, and you will see both possibilities in the menu. Try deleting a representation from a diagram, and observe that you can simply drag again the element from the model to the diagram to re-create it if desired.
+
+== Do not synchronize (too much)
+Papyrus diagrams let you work in “synchronized” mode. Right-click on any representation in a diagram, select `Filters` / `Synchronized with Model` to activate it for a given representation. 
+
+The term is misleading, though. All representations in all diagrams are necessarily “synchronized” with your model, even when the option is not selected, in the sense that they are representations of the model. Thus, for example, renaming an element in the model will also rename all its representations, and vice versa.
+
+The option in the menu only serves to let Papyrus decide automatically which other elements, related to the one you decide to mark as “Synchonized with Model”, should be shown in the diagram. When the option is checked, you cannot access the “Delete from diagram” option any more on the related representations. However, you can still select which related links should appear (for example), through the `Filters` / `Show/Hide Related Links` menu item.
+
+It is important to realize that a diagram _itself_ can also be “Synchronized with Model”: make sure nothing is selected, then right-click a diagram to enable or disable this global synchronization option. If this is selected, Papyrus will decide automatically which elements to show on the diagram. For example, on a Class diagram, it will simply show all classes.
+
+I suggest to not select this option (neither the global nor the local synchronization): I find it usually does not help and it is confusing to not be able afterwards to remove some representations manually. You typically want to decide manually which elements you want to show on a diagram. Alternatively, when there are a lot of elements to represent, select the option to make every related elements appear, then immediately de-select it, to save time without suffering limitations.
+
+== Evolution of Papyrus
+I find that Papyrus is a very active and promising software, which is the reason I use it for teaching. Even though its https://www.eclipse.org/forums/index.php/f/121/[forum] is not always very responsive and it has https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&limit=0&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=VERIFIED[2699] open bugs, which can give the converse impression (and which was the reason I hesitated for some time before deciding to use it in my course). A quick investigation shows that, although an important number of bugs opens each year (https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&limit=0&chfield=%5BBug%20creation%5D&chfieldfrom=2019-01-01&chfieldto=2019-12-31[458] in 2019, 600 in 2018, 1386 in 2017, 1717 in 2016, 2094 in 2015, 1239 in 2014, 1044 in 2013, 852 in 2012, 1037 in 2011, 1110 in 2010, 519 in 2009 and 44 in 2008), an almost equally important number of bugs have been fixed each year: https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&limit=0&chfield=resolution&chfieldvalue=FIXED&chfieldfrom=2019-01-01&chfieldto=2019-12-31[309] in 2019, 535 in 2018, 1230 in 2017, 1146 in 2016, 1311 in 2015… (This does not count the bugs resolved for other reasons, such as being invalid.)
+
+In particular, among the 600 bugs created in 2018, https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&bug_status=RESOLVED&bug_status=CLOSED&chfield=%5BBug%20creation%5D&chfieldfrom=2018-01-01&chfieldto=2018-12-31[393] are now solved; and among the 458 bugs created in 2019, 231 are now solved. This suggests that developers do consider new bug reports seriously.
+

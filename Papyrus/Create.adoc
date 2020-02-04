@@ -1,0 +1,25 @@
+= Starting up a Papyrus model
+
+== Prerequisites
+You know how to manipulate Eclipse views. You have https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various#Install[installed] Papyrus.
+
+== A new Papyrus model
+
+* Fire up Eclipse, create an empty “General” project: `File` / `New` / `General` / `Project`
+** Note: you can put your Papyrus model in any kind of project. You can also create a `Papyrus project`, but I didn’t find any advantage of doing so.
+* In that project, create an empty model: `File` / `New` / `Papyrus` / `Papyrus Model`.
+** Name it `My model`, for example
+** Keep selected as `Architecture Contexts`: `Software Engineering` / `UML`, and as `Architecture Viewpoints` keep both `Software Analysis` and `Software Design` (to have all kinds of diagrams available)
+** Keep every representations unchecked; uncheck “A UML model with basic primitive types” to start as clean as possible; load no template or profile.
+* You model is created. It consists of three files, that you see in the Project explorer view. (You should open these files with a text editor to check their content.)
+** `My model.di` contains a simple `ArchitectureDescription` XML element which identifies the project to Papyrus, this file will typically not change when modifying the model or diagrams
+** `My model.notation` currently contains a simple XML element but it will evolve when you will add diagram content to your model
+** `My model.uml` starts with a simple XML `uml:Model` element (`uml` being the namespace `http://www.eclipse.org/uml2/5.0.0/UML`), but will evolve to record every UML elements you put in your model, except for the graphical elements.
+* Open up the `Model` view in Eclipse. You see your root model element.
+** You can right-click elements in that view to add elements and diagrams to your model.
+** The `Model` view displays your components as a hierarchy, which reflects the _ownership_ hierarchy of UML elements: an element displayed as “contained” in another element in that view has that other element as its UML owner.
+* Open up the `Properties` view. Select your root model element. In general, the properties view permit to edit all kinds of properties of your model elements. All the properties you will need to edit in this course are in the `UML` tab in the properties view, thus, you can neglect the other tabs such as `Profile` or `Advanced`. Because your root model element is so simple, the only interesting property to edit is its name (and that is not really useful: you can also rename your element directly from the `Model` view). But when we will create other model elements, this view will be important.
+
+Note for the curious users: if you wonder where the properties you specified when creating the model (for example, the architecture contexts) are stored, see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Storage_of_properties]this remark. 
+
+

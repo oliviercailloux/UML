@@ -1,0 +1,141 @@
+\RequirePackage[l2tabu, orthodox]{nag}
+\documentclass[french]{beamer}
+\input{preamble/packages}
+\input{preamble/redac}
+\input{preamble/math_basics}
+\input{preamble/math_mine}
+\input{preamble/draw}
+
+\setbeamertemplate{headline}[singleline]
+\setbeamertemplate{footline}[onlypage]
+
+\title{Introduction au cours d’ISI 2}
+\subject{UML}
+\author{Olivier Cailloux}
+\institute[LAMSADE]{LAMSADE, Université Paris-Dauphine}
+
+\begin{document}
+\begin{frame}[plain]
+	\tikz[remember picture,overlay]{
+		\path (current page.south west) node[anchor=south west, inner sep=0] {
+			\includegraphics[height=8mm]{Dauphine-Noir.png}
+		};
+		\path (current page.south east) node[anchor=south east, inner sep=0] {
+			\includegraphics[height=1cm]{LAMSADE95.jpg}
+		};
+		\path (current page.south) ++ (0, 4em) node[anchor=south, inner sep=0] {
+			\scriptsize\textcolor{blue}{\url{https://github.com/oliviercailloux/UML}}
+		};
+	}
+	\titlepage
+\end{frame}
+\addtocounter{framenumber}{-1}
+
+\begin{frame}
+	\frametitle{Outline}
+	\tableofcontents[hideallsubsections, sectionstyle=shaded/show]
+\end{frame}
+
+\section{Motivation et objectifs}
+\begin{frame}
+	\frametitle{Motivation}
+	\begin{itemize}
+		\item UML très utile pour développement de haut niveau
+		\item Standard largement suivi dans le monde industriel
+		\item Longue histoire et encore en évolution
+		\item Facilite la communication entre développeurs
+		\item Facilite (parfois) la communication avec les clients
+		\item Démarche de modélisation importante !
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Objectifs}
+	\begin{itemize}
+		\item Un deuxième cours d’UML ?
+		\item Focus différent !
+		\item UML ? \onslide<2->{Un \emph{langage} de \emph{modélisation}}
+		\item Diagrammes \emph{issus} du modèle, donc \emph{cohérents}
+		\item Pour soutenir un projet
+	\end{itemize}
+	\begin{block}{Qu’apprendra-t-on ?}
+		\begin{itemize}
+			\item Travailler en équipe sur un projet
+			\item Utiliser UML pour planifier un développement
+			\item Appliquer une méthodologie de développement agile
+			\item Distinguer le modèle des diagrammes
+			\item Construire et documenter un projet en équipe
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Organisation}
+\begin{frame}
+	\frametitle{Organisation}
+	\begin{block}{Projet}
+		\begin{itemize}
+			\item Note constituée entièrement par le projet
+			\item Projets ≠ par équipe, d’envergure, impl. de besoins réels
+			\item Joint au cours de Java
+		\end{itemize}
+	\end{block}
+	\begin{block}{Itérations, livraisons}
+		\begin{itemize}
+			\item Développement en \emph{itérations} clôturées par des \emph{livraisons}
+			\item Plusieurs livraisons (5 ?) d’un modèle UML évoluant
+			\item Livraisons via git
+			\item Équipe projet : binômes changeants à chaque itération
+		\end{itemize}
+	\end{block}
+	\begin{block}{Évaluation}
+		\begin{itemize}
+			\item Notes pour chaque binôme à chaque livraison
+			\item Note finale individuelle : aggrégation des notes par livraison
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Contenu}
+\begin{frame}
+	\frametitle{Contenu}
+	\begin{itemize}
+		\item Console et git
+		\item Introduction à UML : L, M et U
+		\item Eclipse : logiciel de développement multi-usage
+		\item Papyrus : Logiciel de modélisation respectueux du standard
+		\item Collaboration avec git et GitHub
+		\item Diagrammes de cas, de classes, de séquences principalement
+		\item Travail sur projet : 4 ECTS ⇒ (100 − 10 × 3) / 5 = 14 heures de travail maison par livraison par personne
+	\end{itemize}
+\end{frame}
+\end{document}
+
+\appendix
+\makeatletter
+\def\insertframenumber{\@roman\c@framenumber}
+\def\inserttotalframenumber{\@roman\c@framenumber}
+\makeatother
+
+\clearpage\pdfbookmark{License}{License}
+\begin{frame}[plain]
+	\frametitle{License}
+	This presentation, and the associated \LaTeX{} code, are published under the \href{https://opensource.org/licenses/MIT}{MIT license}. Feel free to reuse (parts of) the presentation, under condition that you cite the author.
+	
+	Credits are to be given to \href{http://www.lamsade.dauphine.fr/~ocailloux/}{Olivier Cailloux}, Université Paris-Dauphine.
+\end{frame}
+\addtocounter{framenumber}{-1}
+\end{document}
+
+\begin{frame}
+	\frametitle{Title}
+	\begin{block}{Block}
+%		\setlength\abovedisplayskip{1 ex}% reduce space above equations
+		\begin{itemize}
+			\item Item
+		\end{itemize}
+	\end{block}
+	\begin{itemize}
+		\item Item
+	\end{itemize}
+\end{frame}
+
