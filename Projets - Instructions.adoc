@@ -1,7 +1,7 @@
 = Projets : Instructions
 
 == Démarrage du projet
-Au départ, prenez le temps de réfléchir ensemble globalement au projet et tracez les grandes lignes de votre ambition à la fin de l’année. Inutile d’élaborer un plan détaillé, car il serait impossible à respecter, mais cette étape de réfléxion dans les grandes lignes est utile pour vous donner un sens commun de votre objectif global.
+Au départ, prenez le temps de réfléchir ensemble globalement au projet et tracez les grandes lignes de votre ambition à la fin de l’année. Inutile d’élaborer un plan détaillé, car il serait impossible à respecter, mais cette étape de réflexion dans les grandes lignes est utile pour vous donner un sens commun de votre objectif global.
 
 Allez où vous voulez en fonction de vos intérêts (plutôt GUI, plutôt manipulation de fichiers, plutôt web, …). Soyez imaginatifs. Vous pouvez proposer de sortir du cadre imposé. Cependant, je joue le rôle du client et je dois approuver la direction que vous voulez donner au projet.
 
@@ -12,12 +12,12 @@ Au départ, vous créez un dépôt pour votre projet (un https://help.github.com
 == Itération
 Dates de livraison précisées dans le programme du cours. https://www.wolframalpha.com/input/?i=Plot%5BPiecewise%5B%7B%7B-1%2F2*x,x%3C+2%7D,%7B-2%2F22*(x-2)-1,+2%3C%3D+x+%3C+24%7D,%7B-1%2F24*x-2,+24%3C%3D+x%7D%7D%5D,+%7Bx,+0,+72%7D%5D[Non respect] des dates : −0.5/20 pour 2h de retard, −3 pour 24h de retard puis −1 par jour supplémentaire.
 
-Une itération UML se conclut par une livraison, qui a deux objectifs possibles. Le premier est obligatoire, le deuxième se fera en fonction de l’énergie restante.
+Une itération UML se conclut par une livraison, qui a deux objectifs.
 
-- Définir, dans le `README.adoc` du projet, le contenu de l’itération Java suivante avec une découpe en tâches. Le plan prend bien soin de détailler les pré-requis entre tâches éventuels, et dans ce cas, indique un calendrier (à usage interne) pour éviter de coincer les sous-équipes qui dépendent des autres et un plan de repli. 
+- Définir, dans le `README.adoc` du projet, le plan de l’itération Java suivante avec une découpe en tâches. Le plan prend bien soin de détailler les pré-requis entre tâches éventuels, et dans ce cas, indique un calendrier (à usage interne) pour éviter de coincer les sous-équipes qui dépendent des autres et un plan de repli. 
 - Documenter le projet ou le futur du projet.
 
-Attendu, dans les deux cas, dans le sous-répertoire `Docs` : un modèle UML Papyrus, des diagrammes, et de la documentation au format Asciidoctor appuyée sur les diagrammes (rapport concernant l’état actuel du projet en cas de fork, diagramme de classe montrant l’issue envisagée de la première itération, …). Votre plan fera référence à ces documents.
+Attendu, dans les deux cas, dans le sous-répertoire `Docs` : un modèle UML Papyrus, des diagrammes, et de la documentation au format Asciidoctor appuyée sur les diagrammes (rapport concernant l’état actuel du projet en cas de fork, diagramme de classe montrant l’issue envisagée de la première itération, …). Votre plan fera référence à ces documents. Fournissez également un document `Itx.adoc` pour l’itération x (`It1.adoc` puis `It2.adoc` etc.) qui indique quel binôme a fait quoi durant cette livraison.
 
 Vous livrez directement dans votre branche `master`.
 
