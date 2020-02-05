@@ -20,6 +20,6 @@ You know how to manipulate Eclipse views. You have https://github.com/oliviercai
 ** The `Model` view displays your components as a hierarchy, which reflects the _ownership_ hierarchy of UML elements: an element displayed as “contained” in another element in that view has that other element as its UML owner.
 * Open up the `Properties` view. Select your root model element. In general, the properties view permit to edit all kinds of properties of your model elements. All the properties you will need to edit in this course are in the `UML` tab in the properties view, thus, you can neglect the other tabs such as `Profile` or `Advanced`. Because your root model element is so simple, the only interesting property to edit is its name (and that is not really useful: you can also rename your element directly from the `Model` view). But when we will create other model elements, this view will be important.
 
-Note for the curious users: if you wonder where the properties you specified when creating the model (for example, the architecture contexts) are stored, see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Storage_of_properties]this remark. 
+Note for the curious users: if you wonder where the properties you specified when creating the model (for example, the architecture contexts) are stored, see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Storage_of_properties[this remark]. 
 
 

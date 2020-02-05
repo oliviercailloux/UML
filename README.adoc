@@ -14,7 +14,7 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 === Premières séances
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * Présentation d’UML
-* https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git]
+* https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
 * https://classroom.github.com/a/wI-tbsei[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://help.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
 * Élements UML : Les cas d’utilisation ; illustration avec Papyrus
 * https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20-Affectation.adoc[Projets - Affectation]

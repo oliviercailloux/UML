@@ -1,0 +1,9 @@
+= Papyrus
+
+== Tutorials
+* https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[Create] a Papyrus model
+* https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases]
+
+== References
+* A https://github.com/oliviercailloux/Simple-Papyrus-project[Simple Papyrus project].
+

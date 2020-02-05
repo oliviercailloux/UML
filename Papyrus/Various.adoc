@@ -2,18 +2,21 @@
 
 [[Install]]
 == Installing Papyrus
-Installing Papyrus over the “Eclipse IDE for Java Developers” does not seem easy (following the https://www.eclipse.org/papyrus/download.html[instructions] does install the main “Papyrus for UML” feature, but I did not manage to install the Java profile in this way). I recommend to run the command provided for installing Papyrus https://github.com/oliviercailloux/java-course/blob/master/Automated%20Eclipse%20install.adoc[here], adapting it to the path of your eclipse installation.
+//Installing Papyrus over the “Eclipse IDE for Java Developers” does not seem easy (following the https://www.eclipse.org/papyrus/download.html[instructions] does install the main “Papyrus for UML” feature, but I did not manage to install the Java profile in this way). I recommend to run the command provided for installing Papyrus https://github.com/oliviercailloux/java-course/blob/master/Automated%20Eclipse%20install.adoc[here], adapting it to the path of your eclipse installation.
+I recommend installing Papyrus over your Eclipse installation. On the Papyrus https://www.eclipse.org/papyrus/download.html[download page], you find the update site URL. Clicking on it reveals instructions that should be followed. You can then install the “Papyrus for UML” feature (you do not need the other ones).
 
 == Storage of properties
 Papyrus unfortunately stores some of the properties of your model not in the file hierarchy of the project itself, but in your Eclipse workspace (specifically, in `.metadata/.plugins/org.eclipse.papyrus.infra…`). Thus, if you transfer the project to someone else, these properties will not be transferred, and are not versioned easily in a CVS. This concerns generally those properties that belong to Papyrus and not to UML, including: the enabled `Architecture Viewpoints`, the choice of using internationalization, or the profiles to load (the imports, however, are part of your UML model and are stored in the `.uml` file). Fortunately, these files do not matter much as they do not change the semantics of your model.
 
-== Delete from diagram VS delete from model
-An important aspect of a real UML modeling software (compared to a software designed to allow to draw graphics without having a model as a basis, such as https://draw.io/) is that what is shown in a diagram are model elements, that exist independently of their representation in a diagram. Thus, it is important to distinguish deleting a _representation_ of an element from a diagram and deleting _the element_ itself. Right-click on a representation in a diagram, and you will see both possibilities in the menu. Try deleting a representation from a diagram, and observe that you can simply drag again the element from the model to the diagram to re-create it if desired.
+[[Representation]]
+== Element VS representation of elements
+An important aspect of a real UML modeling software (compared to a software designed to draw graphics without having a model as a basis, such as https://draw.io/) is that what is shown in a diagram represent model elements, and these elements exist independently of their representation in a diagram. Thus, it is important to distinguish deleting a _representation_ of an element from a diagram and deleting _the element_ itself. Right-click on a representation in a diagram, and you will see both possibilities in the menu. Try deleting a representation from a diagram, and observe that you can simply drag again the element from the model to the diagram to re-create it if desired.
 
+[[Synchronization]]
 == Do not synchronize (too much)
 Papyrus diagrams let you work in “synchronized” mode. Right-click on any representation in a diagram, select `Filters` / `Synchronized with Model` to activate it for a given representation. 
 
-The term is misleading, though. All representations in all diagrams are necessarily “synchronized” with your model, even when the option is not selected, in the sense that they are representations of the model. Thus, for example, renaming an element in the model will also rename all its representations, and vice versa.
+The term is misleading, though. All representations in all diagrams are necessarily “synchronized” with your model, even when the option is not selected, in the sense that they are representations of the model. Thus, for example, renaming an element in the model will also rename all its representations.
 
 The option in the menu only serves to let Papyrus decide automatically which other elements, related to the one you decide to mark as “Synchonized with Model”, should be shown in the diagram. When the option is checked, you cannot access the “Delete from diagram” option any more on the related representations. However, you can still select which related links should appear (for example), through the `Filters` / `Show/Hide Related Links` menu item.
 
