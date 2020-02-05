@@ -21,7 +21,7 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 * Élements UML : Les cas d’utilisation ; illustration avec Papyrus
 * https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Affectation.adoc[Projets - Affectation]
 * Eclipse : prise en main. Il faut pouvoir manipuler les perspectives, les vues, et naviguer facilement dans Eclipse. Dans le Workbench User Guide, http://help.eclipse.org/2019-12/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm[Basic tutorial], lire et effectuer les premières sections du tutoriel : The Workbench, Editors and views, A simple project, Closing an editor et Navigating resources, puis lire Rearranging views and editors.
-* Papyrus : prise en main. https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various#Install[Installer] Papyrus. Modéliser quelques cas d’utilisation et en tirer un diagramme de cas. (https://github.com/oliviercailloux/Simple-Papyrus-project[exemple])
+* Papyrus : prise en main. https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install[Installer] Papyrus. Modéliser quelques cas d’utilisation et en tirer un diagramme de cas. (https://github.com/oliviercailloux/Simple-Papyrus-project[exemple])
 
 // (choix projet : 15 min avant la pause)
 // Illustration avec Papyrus : partir de empty.
@@ -35,7 +35,7 @@ Obligatoire pour remises futures : https://git-scm.com/book/en/v2/Getting-Starte
 
 Ensuite :
 
-* https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20-Instructions.adoc[Projets - Instructions]
+* https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions.adoc[Projets - Instructions]
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML

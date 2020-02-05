@@ -2,15 +2,15 @@
 
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
-* https://github.com/oliviercailloux/UML/blob/master/Exercices.adoc[Exercices]
-* https://www.wooclap.com/UML[Quizz]
+* https://github.com/oliviercailloux/UML/blob/master/Pr%C3%A9-rentr%C3%A9e/Exercices.adoc[Exercices]
+* https://app.wooclap.com/UML[Quizz]
 
 == Prenez des notes
 * 5 ways of taking notes https://www.youtube.com/watch?v=AffuwyJZTQQ[video]
 * https://doi.org/10.1177/0956797614524581[Research] shows that taking notes, and especially writing what is said in your own words after some mental processing, permits more effective study
 
 Links taken from the https://www.edx.org/bio/eric-s-lander[course] “Introduction to Biology - The Secret of Life”, MITx
-//https://www.edx.org/course/introduction-to-biology-the-secret-of-life-4
+//www.edx.org/course/introduction-to-biology-the-secret-of-life-4
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML

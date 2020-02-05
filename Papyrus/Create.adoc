@@ -1,7 +1,7 @@
 = Starting up a Papyrus model
 
 == Prerequisites
-You know how to manipulate Eclipse views. You have https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various#Install[installed] Papyrus.
+You know how to manipulate Eclipse views. You have https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install[installed] Papyrus.
 
 == A new Papyrus model
 
