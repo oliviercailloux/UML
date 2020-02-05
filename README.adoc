@@ -1,6 +1,6 @@
 = UML
 
-image:https://api.travis-ci.org/oliviercailloux/UML.svg?branch=master["Link Status", link="https://travis-ci.org/oliviercailloux/UML"]
+image:https://api.travis-ci.com/oliviercailloux/UML.svg?branch=master["Link Status", link="https://travis-ci.com/oliviercailloux/UML"]
 
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
