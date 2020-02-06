@@ -6,9 +6,9 @@ Voici un aperçu (très succinct) de ce qui est vu en séance.
 == Introduction
 Présentation, objectif du cours et procédé.
 
-Décrire ce qui fait d’UML un langage et la structure sur laquelle il est construit.
+Objectif : Décrire ce qui fait d’UML un langage et la structure sur laquelle il est construit.
 
-Sans diapos, explications théoriques mais cours très appliqué. Feedback attendu. Prenez des notes. Posez des questions.
+//Sans diapos, explications théoriques mais cours très appliqué. Feedback attendu. Prenez des notes. Posez des questions (app ?).
 
 === Langage
 Langage : pour transmettre des informations.
@@ -46,7 +46,7 @@ https://en.wikipedia.org/wiki/Unified_Modeling_Language#/media/File:OO_Modeling_
 == Cas d’utilisation
 Services à rendre ou rendus ; frontière du système ; qui agit avec le système : à qui les services sont rendus et qui contribue à rendre le service (hors système)
 
-Cas d’utilisation : un service rendu par le système en interaction avec un ou plusieurs acteurs, qui produit un résultat observable ayant de la valeur à l’extérieur du système.
+Cas d’utilisation : un service rendu par le système en interaction avec un ou plusieurs acteurs, qui produit un résultat observable ayant de la valeur à l’extérieur du système. [Utiliser des commentaires : pointillé avec symbole de note]
 
 Définit le comportement attendu par l’acteur.
 
@@ -72,7 +72,7 @@ Une Dependency est une (directed relationship, elle-même une) Relationship.
 
 Extension : l’extension n’a généralement pas de sens seul. Le cas étendu, si. Peut être lié à une condition. [Un seul comportement bien que plusieurs cas impliqués lorsque l’extension est activée.] Le cas étendu indique ses points d’extension dans un compartiment. Pointillés et flèche ouverte, « extend », commentaire (rectangle corné), lié par une ligne pointillée, avec condition et point d’extension.
 
-Généralisation. (Une sorte de DirectedRelationship.) Ligne droite avec triangle vide.
+Généralisation. (Une sorte de DirectedRelationship.) Ligne continue avec triangle vide.
 
 Exemple (issu de Roques) : un distributeur de billets permettant de consulter son solde et de déposer de l’argent (ATM). Le mainteneur recharge les billets et consulte les logs. Considérer le système d’autorisation global et le SI de la banque. Certains peuvent inclure Authentification. Consulter le solde peut étendre Retirer de l’argent. Déposer de l’argent peut être spécialisé, dépôt d’un montant faible et d’un gros montant, qui requièrent de prévenir des acteurs distincts. Dans ce cas, il faut le rendre abstrait.
 
