@@ -24,21 +24,31 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 
 Obligatoire pour remises futures : https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup[configurez] votre identité : `user.name` et `user.email`. (Doc spécifique GitHub: https://help.github.com/en/github/using-git/setting-your-username-in-git[user.name], https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address[user.email].)
 
-=== S2
+=== S2 (28 fév)
 * Exercice similaire à “Starter”, comptant pour un point sur les dix points de votre future première note projet. Obligatoirement en ligne de commande. Identité doit être configurée. Documents du cours autorisés. Vous aurez 15 minutes.
 
-//** Créez un fichier texte `me.txt` contenant uniquement votre Prénom suivi de votre Nom tel qu’enregistré à Dauphine
+//** Créez un fichier texte `id.txt` contenant uniquement votre Prénom suivi de votre Nom tel qu’enregistré à Dauphine
 
-* Élements UML : Les cas d’utilisation ; illustration avec Papyrus
+* Les cas d’utilisation en UML
 * Eclipse : prise en main. Il faut pouvoir manipuler les perspectives, les vues, et naviguer facilement dans Eclipse. Dans le Workbench User Guide, http://help.eclipse.org/2019-12/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm[Basic tutorial], lire et effectuer les premières sections du tutoriel : The Workbench, Editors and views, A simple project, Closing an editor et Navigating resources, puis lire Rearranging views and editors.
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser quelques cas d’utilisation de votre projet et en tirer un diagramme de cas.
 
-// (choix projet : 15 min avant la pause)
 // Illustration avec Papyrus : partir de empty.
 
 Ensuite :
 
 * https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions.adoc[Projets - Instructions]
+
+=== S3 (6 mars)
+* Les diagrammes de classes en UML
+* Travail sur projet
+
+=== S4 (20 mars)
+Remise livraison 1 : fin du 16 mars. Envisager :
+
+* Documenter l’existant
+* Documenter le point où on veut aller à long terme (vue sans détails)
+* Documenter finement la prochaine itération Java: objectif, moyen, transition
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML

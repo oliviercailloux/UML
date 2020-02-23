@@ -56,7 +56,7 @@ Exemple simple de cas d’utilisation.
 
 Un acteur (représenté par un bonhomme bâton au-dessus de son nom) représente un rôle. Une personne physique peut correspondre à plusieurs acteurs, et inversement.
 
-Associations entre acteurs et cas, ligne continue (par défaut pour les associations), multiplicité côté acteur : parmi tous les acteurs connectés au cas, combien simultanément de chaque type. Multiplicité côté cas : combien actifs simultanément pour l’acteur. Souvent omis.
+Associations entre acteurs et cas, ligne continue (par défaut pour les associations), multiplicité côté acteur : parmi tous les acteurs connectés au cas, combien simultanément de chaque type. Multiplicité côté cas : combien actifs simultanément pour l’acteur. Souvent omis. [Parler des propriétés éventuellement.]
 
 Une Relationship peut être [une DirectedRelationship ou] une Association.
 
@@ -76,20 +76,20 @@ Généralisation. (Une sorte de DirectedRelationship.) Ligne continue avec trian
 
 Exemple (issu de Roques) : un distributeur de billets permettant de consulter son solde et de déposer de l’argent (ATM). Le mainteneur recharge les billets et consulte les logs. Considérer le système d’autorisation global et le SI de la banque. Certains peuvent inclure Authentification. Consulter le solde peut étendre Retirer de l’argent. Déposer de l’argent peut être spécialisé, dépôt d’un montant faible et d’un gros montant, qui requièrent de prévenir des acteurs distincts. Dans ce cas, il faut le rendre abstrait.
 
-Considérer éventuellement les packages.
+Considérer éventuellement les packages et les owners.
 
 == Classes
 Modéliser les classes d’objets composant le système. Représenter la structure du système (ou d’un sous-système).
 
-Élément fondamental de la structure (cf. séparation structure et comportement en UML ; les cas d’utilisation sont à cheval).
+Élément fondamental de la structure (cf. séparation structure et comportement en UML ; les cas d’utilisation sont du comportement).
 
 Une classe décrit un ensemble d’objets, instances de la classe.
 
 Un objet est un individu avec un état et des liens. A des valeurs associées aux propriétés.
 
-Une classe a des attributs (qui sont des propriétés [elles-mêmes des MultiplicityElements]) : nom, type, multiplicité ; et valeur par défaut éventuelle.
+Une classe a des attributs (qui sont des propriétés [elles-mêmes des StructuralFeature et des MultiplicityElements]) : nom, type, multiplicité ; et valeur par défaut éventuelle (pass:[<u>normalNbWheels</u>]: int = 4).
 
-Une classe est représentée avec des compartiments : attributs, opérations, …
+Une classe est représentée avec des compartiments : attributs, opérations, … [Nom centré et commençant par une minuscule]
 
 Exemples…
 
@@ -103,7 +103,7 @@ Association peut être vers même classe. On peut préciser : {ordered}, {sequen
 
 Une association peut indiquer, à un bout, une aggrégation [en fait indiquée par la propriété], soit shared soit composite. Association qualifiée pour dictionnaires (réduit la multiplicité). 
 
-Une classe association (à la fois classe et association) peut être accolée à l’association, via une ligne pointillée.
+Une classe association (à la fois classe et association) peut être accolée à l’association, via une ligne pointillée. (Exemple : a user of a car and the days of week.)
 
 Une classe peut en généraliser une autre, auquel cas elle récupère ses attributs et opérations (en fait, ses membres) non privées. Toute instance du fils est aussi une instance du parent. Une classe peut être abstraite.
 
@@ -119,9 +119,10 @@ Un BehavioredClassifier peut implémenter des Interfaces. La relation est une In
 
 Un Classifieur qui requiert une interface est dans une relation de dépendance Usage. Représentée par un demi-cercle (ou socket) à son nom attaché au classifieur. (Ou une flèche ouverte pointillée, comme toute bonne dépendance, marquée « use ».)
 
-InstanceSpecification a un classifieur qui indique de quoi elle est instance [peut aussi être vide ou multiple, sémantique non définie]. Un slot indique la valeur d’une propriété, certaines propriétés peuvent être laissées sans valeur si sans intérêt. Pas de déduction nécessaire avec les instances de la réalite : cette instance peut être impossible en réalité (utilisée pour illustration par exemple). Montrée avec son nom souligné (soulignement facultatif), deux points, classifieur, et la même apparence que le classifieur. Si c’est une association, aussi une ligne droite (entre instances). Un slot se note comme la propriété qu’il désigne (donc avec visibilité facultative) et = valeur.
+Une Association est un Classifieur qui a pour Features, donc y compris ses attributs et ses opérations, uniquement des propriétés, apparaissant comme des fins de lignes.
 
-Une Association est un Classifieur qui a pour Features, donc y compris ses attributs et ses opérations, uniquement des propriétés, apparaissant comme des fins de lignes. Si le classifieur d’une InstanceSpecification est une Association, l’instance est un Lien.
+InstanceSpecification a un classifieur qui indique de quoi elle est instance [peut aussi être vide ou multiple, sémantique non définie]. Un slot indique la valeur d’une propriété, certaines propriétés peuvent être laissées sans valeur si sans intérêt. Pas de déduction nécessaire avec les instances de la réalite : cette instance peut être impossible en réalité (utilisée pour illustration par exemple). Montrée avec son nom souligné (soulignement facultatif), deux points, classifieur, et la même apparence que le classifieur. Si c’est une association, aussi une ligne droite (entre instances). Un slot se note comme la propriété qu’il désigne (donc avec visibilité facultative) et = valeur.
+Si le classifieur d’une InstanceSpecification est une Association, l’instance est un Lien.
 
 Notons qu’un Use Case et un Acteur sont des BehavioredClassifiers.
 

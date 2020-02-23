@@ -1,0 +1,35 @@
+= Classes
+
+== Prerequisites
+You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[created] a Papyrus model.
+
+== Classes
+Let’s add a few classes and properties to our model, then display them in a diagram. In our (silly) example, we will model that any person can say hello; that some persons are users (of our system); and that each user has been assigned a contact person.
+
+* Add a `Class` element as a sub-element of your root element, name it `Person`.
+* Add a `Property` element as a sub-element of `Person`, name it `fullName`.
+** To type this property, we need the type String. We do not have to define this type ourselves, suffices to import the right package.
+** From your root element, `Import` / `Import Registered Package`, choose `UML Primitive Types`, make sure you https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Import[select `Import`] and not `Load` as action.
+** In the `Properties` view of the `fullName` property, click the button next to `Type` and select (under `UML Primitive Types`) `« EDataType » String` as its type.
+** Observe that the property is now showed as `fullName: String` in the `Model Explorer`.
+* Add a `Class` named `User` as another sub-element of your root element.
+* Add a `Generalization` relationship to your `User`, select `Person` as target.
+* Add a `Property` to your `User`, as name, type `contact: Perso` then hit CTRL+Space to trigger auto-completion, select `Root::Person` from the list.
+** Observe that the `Properties` view of this new `contact` property shows that its type is `Person`.
+* Thinking about it, we prefer to transform this simple property into a proper association.
+** Right-click the `contact` property, and from the `Utils` sub-menu, click `Create Association From Property`. This creates a new `A_contact_user` element (an `Association`) in your model.
+** Name this association `Assocation user to contact`.
+** It the `Properties` view of this new association, you see two member ends. This gives you information about the two `Properties` related to this `Association`. The first member end, `contact`, is owned by the `Classifier`, meaning, here, the `User`. Indeed, as you can see in the `Model Explorer`, `User` (still) has a `contact` property as a sub-element. The second member end, `user`, is owned by the association itself. Indeed, you can see it appear as a sub-element of the `Association user to contact` association in your model explorer. Try changing ownership and see the related properties change owner. For example, if you set the `contact` member end as owned by the `Association`, you will see the `contact` property disappear from under `User` and appear as a sub-member of the association.
+** The association is created as a composite association, which is not what we want here. In the properties of the association, in the part related to the first (`contact`) member end, change `Aggregation` from `composite` to `none`. Observe that the related icon changes in the `Model Explorer`.
+
+Let’s now display these classes and relationships in a diagram.
+
+* Add a Class diagram as a child of your root element, name it `User and Person`.
+* Drag the `Person` element in the top part of the diagram.
+* Drag the `User` element below the representation of `Person` in the diagram.
+* Right-click the `User` element, and in the `Filters` sub-menu, click `Show All Related Link`. Both the association and the generalization appear in the diagram.
+** Rearrange manually the end points of these relationships for a clearer display. Right-click on the association and use `Filters` / `Show/Hide Labels` to lighten the diagram.
+
+You will also need to import the `Java Primitive Types` package in order to use types such as `boolean`, `int` or `double`. (Import the `JavaLibrary` package only if you need it; it provides many more types such as `Integer` or `BigDecimal`.)
+
+Note that if you follow https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases], you will also have a `User role` element in your model. In the scenario presented here, this element is considered as conceptually different than your `User` element. If these two things are in fact the same (thus, if the class represents a person playing the role of a user of your system), then you might want to create only one element (a `Class`) and use that class instead of the actor in the use case diagram.

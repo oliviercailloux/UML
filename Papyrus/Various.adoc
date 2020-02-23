@@ -12,6 +12,10 @@ Papyrus unfortunately stores some of the properties of your model not in the fil
 == Element VS representation of elements
 An important aspect of a real UML modeling software (compared to a software designed to draw graphics without having a model as a basis, such as https://draw.io/) is that what is shown in a diagram represent model elements, and these elements exist independently of their representation in a diagram. Thus, it is important to distinguish deleting a _representation_ of an element from a diagram and deleting _the element_ itself. Right-click on a representation in a diagram, and you will see both possibilities in the menu. Try deleting a representation from a diagram, and observe that you can simply drag again the element from the model to the diagram to re-create it if desired.
 
+[[Import]]
+== Import, do not merely load
+When importing packages, you can choose to (just) load them or to import them. The difference is as follows. If you import a package, it also loads (even if you unload the package, as long as it is imported in your model, it will reload automatically). An imported package is recorded as a part of your UML model. A package that is loaded but not imported is not: the load instruction is only recorded in your Eclipse workspace, so this will not be easily shared with other users of your model. Also, auto-completion for types does not work if you merely loaded a package, it needs to be imported. 
+
 [[Synchronization]]
 == Do not synchronize (too much)
 Papyrus diagrams let you work in “synchronized” mode. Right-click on any representation in a diagram, select `Filters` / `Synchronized with Model` to activate it for a given representation. 
@@ -23,6 +27,9 @@ The option in the menu only serves to let Papyrus decide automatically which oth
 It is important to realize that a diagram _itself_ can also be “Synchronized with Model”: make sure nothing is selected, then right-click a diagram to enable or disable this global synchronization option. If this is selected, Papyrus will decide automatically the elements showing up on the diagram. For example, on a Class diagram, it will simply show all classes.
 
 I suggest to not select this option (neither the global nor the local synchronization): I find it usually does not help and it is confusing to not be able afterwards to remove some representations manually. You typically want to decide manually which elements you want to show on a diagram. Alternatively, when there are a lot of elements to represent, select the option to let every related elements appear, then immediately de-select it, to save time without suffering limitations.
+
+== Key bindings
+Have a look at the key bindings, available using a link in the Papyrus https://wiki.eclipse.org/Papyrus_User_Guide[User Guide].
 
 == Evolution of Papyrus
 I find that Papyrus is a very active and promising software, which is the reason I use it for teaching. 
