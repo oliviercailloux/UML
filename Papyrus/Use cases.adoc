@@ -7,7 +7,7 @@ You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[creat
 Let’s add a use case and related elements to our model, then display them in a diagram. Suppose we want to indicate that our system is able to say hello when demanded by a user.
 
 * Add an `Interaction` element as a sub-element of your root element, name it `System`.
-** A good use case has a subject. A subject can be any kind of `Classifier`. We choose to create an `Interaction` element for this purpose (other kinds would work as well). In our example, the use cases describe the system itself, hence its name.
+** (Why do we do this? A good use case has a subject. A subject can be any kind of `Classifier`. We choose to create an `Interaction` element for this purpose (other kinds would work as well). In our example, the use cases describe the system itself, hence its name.)
 * Add a `Use case` element as a sub-element of your `System` element. Name it `Say hello`.
 * In the properties of the `Say hello` element, find the Subject area, click the Plus icon to add a subject, select the `System` element and let it move to the right part of the screen. Check that it now appears in the box for the subjects of `Say hello`.
 ** Look at the properties of the `System` element: you see that `Say hello` has been added as one of its Use case.
