@@ -22,10 +22,10 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 
 // Donner uniquement 10 minutes avant la pause (raccourcir présentation d’UML !)
 
-Obligatoire pour remises futures : https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup[configurez] votre identité : `user.name` et `user.email`. (Doc spécifique GitHub: https://help.github.com/en/github/using-git/setting-your-username-in-git[user.name], https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address[user.email].)
+Obligatoire pour remises futures : https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup[configurez] votre identité (`user.name`).
 
 === S2 (28 fév)
-* Exercice similaire à “Starter”, comptant pour un point sur les dix points de votre future première note projet. Obligatoirement en ligne de commande. Identité doit être configurée. Documents du cours autorisés. Vous aurez 15 minutes.
+* Exercice similaire à “Starter”, comptant pour un point sur les dix points de votre future première note projet. Obligatoirement en ligne de commande. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub. Documents du cours autorisés. Vous aurez 15 minutes.
 
 //** Créez un fichier texte `id.txt` contenant uniquement votre Prénom suivi de votre Nom tel qu’enregistré à Dauphine
 
