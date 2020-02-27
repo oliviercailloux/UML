@@ -38,12 +38,9 @@ Ensuite :
 * Les diagrammes de classes en UML
 * Travail sur projet
 
-=== S4 (20 mars)
-Remise livraison 1 : fin du 16 mars. Envisager :
+Remise livraison 1 : fin du 16 mars.
 
-* Documenter l’existant
-* Documenter le point où on veut aller à long terme (vue sans détails)
-* Documenter finement la prochaine itération Java: objectif, moyen, transition
+=== S4 (20 mars)
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
