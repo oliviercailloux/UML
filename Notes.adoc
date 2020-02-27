@@ -70,7 +70,7 @@ Inclusion : l’ajouté dépend de l’ajouteur, il n’a généralement pas de 
 
 Une Dependency est une (directed relationship, elle-même une) Relationship.
 
-Extension : l’extension n’a généralement pas de sens seul. Le cas étendu, si. Peut être lié à une condition. [Un seul comportement bien que plusieurs cas impliqués lorsque l’extension est activée.] Le cas étendu indique ses points d’extension dans un compartiment. Pointillés et flèche ouverte, « extend », commentaire (rectangle corné), lié par une ligne pointillée, avec condition et point d’extension.
+Extension : l’extension n’a généralement pas de sens seul. Le cas étendu, si. Peut être lié à une condition. [Un seul comportement bien que plusieurs cas impliqués lorsque l’extension est activée.] Le cas étendu indique ses points d’extension dans un compartiment (“extension”). Pointillés et flèche ouverte, « extend », commentaire (rectangle corné), lié par une ligne pointillée, avec condition et point d’extension.
 
 Généralisation. (Une sorte de DirectedRelationship.) Ligne continue avec triangle vide.
 
