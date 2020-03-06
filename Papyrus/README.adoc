@@ -1,5 +1,7 @@
 = Papyrus
 
+First: https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install[install] Papyrus.
+
 == Tutorials
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[Create] a Papyrus model
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases]

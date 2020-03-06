@@ -14,7 +14,7 @@ Let’s add a few classes and properties to our model, then display them in a di
 ** Observe that the property is now showed as `fullName: String` in the `Model Explorer`.
 * Add a `Class` named `User` as another sub-element of your root element.
 * Add a `Generalization` relationship to your `User`, select `Person` as target.
-* Add a `Property` to your `User`, as name, type `contact: Perso` then hit CTRL+Space to trigger auto-completion, select `Root::Person` from the list.
+* Add a `Property` to your `User`, as name, type `contact: Perso` then hit CTRL+Space to trigger auto-completion, select `My model::Person` from the list.
 ** Observe that the `Properties` view of this new `contact` property shows that its type is `Person`.
 * Thinking about it, we prefer to transform this simple property into a proper association.
 ** Right-click the `contact` property, and from the `Utils` sub-menu, click `Create Association From Property`. This creates a new `A_contact_user` element (an `Association`) in your model.
