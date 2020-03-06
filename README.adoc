@@ -23,8 +23,8 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 // Donner uniquement 10 minutes avant la pause (raccourcir présentation d’UML !)
 
 === S2 (27 fév)
-* Exercice noté, comptant pour un point sur les dix points de votre future première note projet. Obligatoirement en ligne de commande. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub. Documents du cours autorisés. Vous aurez 15 minutes.
-** Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial un fichier texte `id.txt` contenant uniquement votre numéro d’étudiant de Dauphine. Faites en sorte que ce commit, et seulement ce commit, apparaisse dans votre dépôt de remise.
+* Exercice noté "commit", comptant pour un point sur les dix points de votre future première note projet. Obligatoirement en ligne de commande. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID, ok pour 24/26 étudiants). Documents du cours autorisés. Vous aurez 15 minutes.
+** Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial (COMMIT) un fichier texte `id.txt` (ID_FILE_EXISTS) contenant uniquement votre numéro d’étudiant de Dauphine (ID_FILE_CONTENTS, ok pour 23/26 étudiants). Faites en sorte que ce commit, et seulement ce commit (ONE_COMMIT), apparaisse dans votre dépôt de remise.
 ** 13h50 à 14h06
 
 * Les cas d’utilisation en UML
