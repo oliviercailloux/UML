@@ -2,8 +2,10 @@
 
 [[Install]]
 == Installing Papyrus
-//Installing Papyrus over the “Eclipse IDE for Java Developers” does not seem easy (following the https://www.eclipse.org/papyrus/download.html[instructions] does install the main “Papyrus for UML” feature, but I did not manage to install the Java profile in this way). I recommend to run the command provided for installing Papyrus https://github.com/oliviercailloux/java-course/blob/master/Automated%20Eclipse%20install.adoc[here], adapting it to the path of your eclipse installation.
-I recommend installing Papyrus over your Eclipse installation. On the Papyrus https://www.eclipse.org/papyrus/download.html[download page], you find the update site URL. Clicking on it reveals instructions that should be followed. You can then install the “Papyrus for UML” feature (you do not need the other ones).
+I recommend installing Papyrus over your Eclipse installation.
+
+* On the Papyrus https://www.eclipse.org/papyrus/download.html[download page], you will find the update site URL. Clicking on it reveals instructions that should be followed. You can then install the “Papyrus for UML” feature (you do not need the other ones).
+* Then, using the update site http://download.eclipse.org/modeling/mdt/papyrus/components/designer/, install Papyrus Java profile, library and code generation (Incubation) 1.1.0. (This adds a Utils sub-menu for dealing with properties, and some reverse generation capabilities that we will not need.)
 
 == Storage of properties
 Papyrus unfortunately stores some of the properties of your model not in the file hierarchy of the project itself, but in your Eclipse workspace (specifically, in `.metadata/.plugins/org.eclipse.papyrus.infra…`). Thus, if you transfer the project to someone else, these properties will not be transferred, and are not versioned easily in a CVS. This concerns generally those properties that belong to Papyrus and not to UML, including: the enabled `Architecture Viewpoints`, the choice of using internationalization, or the profiles to load (the imports, however, are part of your UML model and are stored in the `.uml` file). Fortunately, these files do not matter much as they do not change the semantics of your model.

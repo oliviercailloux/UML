@@ -18,6 +18,7 @@ Let’s add a few classes and properties to our model, then display them in a di
 ** Observe that the `Properties` view of this new `contact` property shows that its type is `Person`.
 * Thinking about it, we prefer to transform this simple property into a proper association.
 ** Right-click the `contact` property, and from the `Utils` sub-menu, click `Create Association From Property`. This creates a new `A_contact_user` element (an `Association`) in your model.
+** If you do not see the `Utils` sub-menu, you miss the “Papyrus Java profile, library and code generation” feature (see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install[install]).
 ** Name this association `Assocation user to contact`.
 ** It the `Properties` view of this new association, you see two member ends. This gives you information about the two `Properties` related to this `Association`. The first member end, `contact`, is owned by the `Classifier`, meaning, here, the `User`. Indeed, as you can see in the `Model Explorer`, `User` (still) has a `contact` property as a sub-element. The second member end, `user`, is owned by the association itself. Indeed, you can see it appear as a sub-element of the `Association user to contact` association in your model explorer. Try changing ownership and see the related properties change owner. For example, if you set the `contact` member end as owned by the `Association`, you will see the `contact` property disappear from under `User` and appear as a sub-member of the association.
 ** The association is created as a composite association, which is not what we want here. In the properties of the association, in the part related to the first (`contact`) member end, change `Aggregation` from `composite` to `none`. Observe that the related icon changes in the `Model Explorer`.
@@ -28,8 +29,8 @@ Let’s now display these classes and relationships in a diagram.
 * Drag the `Person` element in the top part of the diagram.
 * Drag the `User` element below the representation of `Person` in the diagram.
 * Right-click the `User` element, and in the `Filters` sub-menu, click `Show All Related Link`. Both the association and the generalization appear in the diagram.
-** Rearrange manually the end points of these relationships for a clearer display. Right-click on the association and use `Filters` / `Show/Hide Labels` to lighten the diagram.
+** Rearrange manually the end points of these relationships for a clearer display. Right-click on the association representation and use `Filters` / `Show/Hide Labels` to lighten the diagram.
 
-You will also need to import the `Java Primitive Types` package in order to use types such as `boolean`, `int` or `double`. (Import the `JavaLibrary` package only if you need it; it provides many more types such as `Integer` or `BigDecimal`.)
+You will also need to import the `Java Primitive Types` package in order to use types such as `boolean`, `int` or `double`. (The `JavaLibrary` package provides many more types such as `Integer` or `BigDecimal`, I suggest to import it only if absolutely required.)
 
 Note that if you follow https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases], you will also have a `User role` element in your model. In the scenario presented here, this element is considered as conceptually different than your `User` element. If these two things are in fact the same (thus, if the class represents a person playing the role of a user of your system), then you might want to create only one element (a `Class`) and use that class instead of the actor in the use case diagram.

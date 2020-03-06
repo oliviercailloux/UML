@@ -36,16 +36,18 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 * Les diagrammes de classes en UML
 * Travail sur projet
 
-Remise livraison 1 : fin du 16 mars.
+Remise livraison 1 : fin du 16 mars. Prévoir 8h de travail efficace par binôme en Java pour l’itération 1. (Vous pouvez également préparer l’itération 2.)
 
 === S4 (20 mars)
+* Diagrammes de séquence
+* Travail sur projet
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
 * https://www.eclipse.org/papyrus/download.html[Papyrus], une implémentation open source très respectueuse de la spécification (mais prise en main difficile) (alternative : on m’a recommandé http://staruml.io/[StarUML], mais closed source et payant)
 * https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
 * https://www.lamsade.dauphine.fr/~negre/coursfr.html[Cours] de Elsa Negre
-* Livre : Fowler - UML Distilled: A Brief Guide to the Standard Object Modeling Language (2003), comment bien ne pas respecter la specification
+* Livre : Fowler - UML Distilled: A Brief Guide to the Standard Object Modeling Language (2003), comment bien ne pas respecter la spécification
 * Livre : Roques - UML 2 par la pratique - Études de cas et exercices corrigés, Sixième édition (2008)
 * https://www.youtube.com/watch?v=yaLGw-ZSUKk[Vidéo] : UML and Rhapsody Workflows for Embedded Code Development
 
