@@ -87,13 +87,13 @@ Une classe décrit un ensemble d’objets, instances de la classe.
 
 Un objet est un individu avec un état et des liens. A des valeurs associées aux propriétés.
 
-Une classe a des attributs (qui sont des propriétés [elles-mêmes des StructuralFeature et des MultiplicityElements]) : nom, type, multiplicité ; et valeur par défaut éventuelle (pass:[<u>normalNbWheels</u>]: int = 4).
+Une classe a des attributs (qui sont des propriétés [elles-mêmes des StructuralFeature et des MultiplicityElements]) : nom, type, multiplicité ; et valeur par défaut éventuelle.
 
 Une classe est représentée avec des compartiments : attributs, opérations, … [Nom centré et commençant par une minuscule]
 
 Exemples…
 
-Un attribut [de type Propriété] peut être statique (souligné). Il a une visibilité. Il peut être dérivé (précédé de /).
+Un attribut [de type Propriété] peut être statique (souligné) (pass:[<u>normalNbWheels</u>]: int = 4). Il a une visibilité. Il peut être dérivé (précédé de /).
 
 Une classe a des opérations : nom, type de retour, paramètres (de nom facultatif, avec défaut éventuel). [Un paramètre est un MultiplicityElement possédant facultativement une valeur par défaut, comme une Propriété.]
 
