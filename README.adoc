@@ -2,8 +2,9 @@
 
 image:https://api.travis-ci.com/oliviercailloux/UML.svg?branch=master["Link Status", link="https://travis-ci.com/oliviercailloux/UML"]
 
-* Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
+//* Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
+* https://teams.microsoft.com/l/meetup-join/19%3ameeting_YThjOGQ2ZTgtNDFhNC00ZTA3LTk5NWUtMmQ0ZWNlZTFlMTYw%40thread.v2/0?context=%7b%22Tid%22%3a%2281e7c4de-26c9-4531-b076-b70e2d75966e%22%2c%22Oid%22%3a%22db290b1a-6988-4d6b-91c6-9ddd729313f6%22%7d[Teams]
 
 == Prenez des notes
 * 5 ways of taking notes https://www.youtube.com/watch?v=AffuwyJZTQQ[video]
@@ -39,6 +40,11 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 Remise livraison 1 : fin du 16 mars. Prévoir 8h de travail efficace par binôme en Java pour l’itération 1. (Vous pouvez également préparer l’itération 2.)
 
 === S4 (20 mars)
+* Travail sur projet : commentaires suite livraison 1 ; préparation livraison 2
+
+Remise livraison 2 : fin du 30 mars. Consigne : améliorer votre première livraison suite aux commentaires ; préparer _minutieusement_ la première itération Java à l’aide de diagrammes détaillés. Créer un document `It2.adoc` qui liste vos modifications et la répartition des tâches par sous-équipes.
+
+=== S5 (3 avril)
 * Diagrammes de séquence
 * Travail sur projet
 
