@@ -12,7 +12,7 @@ Papyrus unfortunately stores some of the properties of your model not in the fil
 
 [[Representation]]
 == Element VS representation of elements
-An important aspect of a real UML modeling software (compared to a software designed to draw graphics without having a model as a basis, such as https://draw.io/) is that what is shown in a diagram represent model elements, and these elements exist independently of their representation in a diagram. Thus, it is important to distinguish deleting a _representation_ of an element from a diagram and deleting _the element_ itself. Right-click on a representation in a diagram, and you will see both possibilities in the menu. Try deleting a representation from a diagram, and observe that you can simply drag again the element from the model to the diagram to re-create it if desired.
+An important aspect of a real UML modeling software (compared to a software designed to draw graphics without having a model as a basis, such as https://app.diagrams.net) is that what is shown in a diagram represent model elements, and these elements exist independently of their representation in a diagram. Thus, it is important to distinguish deleting a _representation_ of an element from a diagram and deleting _the element_ itself. Right-click on a representation in a diagram, and you will see both possibilities in the menu. Try deleting a representation from a diagram, and observe that you can simply drag again the element from the model to the diagram to re-create it if desired.
 
 [[Import]]
 == Import, do not merely load
