@@ -1,4 +1,6 @@
 = Classes
+//works around awesome_bot bug that used to be published at github.com/dkhamsing/awesome_bot/issues/182.
+:emptyattribute:
 
 == Prerequisites
 You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[created] a Papyrus model.
@@ -18,7 +20,7 @@ Let’s add a few classes and properties to our model, then display them in a di
 ** Observe that the `Properties` view of this new `contact` property shows that its type is `Person`.
 * Thinking about it, we prefer to transform this simple property into a proper association.
 ** Right-click the `contact` property, and from the `Utils` sub-menu, click `Create Association From Property`. This creates a new `A_contact_user` element (an `Association`) in your model.
-** If you do not see the `Utils` sub-menu, you miss the “Papyrus Java profile, library and code generation” feature (see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install[install]).
+** If you do not see the `Utils` sub-menu, you miss the “Papyrus Java profile, library and code generation” feature (see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install{emptyattribute}[install]).
 ** Name this association `Assocation user to contact`.
 ** It the `Properties` view of this new association, you see two member ends. This gives you information about the two `Properties` related to this `Association`. The first member end, `contact`, is owned by the `Classifier`, meaning, here, the `User`. Indeed, as you can see in the `Model Explorer`, `User` (still) has a `contact` property as a sub-element. The second member end, `user`, is owned by the association itself. Indeed, you can see it appear as a sub-element of the `Association user to contact` association in your model explorer. Try changing ownership and see the related properties change owner. For example, if you set the `contact` member end as owned by the `Association`, you will see the `contact` property disappear from under `User` and appear as a sub-member of the association.
 ** The association is created as a composite association, which is not what we want here. In the properties of the association, in the part related to the first (`contact`) member end, change `Aggregation` from `composite` to `none`. Observe that the related icon changes in the `Model Explorer`.
