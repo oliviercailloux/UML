@@ -10,6 +10,10 @@ I recommend installing Papyrus over your Eclipse installation.
 == Storage of properties
 Papyrus unfortunately stores some of the properties of your model not in the file hierarchy of the project itself, but in your Eclipse workspace (specifically, in `.metadata/.plugins/org.eclipse.papyrus.infra…`). Thus, if you transfer the project to someone else, these properties will not be transferred, and are not versioned easily in a CVS. This concerns generally those properties that belong to Papyrus and not to UML, including: the enabled `Architecture Viewpoints`, the choice of using internationalization, or the profiles to load (the imports, however, are part of your UML model and are stored in the `.uml` file). Fortunately, these files do not matter much as they do not change the semantics of your model.
 
+[[No labels]]
+== Avoid labels
+Unless you have a good reason (such as having to localize names), do not use the `Label` property, rather set the name of the element to what you want to see on your diagrams. This eases finding the model element corresponding to a representation in a diagram, and it avoids Papyrus creating a file ending with `_fr_FR.properties` (or similar, depending on your locale), thus reducing the number of files you have to deal with.
+
 [[Representation]]
 == Element VS representation of elements
 An important aspect of a real UML modeling software (compared to a software designed to draw graphics without having a model as a basis, such as https://app.diagrams.net) is that what is shown in a diagram represent model elements, and these elements exist independently of their representation in a diagram. Thus, it is important to distinguish deleting a _representation_ of an element from a diagram and deleting _the element_ itself. Right-click on a representation in a diagram, and you will see both possibilities in the menu. Try deleting a representation from a diagram, and observe that you can simply drag again the element from the model to the diagram to re-create it if desired.
