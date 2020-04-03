@@ -29,3 +29,5 @@ Let’s now display these two lifelines in a diagram and add a message from `use
 ** Observe that Papyrus has created several elements for you in supplement to the message send: a `BehaviorExecutionSpecification` representing the behavior of the class treating the message; a return message that happens when the object has finished treating the message; and four events, produced when the messages are sent and received.
 ** Finally, hide the label on the representation of the message returning from the contact lifeline back to the user lifeline, with `Filters` / `Hide All Labels`.
 
+Remember that the messages sent to a property of type `T` are valid only if the type `T` indeed defines an operation corresponding to the signature of the message. In our case, we can send the message having signature `sayHello()` to `contact` because `Person` indeed defines an operation `sayHello()`. (Unfortunately, it seems that the current version of Papyrus does not complain when this constraint is broken.)
+
