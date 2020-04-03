@@ -15,7 +15,6 @@ We will now create two lifelines that represent a user sending a message `sayHel
 * Add a `Lifeline` element named `User lifeline` as another sub-element of your root element
 ** In the properties of `User lifeline`, indicates that it represents your property `user`.
 * Add another `Lifeline` element named `Contact lifeline`; indicate that it represents the property `contact` of the class `User`.
-* Add another `Lifeline` relationship to your `User`, select `Person` as target.
 
 Let’s now display these two lifelines in a diagram and add a message from `user` to its `contact`.
 
