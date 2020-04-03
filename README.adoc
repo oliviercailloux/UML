@@ -14,6 +14,7 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 //https://www.edx.org/bio/eric-s-lander
 
 == Plan
+[[S1]]
 === S1
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * Présentation d’UML
@@ -23,6 +24,7 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 
 // Donner uniquement 10 minutes avant la pause (raccourcir présentation d’UML !)
 
+[[S2]]
 === S2 (27 fév)
 * Exercice noté "commit", comptant pour un point sur les dix points de votre future première note projet. Obligatoirement en ligne de commande. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID, ok pour 24/26 étudiants). Documents du cours autorisés. Vous aurez 15 minutes.
 ** Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial (COMMIT) un fichier texte `id.txt` (ID_FILE_EXISTS) contenant uniquement votre numéro d’étudiant de Dauphine (ID_FILE_CONTENTS, ok pour 23/26 étudiants). Faites en sorte que ce commit, et seulement ce commit (ONE_COMMIT), apparaisse dans votre dépôt de remise.
@@ -33,20 +35,24 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser quelques cas d’utilisation de votre projet et en tirer un diagramme de cas.
 * https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions.adoc[Projets - Instructions]
 
+[[S3]]
 === S3 (6 mars)
 * Les diagrammes de classes en UML
 * Travail sur projet
 
 Remise livraison 1 : fin du 16 mars. Prévoir 8h de travail efficace par binôme en Java pour l’itération 1. (Vous pouvez également préparer l’itération 2.)
 
+[[S4]]
 === S4 (20 mars)
 * Travail sur projet : commentaires suite livraison 1 ; préparation livraison 2
 
 Remise livraison 2 : fin du 30 mars. Consigne : améliorer votre première livraison suite aux commentaires ; préparer _minutieusement_ la première itération Java à l’aide de diagrammes détaillés. Créer un document `It2.adoc` qui liste vos modifications et la répartition des tâches par sous-équipes.
 
 === S5 (3 avril)
-* Diagrammes de séquence
+* Diagrammes de https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc[séquences]
 * Travail sur projet
+
+Remise livraison 3 : fin du 26 avril. Appliquer https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#avoid-labels[Avoid labels].
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
