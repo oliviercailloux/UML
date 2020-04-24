@@ -48,11 +48,16 @@ Remise livraison 1 : fin du 16 mars. Prévoir 8h de travail efficace par binôme
 
 Remise livraison 2 : fin du 30 mars. Consigne : améliorer votre première livraison suite aux commentaires ; préparer _minutieusement_ la première itération Java à l’aide de diagrammes détaillés. Créer un document `It2.adoc` qui liste vos modifications et la répartition des tâches par sous-équipes.
 
+[[S5]]
 === S5 (3 avril)
 * Diagrammes de https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc[séquences]
 * Travail sur projet
 
 Remise livraison 3 : fin du 26 avril. Appliquer https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#avoid-labels[Avoid labels]. Tentez d’inclure au moins un diagramme de cas et un de séquences. Veillez à ce que vos diagrammes soient liés : liens visibles entre cas et classes ; signatures des messages correspondant aux opérations.
+
+[[S6]]
+=== S6 (24 avril)
+Travail sur projet
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
