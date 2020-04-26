@@ -2,7 +2,7 @@
 
 First: https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install[install] Papyrus.
 
-WARNING: Some Eclipse Marketplace plugin won’t disable functionalities of your papyrus project (Example : with https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle[Darkest Dark Theme with DevStyle], you might loose some arrows)
+WARNING: Some Eclipse Marketplace plugins can disable functionalities of your papyrus projects (Example : with https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle[Darkest Dark Theme with DevStyle], you might loose some arrows)
 
 == Tutorials
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[Create] a Papyrus model
