@@ -59,6 +59,12 @@ Remise livraison 3 : fin du 26 avril. Appliquer https://github.com/oliviercaillo
 === S6 (24 avril)
 Travail sur projet
 
+[[S7]]
+=== S7 (6 mai)
+Remise livraison 4 fin du 24 mai. Veillez à examiner vos issues et à préparer soigneusement votre prochaine itération Java.
+
+Remise livraison 5 fin du 21 juin.
+
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
 * https://www.eclipse.org/papyrus/download.html[Papyrus], une implémentation open source très respectueuse de la spécification (mais prise en main difficile) (alternative : on m’a recommandé http://staruml.io/[StarUML], mais closed source et payant)
