@@ -17,7 +17,7 @@ Une itération UML se conclut par une livraison, qui a deux objectifs.
 - Définir, dans le `README.adoc` du projet, le plan de l’itération Java suivante avec une découpe en tâches. Le plan prend bien soin de détailler les pré-requis entre tâches éventuels, et dans ce cas, indique un calendrier (à usage interne) pour éviter de coincer les sous-équipes qui dépendent des autres et un plan de repli. 
 - Documenter le projet ou le futur du projet.
 
-Attendu, dans les deux cas, dans le sous-répertoire `Docs` : un modèle UML Papyrus, des diagrammes, et de la documentation au format Asciidoctor appuyée sur les diagrammes (exemples : rapport concernant l’état actuel du projet en cas de fork, diagramme de classe montrant l’issue envisagée de la première itération, …). Votre plan fera référence à ces documents. Fournissez également un document `Itx.adoc` pour l’itération x (`It1.adoc` puis `It2.adoc` etc.) qui indique quel binôme a fait quoi durant cette livraison.
+Attendu, dans les deux cas, dans le sous-répertoire `Doc` : un modèle UML Papyrus, des diagrammes, et de la documentation au format Asciidoctor appuyée sur les diagrammes (exemples : rapport concernant l’état actuel du projet en cas de fork, diagramme de classe montrant l’issue envisagée de la première itération, …). Votre plan fera référence à ces documents. Fournissez également un document `Itx.adoc` pour l’itération x (`It1.adoc` puis `It2.adoc` etc.) qui indique quel binôme a fait quoi durant cette livraison.
 
 Vous livrez directement dans votre branche `master`.
 
