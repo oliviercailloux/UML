@@ -32,7 +32,10 @@ Let’s now display these classes and relationships in a diagram.
 * Drag the `User` element below the representation of `Person` in the diagram.
 * Right-click the `User` element, and in the `Filters` sub-menu, click `Show All Related Link`. Both the association and the generalization appear in the diagram.
 ** Rearrange manually the end points of these relationships for a clearer display. Right-click on the association representation and use `Filters` / `Show/Hide Labels` to lighten the diagram.
+* Right-click the `User` element, and in the `Filters` sub-menu, click `Show/Hide Contents` to hide its `contact` property.
 
 You will also need to import the `Java Primitive Types` package in order to use types such as `boolean`, `int` or `double`. (The `JavaLibrary` package provides many more types such as `Integer` or `BigDecimal`, I suggest to import it only if absolutely required.)
+
+An operation to a class, give it some `int` parameter with multiplicity `[1..*]`. Use the `Appearance` sub-menu (in `Properties` when the representation is selected) to display the multiplicity and to hide the parameter direction. (https://www.eclipse.org/forums/index.php/m/954561/?srch=papyrus+operation+multiplicity#msg_954561[This] might be useful.)
 
 Note that if you follow https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases], you will also have a `User role` element in your model. In the scenario presented here, this element is considered as conceptually different than your `User` element. If these two things are in fact the same (thus, if the class represents a person playing the role of a user of your system), then you might want to create only one element (a `Class`) and use that class instead of the actor in the use case diagram.
