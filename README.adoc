@@ -63,6 +63,8 @@ Travail sur projet
 === S7 (6 mai) et suivantes
 Remise livraison 4 fin du 24 mai. Veillez à examiner vos issues et à préparer soigneusement votre prochaine itération Java.
 
+[[S10]]
+=== S10 (18 juin)
 Remise livraison 5 fin du 21 juin.
 
 * Effacer Itx.adoc, laisser uniquement le dernier, It5.adoc.
@@ -71,7 +73,15 @@ Remise livraison 5 fin du 21 juin.
 * La doc doit indiquer où elle n’est pas à jour.
 * Proposer des évolutions à vos successeurs, dans les grandes lignes ou en détails pour certains points. (Exemples : refactor de tel aspect, insatisfaisant pour telle raison ; viser à remplacer telle bibliothèque qui ne gère pas bien telle chose ; ajouter telle fonction.) Proposer des priorités pour orienter le travail.
 * Simplifier la structure de votre doc : un sous-répertoire Papyrus contenant un sous-répertoire Diagrams, qqs autres sous-répertoires seulement si nécessaire, et un fichier README qui mène à tous les documents. Ne pas trier par itération, cela ne concerne pas vos successeurs.
-* Séparer clairement la doc de ce qui existe de ce que vous proposez comme améliorations (à mettre à part).
+* Séparer clairement la doc de ce qui existe de ce que vous proposez comme améliorations (à mettre par exemple en fin de README).
+
+Bilan
+
+* UML : un langage (usage des construits UML pour s’exprimer ; proximité à choisir entre la doc et l’implémentation ; …)
+* Un modèle (pas seulement des diagrammes)
+* Permet des discussions de haut niveau pour économiser des efforts
+* Respect des spécifications : plutôt strict dans ce cours, autres usages possibles
+* Méthodo : plus ou moins agile selon les contextes
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
