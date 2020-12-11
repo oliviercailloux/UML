@@ -23,7 +23,7 @@ Pour : décrire, modéliser dans un langage précis.
 
 Habituellement : modéliser un système à implémenter ou implémenté (en vue de la maintenance). Un logiciel pour organiser les cours ; une application téléphone pour chercher les éclipses dans le monde.
 
-Mais aussi : modéliser un phénomène naturel ou une organisation humaine => comprendre et analyser. Exemple : le cycle de l’eau sur terre ; le processus d’engagement d’un nouvel enseignant-chercheur à Paris-Dauphine.
+Mais aussi : modéliser un phénomène naturel ou une organisation humaine => comprendre et analyser. Exemple : le cycle de l’eau sur terre ; l’organisation de l’enseignement à Paris-Dauphine.
 
 === Modèle
 UML n’est pas un ensemble de diagrammes. C’est un langage de modélisation. Une spécification en UML est d’abord un modèle abstrait (non représenté graphiquement). De ce modèle dérivent des diagrammes.

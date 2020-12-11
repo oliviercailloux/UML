@@ -2,16 +2,11 @@
 
 image:https://api.travis-ci.com/oliviercailloux/UML.svg?branch=master["Link Status", link="https://travis-ci.com/oliviercailloux/UML"]
 
-//* Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
+* Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
 * https://teams.microsoft.com/l/meetup-join/19%3ameeting_YThjOGQ2ZTgtNDFhNC00ZTA3LTk5NWUtMmQ0ZWNlZTFlMTYw%40thread.v2/0?context=%7b%22Tid%22%3a%2281e7c4de-26c9-4531-b076-b70e2d75966e%22%2c%22Oid%22%3a%22db290b1a-6988-4d6b-91c6-9ddd729313f6%22%7d[Teams]
 
-== Prenez des notes
-* 5 ways of taking notes https://www.youtube.com/watch?v=AffuwyJZTQQ[video]
-* https://doi.org/10.1177/0956797614524581[Research] shows that taking notes, and especially writing what is said in your own words after some mental processing, permits more effective study
-
-Links taken from the https://www.edx.org/course/introduction-to-biology-the-secret-of-life-3[course] “Introduction to Biology - The Secret of Life”, MITx
-//https://www.edx.org/bio/eric-s-lander
+* https://github.com/oliviercailloux/Teaching/blob/main/README.adoc#take-notes[Take notes]!
 
 == Plan
 [[S1]]
@@ -19,24 +14,24 @@ Links taken from the https://www.edx.org/course/introduction-to-biology-the-secr
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * Présentation d’UML
 * https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Affectation.adoc[Projets - Affectation]
+* https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
 * https://classroom.github.com/a/wI-tbsei[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://help.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
 
 // Donner uniquement 10 minutes avant la pause (raccourcir présentation d’UML !)
 
 [[S2]]
-=== S2 (27 fév)
-* Exercice noté "commit", comptant pour un point sur les dix points de votre future première note projet. Obligatoirement en ligne de commande. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID, ok pour 24/26 étudiants). Documents du cours autorisés. Vous aurez 15 minutes.
-** Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial (COMMIT) un fichier texte `id.txt` (ID_FILE_EXISTS) contenant uniquement votre numéro d’étudiant de Dauphine (ID_FILE_CONTENTS, ok pour 23/26 étudiants). Faites en sorte que ce commit, et seulement ce commit (ONE_COMMIT), apparaisse dans votre dépôt de remise.
-** 13h50 à 14h06
+=== S2
+* Exercice noté "commit". Interdiction d’utiliser l’interface de GitHub pour vos commits. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID). Documents du cours autorisés. Vous aurez 15 minutes.
+** [Énoncé an passé ! Cette année, inclusion : branches et Shell] Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial (COMMIT) un fichier texte `id.txt` (ID_FILE_EXISTS) contenant uniquement votre numéro d’étudiant de Dauphine (ID_FILE_CONTENTS). Faites en sorte que ce commit, et seulement ce commit (ONE_COMMIT), apparaisse dans votre dépôt de remise.
 
 * Les cas d’utilisation en UML
-* Eclipse : prise en main. Il faut pouvoir manipuler les perspectives, les vues, et naviguer facilement dans Eclipse. Dans le Workbench User Guide, http://help.eclipse.org/latest/topic/org.eclipse.platform.doc.user/gettingStarted/qs-02a.htm[Basic tutorial], lire et effectuer les premières sections du tutoriel : The Workbench, Editors and views, A simple project, Closing an editor et Navigating resources, puis lire Rearranging views and editors.
+* https://github.com/oliviercailloux/java-course/blob/master/Dev%20tools/Eclipse.adoc[Eclipse] basics
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser quelques cas d’utilisation de votre projet et en tirer un diagramme de cas.
 * https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions.adoc[Projets - Instructions]
 
 [[S3]]
-=== S3 (6 mars)
+=== S3
 * Les diagrammes de classes en UML
 * Travail sur projet
 
@@ -49,22 +44,22 @@ Remise livraison 1 : fin du 16 mars. Prévoir 8h de travail efficace par binôme
 Remise livraison 2 : fin du 30 mars. Consigne : améliorer votre première livraison suite aux commentaires ; préparer _minutieusement_ la première itération Java à l’aide de diagrammes détaillés. Créer un document `It2.adoc` qui liste vos modifications et la répartition des tâches par sous-équipes.
 
 [[S5]]
-=== S5 (3 avril)
+=== S5
 * Diagrammes de https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc[séquences]
 * Travail sur projet
 
 Remise livraison 3 : fin du 26 avril. Appliquer https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#avoid-labels[Avoid labels]. Tentez d’inclure au moins un diagramme de cas et un de séquences. Veillez à ce que vos diagrammes soient liés : liens visibles entre cas et classes ; signatures des messages correspondant aux opérations.
 
 [[S6]]
-=== S6 (24 avril)
+=== S6
 Travail sur projet
 
 [[S7]]
-=== S7 (6 mai) et suivantes
+=== S7 
 Remise livraison 4 fin du 24 mai. Veillez à examiner vos issues et à préparer soigneusement votre prochaine itération Java.
 
 [[S10]]
-=== S10 (18 juin)
+=== S10 
 Remise livraison 5 fin du 21 juin.
 
 * Effacer Itx.adoc, laisser uniquement le dernier, It5.adoc.

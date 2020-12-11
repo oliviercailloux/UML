@@ -1,0 +1,14 @@
+= Projets : Instructions UML
+
+Une itération UML se conclut par une livraison, qui a pour objectif de documenter le projet ou le futur du projet. Elle ne touche, sauf exception, qu’au contenu du sous-répertoire `Doc`.
+
+Vos contributions devraient concerner les deux éléments suivants.
+
+* Le modèle UML Papyrus. Il est une partie importante de vos rendus et doit être soigné. Bien qu’invisible pour les lecteurs, un modèle clair et bien entretenu facilite grandement l’entretien de la documentation, et constitue une clarification conceptuelle en soi pour ceux qui y accèdent.
+* La documentation visible. Elle doit être au format Asciidoctor (sauf exception approuvée), appuyée sur des diagrammes typiquement issus de votre modèle UML, ou d’autres documents. Exemples : rapport concernant l’état actuel du projet sur un aspect donné, diagramme de classe montrant l’issue envisagée de la première itération, dessin d’une interface graphique envisagée, comparaison avant / après un changement planifié…
+
+Votre plan de démarrage d’itération doit faire référence à ces documents.
+
+== Instructions de modélisation
+Ne collez pas à la structure Java si ce n’est pas justifié. Votre objectif principal est la clarté conceptuelle. Par exemple : indiquez en UML une propriété publique plutôt qu’une propriété privée assortie d’un getter et d’un setter ; utilisez les paramètres par défaut bien qu’ils ne soient pas implémentés tels quels en Java.
+
