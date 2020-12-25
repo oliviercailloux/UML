@@ -8,13 +8,13 @@ You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[creat
 == Classes
 Let’s add a few classes and properties to our model, then display them in a diagram. In our (silly) example, we will model that any person can say hello; that some persons are users (of our system); and that each user has been assigned a contact person.
 
-* Add a `Class` element as a sub-element of your root element, name it `Person`.
-* Add a `Property` element as a sub-element of `Person`, name it `fullName`.
+* Add a `Class` element as a child of your root element, name it `Person`.
+* Add a `Property` element as a child of `Person`, name it `fullName`.
 ** To type this property, we need the type String. We do not have to define this type ourselves, suffices to import the right package.
 ** From your root element, `Import` / `Import Registered Package`, choose `UML Primitive Types`, make sure you https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Import[select `Import`] and not `Load` as action.
-** In the `Properties` view of the `fullName` property, click the button next to `Type` and select (under `UML Primitive Types`) `« EDataType » String` as its type.
+** In the `Properties` view of the `fullName` property, click the button next to `Type` and select (under `UMLPrimitiveTypes`) `« EDataType » String` as its type.
 ** Observe that the property is now showed as `fullName: String` in the `Model Explorer`.
-* Add a `Class` named `User` as another sub-element of your root element.
+* Add a `Class` named `User` as another child of your root element.
 * Add a `Generalization` relationship to your `User`, select `Person` as target.
 * Add a `Property` to your `User`, as name, type `contact: Perso` then hit CTRL+Space to trigger auto-completion, select `My model::Person` from the list.
 ** Observe that the `Properties` view of this new `contact` property shows that its type is `Person`.
@@ -22,7 +22,7 @@ Let’s add a few classes and properties to our model, then display them in a di
 ** Right-click the `contact` property, and from the `Utils` sub-menu, click `Create Association From Property`. This creates a new `A_contact_user` element (an `Association`) in your model.
 ** If you do not see the `Utils` sub-menu, you miss the “Papyrus Java profile, library and code generation” feature (see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install{emptyattribute}[install]).
 ** Name this association `Assocation user to contact`.
-** It the `Properties` view of this new association, you see two member ends. This gives you information about the two `Properties` related to this `Association`. The first member end, `contact`, is owned by the `Classifier`, meaning, here, the `User`. Indeed, as you can see in the `Model Explorer`, `User` (still) has a `contact` property as a sub-element. The second member end, `user`, is owned by the association itself. Indeed, you can see it appear as a sub-element of the `Association user to contact` association in your model explorer. Try changing ownership and see the related properties change owner. For example, if you set the `contact` member end as owned by the `Association`, you will see the `contact` property disappear from under `User` and appear as a sub-member of the association.
+** It the `Properties` view of this new association, you see two member ends. This gives you information about the two `Properties` related to this `Association`. The first member end, `contact`, is owned by the `Classifier`, meaning, here, the `User`. Indeed, as you can see in the `Model Explorer`, `User` (still) has a `contact` property as a child. The second member end, `user`, is owned by the association itself. Indeed, you can see it appear as a child of the `Association user to contact` association in your model explorer. Try changing ownership and see the related properties change owner. For example, if you set the `contact` member end as owned by the `Association`, you will see the `contact` property disappear from under `User` and appear as a sub-member of the association.
 ** The association is created as a composite association, which is not what we want here. In the properties of the association, in the part related to the first (`contact`) member end, change `Aggregation` from `composite` to `none`. Observe that the related icon changes in the `Model Explorer`.
 
 Let’s now display these classes and relationships in a diagram.

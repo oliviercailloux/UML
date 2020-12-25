@@ -8,7 +8,7 @@ I recommend installing Papyrus over your Eclipse installation.
 * Then, using the update site http://download.eclipse.org/modeling/mdt/papyrus/components/designer/, install Papyrus Java profile, library and code generation (Incubation) 1.1.0. (This adds a Utils sub-menu for dealing with properties, and some reverse generation capabilities that we will not need.)
 
 == Storage of properties
-Papyrus unfortunately stores some of the properties of your model not in the file hierarchy of the project itself, but in your Eclipse workspace (specifically, in `.metadata/.plugins/org.eclipse.papyrus.infra…`). Thus, if you transfer the project to someone else, these properties will not be transferred, and are not versioned easily in a CVS. This concerns generally those properties that belong to Papyrus and not to UML, including: the enabled `Architecture Viewpoints`, the choice of using internationalization, or the profiles to load (the imports, however, are part of your UML model and are stored in the `.uml` file). Fortunately, these files do not matter much as they do not change the semantics of your model.
+Papyrus unfortunately stores some of the properties of your model not in the file hierarchy of the project itself, but in your Eclipse workspace (specifically, in `.metadata/.plugins/org.eclipse.papyrus.infra…`). Thus, if you transfer the project to someone else, these properties will not be transferred, and are not versioned easily in a https://en.wikipedia.org/wiki/Version_control[VCS]. This concerns generally those properties that belong to Papyrus and not to UML, including: the enabled `Architecture Viewpoints`, the choice of using internationalization, or the profiles to load (the imports, however, are part of your UML model and are stored in the `.uml` file). Fortunately, these files do not matter much as they do not change the semantics of your model.
 
 == Avoid labels
 Unless you have a good reason (such as having to localize names), do not use the `Label` property, rather set the name of the element to what you want to see on your diagrams. This eases finding the model element corresponding to a representation in a diagram, and it avoids Papyrus creating a file ending with `_fr_FR.properties` (or similar, depending on your locale), thus reducing the number of files you have to deal with.
@@ -31,7 +31,10 @@ The option in the menu only serves to let Papyrus decide automatically which oth
 
 It is important to realize that a diagram _itself_ can also be “Synchronized with Model”: make sure nothing is selected, then right-click a diagram to enable or disable this global synchronization option. If this is selected, Papyrus will decide automatically the elements showing up on the diagram. For example, on a Class diagram, it will simply show all classes.
 
-I suggest to not select this option (neither the global nor the local synchronization): I find it usually does not help and it is confusing to not be able afterwards to remove some representations manually. You typically want to decide manually which elements you want to show on a diagram. Alternatively, when there are a lot of elements to represent, select the option to let every related elements appear, then immediately de-select it, to save time without suffering limitations.
+I suggest to not select this option (neither the global nor the local synchronization):
+you typically want to decide manually which elements you want to show on a diagram;
+and it is confusing to be forbidden to remove some representations manually. 
+Alternatively, when there are a lot of elements to represent, select the option to let every related elements appear, then immediately de-select it, to save time without suffering limitations.
 
 == Key bindings
 Have a look at the key bindings, available using a link in the Papyrus https://wiki.eclipse.org/Papyrus_User_Guide[User Guide].
