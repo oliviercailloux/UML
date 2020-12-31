@@ -13,29 +13,28 @@ Let’s add a few classes and properties to our model, then display them in a di
 ** To type this property, we need the type String. We do not have to define this type ourselves, suffices to import the right package.
 ** From your root element, `Import` / `Import Registered Package`, choose `UML Primitive Types`, make sure you https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Import[select `Import`] and not `Load` as action.
 ** In the `Properties` view of the `fullName` property, click the button next to `Type` and select (under `UMLPrimitiveTypes`) `« EDataType » String` as its type.
-** Observe that the property is now showed as `fullName: String` in the `Model Explorer`.
+** Observe that the property is now shown as `fullName: String` in the `Model Explorer`.
 * Add a `Class` named `User` as another child of your root element.
 * Add a `Generalization` relationship to your `User`, select `Person` as target.
 * Add a `Property` to your `User`, as name, type `contact: Perso` then hit CTRL+Space to trigger auto-completion, select `My model::Person` from the list.
 ** Observe that the `Properties` view of this new `contact` property shows that its type is `Person`.
-* Thinking about it, we prefer to transform this simple property into a proper association.
-** Right-click the `contact` property, and from the `Utils` sub-menu, click `Create Association From Property`. This creates a new `A_contact_user` element (an `Association`) in your model.
-** If you do not see the `Utils` sub-menu, you miss the “Papyrus Java profile, library and code generation” feature (see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install{emptyattribute}[install]).
-** Name this association `Assocation user to contact`.
-** It the `Properties` view of this new association, you see two member ends. This gives you information about the two `Properties` related to this `Association`. The first member end, `contact`, is owned by the `Classifier`, meaning, here, the `User`. Indeed, as you can see in the `Model Explorer`, `User` (still) has a `contact` property as a child. The second member end, `user`, is owned by the association itself. Indeed, you can see it appear as a child of the `Association user to contact` association in your model explorer. Try changing ownership and see the related properties change owner. For example, if you set the `contact` member end as owned by the `Association`, you will see the `contact` property disappear from under `User` and appear as a sub-member of the association.
-** The association is created as a composite association, which is not what we want here. In the properties of the association, in the part related to the first (`contact`) member end, change `Aggregation` from `composite` to `none`. Observe that the related icon changes in the `Model Explorer`.
+* Thinking about it, we prefer to transform this simple property into a proper association. Delete the `contact` property.
+** Add an `Association` relationship to your `User`, name it `Assocation user to contact`.
+** Add two `Property` elements as child of your association, one named `contact` having type `Person`, one named `user` having type `User`.
+** It the `Properties` view of your association, you see two member ends. This gives you information about the two `Properties` related to this `Association`. They are currently both owned by the `Association`, as you created them as children of that element. Change the `contact` property owner to `Classifier`. Observe in the `Model Explorer` that, as a result, the `contact` property moved from being a child of the association element to being a direct child of the `User` class. Still in the properties of the association element, set the `contact` property as navigable, to indicate that navigation is possible from the `user` end of the association to the `contact` of the user.
+** Check that the association, in the `Aggregation` property, is not defined as a composite or shared association.
 
 Let’s now display these classes and relationships in a diagram.
 
 * Add a Class diagram as a child of your root element, name it `User and Person`.
 * Drag the `Person` element in the top part of the diagram.
 * Drag the `User` element below the representation of `Person` in the diagram.
-* Right-click the `User` element, and in the `Filters` sub-menu, click `Show All Related Link`. Both the association and the generalization appear in the diagram.
+* Drag the `Generalization` and `Association` children of `User` in the diagram.
 ** Rearrange manually the end points of these relationships for a clearer display. Right-click on the association representation and use `Filters` / `Show/Hide Labels` to lighten the diagram.
-* Right-click the `User` element, and in the `Filters` sub-menu, click `Show/Hide Contents` to hide its `contact` property.
+* Right-click the `User` element, and in the `Filters` sub-menu, click `Show/Hide Contents` to show or hide its `contact` property. In our example, we prefer to display the relationship between a user and its contact person with an association, thus, we choose to hide the `contact` property from the compartments of the `User` class.
 
-You will also need to import the `Java Primitive Types` package in order to use types such as `boolean`, `int` or `double`. (The `JavaLibrary` package provides many more types such as `Integer` or `BigDecimal`, I suggest to import it only if absolutely required.)
+You will also need to import the `Java Primitive Types` package in order to use types such as `boolean`, `int` or `double`. (The `JavaLibrary` package provides many more types such as `Integer` or `BigDecimal`, I suggest to import it if and only if absolutely required.)
 
 Add an operation to a class, give it some `int` parameter with multiplicity `[1..*]`. Use the `Appearance` sub-menu (in `Properties` when the representation is selected) to display the multiplicity and to hide the parameter direction. (https://www.eclipse.org/forums/index.php/m/954561/?srch=papyrus+operation+multiplicity#msg_954561[This] might be useful.)
 
-Note that if you follow https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases], you will also have a `User role` element in your model. In the scenario presented here, this element is considered as conceptually different than your `User` element. If these two things are in fact the same (thus, if the class represents a person playing the role of a user of your system), then you might want to create only one element (a `Class`) and use that class instead of the actor in the use case diagram.
+Note that if you follow https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases], you will also have a `User role` element in your model. In the scenario presented here, this element is considered as conceptually different than your `User` element. If these two things are in fact the same (thus, if the class represents a person playing the role of a user of a system), then you might want to create only one element (a `Class`) and use that class instead of the actor in the use case diagram.
