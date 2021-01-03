@@ -19,7 +19,7 @@ Exemple : Java. if (a < 3) { …} ok mais if (a is smaller than 3) pas permis. O
 
 Termes définis précisément : classe ; association ; attribut ; généralisation ; événement… S’assemblent selon des règles précises : une classe contient des attributs et peut être associée à d’autres classes, une classe peut en généraliser une autre ; un objet peut réagir à une occurrence d’événement ; …
 
-Pour : décrire, modéliser dans un langage précis.
+Pour : modéliser, décrire dans un langage précis.
 
 Habituellement : modéliser un système à implémenter ou implémenté (en vue de la maintenance). Un logiciel pour organiser les cours ; une application téléphone pour chercher les éclipses dans le monde.
 
