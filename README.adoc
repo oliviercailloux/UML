@@ -1,7 +1,5 @@
 = UML
 
-image:https://api.travis-ci.com/oliviercailloux/UML.svg?branch=master["Link Status", link="https://travis-ci.com/oliviercailloux/UML"]
-
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
 * https://teams.microsoft.com/l/meetup-join/19%3ameeting_YThjOGQ2ZTgtNDFhNC00ZTA3LTk5NWUtMmQ0ZWNlZTFlMTYw%40thread.v2/0?context=%7b%22Tid%22%3a%2281e7c4de-26c9-4531-b076-b70e2d75966e%22%2c%22Oid%22%3a%22db290b1a-6988-4d6b-91c6-9ddd729313f6%22%7d[Teams]
@@ -13,16 +11,16 @@ image:https://api.travis-ci.com/oliviercailloux/UML.svg?branch=master["Link Stat
 === S1
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * Présentation d’UML
-* Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage]
+* Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : https://universitedauphine-my.sharepoint.com/:x:/g/personal/olivier_cailloux_lamsade_dauphine_fr/Edx2GVhss0dFk1cq3LtScj8BnvsPy6_d50sYeCcrFZpBnw?e=qCjocf[Affectation]
 * https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
-* https://classroom.github.com/a/wI-tbsei[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://help.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
+* https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://help.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
 
 // Donner uniquement 10 minutes avant la pause (raccourcir présentation d’UML !)
 
 [[S2]]
 === S2
-* Exercice noté "commit". Interdiction d’utiliser l’interface de GitHub pour vos commits. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID). Documents du cours autorisés. Vous aurez 15 minutes. Concernant : commits, branches, et shell.
+* Exercice noté "commit" : commits, branches, et shell. Interdiction d’utiliser l’interface de GitHub pour vos commits. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID). Documents du cours autorisés. Vous aurez 15 minutes.
 
 //** [Énoncé an passé ! Cette année, inclusion : branches et Shell] Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial (COMMIT) un fichier texte `id.txt` (ID_FILE_EXISTS) contenant uniquement votre numéro d’étudiant de Dauphine (ID_FILE_CONTENTS). Faites en sorte que ce commit, et seulement ce commit (ONE_COMMIT), apparaisse dans votre dépôt de remise.
 
