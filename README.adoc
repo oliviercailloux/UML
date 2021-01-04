@@ -13,7 +13,7 @@
 === S1
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * Présentation d’UML
-* Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : https://universitedauphine-my.sharepoint.com/:x:/g/personal/olivier_cailloux_lamsade_dauphine_fr/Edx2GVhss0dFk1cq3LtScj8BnvsPy6_d50sYeCcrFZpBnw?e=qCjocf[Affectation]
+* Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : Affectation
 * https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
 * https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://help.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.

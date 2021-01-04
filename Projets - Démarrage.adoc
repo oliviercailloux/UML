@@ -1,7 +1,7 @@
 = Projets : démarrage
 
 == Affectation initiale
-* https://github.com/oliviercailloux/projets/tree/master/Énoncés[Énoncés]
+* https://universitedauphine-my.sharepoint.com/:x:/g/personal/olivier_cailloux_lamsade_dauphine_fr/Edx2GVhss0dFk1cq3LtScj8BnvsPy6_d50sYeCcrFZpBnw?e=qCjocf[Affectation]
 * Max. une équipe par sujet
 * Équipes de 4 à 7
 * Obligation d’accepter membres supplémentaires à la demande si < 7
