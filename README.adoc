@@ -1,6 +1,6 @@
 = UML
 
-image::.github/Links%20check.svg[opts="inline"]
+image::.github/LinksCheckFail.svg[opts="inline"]
 
 image::.github/Links%20check.svg["Links check status", link="https://github.com/oliviercailloux/UML/blob/master/.github/Last%20results.json"]
 
