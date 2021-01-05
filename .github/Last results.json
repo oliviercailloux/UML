@@ -378,7 +378,7 @@
             "README.adoc"
         ],
         "response": 302,
-        "satisfied": false,
+        "satisfied": true,
         "when": "2021-01-05T15:59:11.441314Z"
     },
     {
@@ -427,15 +427,6 @@
         "when": "2021-01-05T15:59:14.123912Z"
     },
     {
-        "url": "https://help.github.com/en/github/administering-a-repository/deleting-a-repository",
-        "sources": [
-            "README.adoc"
-        ],
-        "response": 301,
-        "satisfied": false,
-        "when": "2021-01-05T15:59:14.538857Z"
-    },
-    {
         "url": "https://github.com/oliviercailloux/java-course/blob/master/Dev%20tools/Eclipse.adoc",
         "sources": [
             "README.adoc"
@@ -480,16 +471,6 @@
         "response": 200,
         "satisfied": true,
         "when": "2021-01-05T15:59:16.274756Z"
-    },
-    {
-        "url": "http://staruml.io/",
-        "sources": [
-            "README.adoc",
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 301,
-        "satisfied": false,
-        "when": "2021-01-05T15:59:16.629098Z"
     },
     {
         "url": "https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html",
@@ -608,7 +589,7 @@
             "Pré-rentrée/README.adoc"
         ],
         "response": 302,
-        "satisfied": false,
+        "satisfied": true,
         "when": "2021-01-05T15:59:19.375590Z"
     },
     {
@@ -635,7 +616,7 @@
             "Projets - Démarrage.adoc"
         ],
         "response": 302,
-        "satisfied": false,
+        "satisfied": true,
         "when": "2021-01-05T15:59:20.865973Z"
     },
     {
@@ -646,5 +627,24 @@
         "response": 200,
         "satisfied": true,
         "when": "2021-01-05T15:59:21.340846Z"
+    },
+    {
+        "url": "https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/deleting-a-repository",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-05T16:10:06.235432Z"
+    },
+    {
+        "url": "https://staruml.io/",
+        "sources": [
+            "README.adoc",
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-05T16:10:06.923146Z"
     }
 ]

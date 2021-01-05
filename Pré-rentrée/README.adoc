@@ -14,7 +14,7 @@ Links taken from the https://www.edx.org/bio/eric-s-lander[course] “Introducti
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
-* https://www.eclipse.org/papyrus/download.html[Papyrus], une implémentation open source très respectueuse de la spécification (mais prise en main difficile) (alternative : on m’a recommandé http://staruml.io/[StarUML], mais closed source et payant)
+* https://www.eclipse.org/papyrus/download.html[Papyrus], une implémentation open source très respectueuse de la spécification (mais prise en main difficile) (alternative : on m’a recommandé https://staruml.io/[StarUML], mais closed source et payant)
 * https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
 * https://www.lamsade.dauphine.fr/~negre/coursfr.html[Cours] de Elsa Negre
 * Livre : Fowler - UML Distilled: A Brief Guide to the Standard Object Modeling Language (2003), comment bien ne pas respecter la specification

@@ -22,7 +22,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 * Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : Affectation
 * https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
-* https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://help.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
+* https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
 
 // Affectation commencée 15 minutes avant la pause mais a quand-même débordé de 15 minutes après la pause : 45 minutes ! Il semble largement possible de raccourcir, cependant.
 
@@ -87,7 +87,7 @@ Bilan
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
-* https://www.eclipse.org/papyrus/download.html[Papyrus], une implémentation open source très respectueuse de la spécification (mais prise en main difficile) (alternative : on m’a recommandé http://staruml.io/[StarUML], mais closed source et payant)
+* https://www.eclipse.org/papyrus/download.html[Papyrus], une implémentation open source très respectueuse de la spécification (mais prise en main difficile) (alternative : on m’a recommandé https://staruml.io/[StarUML], mais closed source et payant)
 * https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html[Cours] de Maude Manouvrier
 * https://www.lamsade.dauphine.fr/~negre/coursfr.html[Cours] de Elsa Negre
 * Livre : Fowler - UML Distilled: A Brief Guide to the Standard Object Modeling Language (2003), comment bien ne pas respecter la spécification
