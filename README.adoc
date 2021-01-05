@@ -1,5 +1,11 @@
 = UML
 
+image:https://raw.githubusercontent.com/oliviercailloux/UML/master/.github/Links%20check.svg["Links check status", link="https://github.com/oliviercailloux/UML/blob/master/.github/Last%20results.json"]
+
+// https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/oliviercailloux/UML/master/.github/Badge.json&label=links%20check
+// https://img.shields.io/static/v1?label=Links%20check&message=Pass%20(2021-01-05)&color=green
+// https://img.shields.io/static/v1?label=Links%20check&message=Fail&color=red
+
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
 * https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4@thread.tacv2/1609694419561[Teams]
@@ -18,7 +24,7 @@
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
 * https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://help.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
 
-// Donner uniquement 10 minutes avant la pause (raccourcir présentation d’UML !)
+// Affectation commencée 15 minutes avant la pause mais a quand-même débordé de 15 minutes après la pause : 45 minutes ! Il semble largement possible de raccourcir, cependant.
 
 [[S2]]
 === S2
