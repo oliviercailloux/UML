@@ -1,10 +1,6 @@
 = UML
 
-image::.github/LinksCheckFail.svg[opts="inline"]
-
 image::.github/Links%20check.svg["Links check status", link="https://github.com/oliviercailloux/UML/blob/master/.github/Last%20results.json"]
-
-image::.github/Links%20check.svg["Links check status", opts="inline", link="https://github.com/oliviercailloux/UML/blob/master/.github/Last%20results.json"]
 
 // https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/oliviercailloux/UML/master/.github/Badge.json&label=links%20check
 // https://img.shields.io/static/v1?label=Links%20check&message=Pass%20(2021-01-05)&color=green
