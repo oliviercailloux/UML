@@ -2,7 +2,7 @@
 
 [[Install]]
 == Installing Papyrus
-I recommend installing Papyrus over your Eclipse installation: `Help` / `Install new software…` / Work with: +`2020-12 - \http://download.eclipse.org/releases/2020-12`+; in the list of available features you will find `Modeling` / `Papyrus for UML`.
+I recommend installing Papyrus over your Eclipse installation: `Help` / `Install new software…` / Work with: +`2020-12 - http://download.eclipse.org/releases/2020-12`+; in the list of available features you will find `Modeling` / `Papyrus for UML`.
 
 == Storage of properties
 Papyrus unfortunately stores some of the properties of your model not in the file hierarchy of the project itself, but in your Eclipse workspace (specifically, in `.metadata/.plugins/org.eclipse.papyrus.infra…`). Thus, if you transfer the project to someone else, these properties will not be transferred, and are not versioned easily in a https://en.wikipedia.org/wiki/Version_control[VCS]. This concerns generally those properties that belong to Papyrus and not to UML, including: the enabled `Architecture Viewpoints`, the choice of using internationalization, or the profiles to load (the imports, however, are part of your UML model and are stored in the `.uml` file). Fortunately, these files do not matter much as they do not change the semantics of your model.
