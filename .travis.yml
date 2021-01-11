@@ -1,9 +1,0 @@
-language: ruby
-git:
-  depth: 1
-rvm: 2.4.1
-before_script: gem install awesome_bot
-script: find \( -name "*.adoc" -or -name "presentation.tex" \) -print0 | xargs -0 awesome_bot --allow 302 --allow-dupe --white-list 'http://www.eclipse.org/uml2/5.0.0/UML'
-notifications:
-  email: false
-
