@@ -6,8 +6,8 @@ You know how to manipulate Eclipse views. You have https://github.com/oliviercai
 == A new Papyrus model
 
 * You can put your Papyrus model in any kind of project. (You can also create a `Papyrus project`, but I didn’t find any advantage of doing so.)
-** If you do not have a project available to hold your model, create an empty “General” project: `File` / `New` / `General` / `Project`
-* In that project, create an empty model: `File` / `New` / `Papyrus` / `Papyrus Model`.
+** If you do not have a project available to hold your model, create an empty “General” project: `File` / `New` / `Project…` / `General` / `Project`
+* In that project, create an empty model: `File` / `New` / `Other…` / `Papyrus` / `Papyrus Model`.
 ** Keep selected as `Architecture Contexts`: `Software Engineering` / `UML`, and as `Architecture Viewpoints` keep both `Software Analysis` and `Software Design` (to have all kinds of diagrams available)
 ** Name it `My model.di`, for example
 ** Keep every representations unchecked; uncheck “A UML model with basic primitive types” to start as clean as possible; load no template or profile.
