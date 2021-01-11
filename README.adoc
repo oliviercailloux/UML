@@ -30,7 +30,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 === S2
 Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] “for Java Developers”
 
-* Exercice noté "commit" : commits, branches, et shell. Interdiction d’utiliser l’interface de GitHub pour vos commits. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID). Vous devrez entre autres indiquer votre n° d’étudiant dans un fichier. Documents du cours autorisés. Vous aurez 15 minutes.
+* Exercice noté "commit" : commits, branches, et shell. Interdiction d’utiliser l’interface de GitHub pour vos commits. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID). Vous devrez entre autres indiquer votre n° d’étudiant dans un fichier. Documents du cours autorisés. Vous aurez 15 minutes. Chaque minute de retard au-delà vous coute 10\% de votre note (décompte à la seconde).
 
 //** [Énoncé an passé ! Cette année, inclusion : branches et Shell] Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial (COMMIT) un fichier texte `id.txt` (ID_FILE_EXISTS) contenant uniquement votre numéro d’étudiant de Dauphine (ID_FILE_CONTENTS). Faites en sorte que ce commit, et seulement ce commit (ONE_COMMIT), apparaisse dans votre dépôt de remise.
 
