@@ -38,7 +38,7 @@ Créez votre dépôt de remise https://classroom.github.com/a/wJaBYDn9[ici]. Cr�
 
 * https://github.com/oliviercailloux/java-course/blob/master/Dev%20tools/Eclipse.adoc[Eclipse] basics
 * Git : push, fetch
-* Les cas d’utilisation en UML (image:Use%20cases.svg[Illustration])
+* Les cas d’utilisation en UML (https://raw.githubusercontent.com/oliviercailloux/UML/master/Use%20cases.svg[Illustration])
 
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 * Projets - Instructions https://github.com/oliviercailloux/java-course/blob/master/L3/Projets.adoc[générales] et https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions%20UML.adoc[UML]
