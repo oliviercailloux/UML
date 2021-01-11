@@ -153,22 +153,12 @@
     {
         "url": "https://www.eclipse.org/papyrus/download.html",
         "sources": [
-            "Papyrus/Various.adoc",
             "README.adoc",
             "Pré-rentrée/README.adoc"
         ],
         "response": 200,
         "satisfied": true,
         "when": "2021-01-05T15:58:49.029949Z"
-    },
-    {
-        "url": "http://download.eclipse.org/modeling/mdt/papyrus/components/designer/",
-        "sources": [
-            "Papyrus/Various.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:58:49.379628Z"
     },
     {
         "url": "https://en.wikipedia.org/wiki/Version_control",
@@ -646,5 +636,32 @@
         "response": 200,
         "satisfied": true,
         "when": "2021-01-05T16:10:06.923146Z"
+    },
+    {
+        "url": "https://www.eclipse.org/downloads/packages/",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-11T15:23:37.521252Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/java-course/blob/master/Git/Commit.adoc",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-11T15:23:38.417964Z"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/oliviercailloux/UML/master/Use%20cases.svg",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-11T15:23:39.003727Z"
     }
 ]
