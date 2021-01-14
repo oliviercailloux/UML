@@ -16,7 +16,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 
 == Plan
 [[S1]]
-=== S1
+=== S1 (4 janvier 2021)
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * Présentation d’UML
 * Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : Affectation
@@ -27,7 +27,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 // Affectation commencée 15 minutes avant la pause mais a quand-même débordé de 15 minutes après la pause : 45 minutes ! Il semble largement possible de raccourcir, cependant.
 
 [[S2]]
-=== S2
+=== S2 (11)
 Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] “for Java Developers”
 
 * Exercice noté https://github.com/oliviercailloux/java-course/blob/master/Git/Commit.adoc[commit]
@@ -40,14 +40,17 @@ Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] 
 // Débordé de 30 minutes sur deuxième créneau avec les cas d’utilisation, mais ça devrait aller plus vite avec un meilleur tableau.
 
 [[S3]]
-=== S3
+=== S3 (25)
+Préparation : démarrage du projet ; établir en équipe un plan de première itération à discuter avec moi.
+
+* Exercice noté : Use cases. Construire un modèle Papyrus permettant de déduire quelques diagrammes de cas fournis dans l’énoncé.
 * Les diagrammes de classes en UML
 * Travail sur projet
 
-Remise livraison 1 : fin du 16 mars. Prévoir 8h de travail efficace par binôme en Java pour l’itération 1. (Vous pouvez également préparer l’itération 2.)
+Remise livraison 1 : fin du 31 janvier. Prévoir 8h de travail efficace par binôme.
 
 [[S4]]
-=== S4 (20 mars)
+=== S4 (…)
 * Travail sur projet : commentaires suite livraison 1 ; préparation livraison 2
 
 Remise livraison 2 : fin du 30 mars. Consigne : améliorer votre première livraison suite aux commentaires ; préparer _minutieusement_ la première itération Java à l’aide de diagrammes détaillés. Créer un document `It2.adoc` qui liste vos modifications et la répartition des tâches par sous-équipes.
