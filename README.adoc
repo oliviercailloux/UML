@@ -41,19 +41,15 @@ Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] 
 
 [[S3]]
 === S3 (25)
-Préparation : démarrage du projet ; établir en équipe un plan de première itération à discuter avec moi.
-
 * Exercice noté : Use cases. Construire un modèle Papyrus permettant de déduire quelques diagrammes de cas fournis dans l’énoncé.
 * Les diagrammes de classes en UML
-* Travail sur projet
-
-Remise livraison 1 : fin du 31 janvier. Prévoir 8h de travail efficace par binôme.
+*  Démarrage du projet  : établir en équipe un plan de première itération à discuter avec moi.
 
 [[S4]]
 === S4 (…)
 * Travail sur projet : commentaires suite livraison 1 ; préparation livraison 2
 
-Remise livraison 2 : fin du 30 mars. Consigne : améliorer votre première livraison suite aux commentaires ; préparer _minutieusement_ la première itération Java à l’aide de diagrammes détaillés. Créer un document `It2.adoc` qui liste vos modifications et la répartition des tâches par sous-équipes.
+Remise livraison 1 : fin du 14 février. Prévoir 8h de travail efficace par binôme.
 
 [[S5]]
 === S5
