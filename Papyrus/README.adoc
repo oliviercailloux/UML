@@ -4,7 +4,7 @@ First: https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#I
 
 == Tutorials
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[Create] a Papyrus model
-* https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc[Use cases]
+* https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Use%20cases.adoc[Use cases]
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Classes.adoc[Classes]
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc[Sequences]
 
