@@ -115,7 +115,7 @@
             "Papyrus/Sequences.adoc",
             "Papyrus/Classes.adoc",
             "Papyrus/README.adoc",
-            "Papyrus/Use cases.adoc"
+            "Papyrus/Use cases/Use cases.adoc"
         ],
         "response": 200,
         "satisfied": true,
@@ -278,16 +278,6 @@
         "when": "2021-01-05T15:59:07.032363Z"
     },
     {
-        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases.adoc",
-        "sources": [
-            "Papyrus/Classes.adoc",
-            "Papyrus/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:07.545051Z"
-    },
-    {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc",
         "sources": [
             "Papyrus/README.adoc",
@@ -318,7 +308,7 @@
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Representation",
         "sources": [
-            "Papyrus/Use cases.adoc"
+            "Papyrus/Use cases/Use cases.adoc"
         ],
         "response": 200,
         "satisfied": true,
@@ -327,7 +317,7 @@
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Synchronization",
         "sources": [
-            "Papyrus/Use cases.adoc"
+            "Papyrus/Use cases/Use cases.adoc"
         ],
         "response": 200,
         "satisfied": true,
@@ -663,5 +653,15 @@
         "response": 200,
         "satisfied": true,
         "when": "2021-01-11T15:23:39.003727Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Use%20cases.adoc",
+        "sources": [
+            "Papyrus/Classes.adoc",
+            "Papyrus/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-24T11:53:46.477944Z"
     }
 ]
