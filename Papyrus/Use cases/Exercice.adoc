@@ -9,6 +9,14 @@ Create a new Papyrus model. Create in that model the UML elements required to ma
 .Diagram showing that our system permits an admin to manage users
 image::Admin%20manages%20users.svg[opts="inline"]
 
+[[D2]]
+.Diagram showing more use cases and their relationships
+image::Use%20cases%20relationships.svg[opts="inline"]
+
+[[D3]]
+.Diagram with a focus on user creation
+image::Admin%20creates%20user.svg[opts="inline"]
+
 You will be graded according to the following criteria (roughly by order of importance).
 
 . All UML elements required for drawing these diagrams are present
