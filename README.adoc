@@ -16,7 +16,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 
 == Plan
 [[S1]]
-=== S1
+=== S1 (4 janvier 2021)
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * Présentation d’UML
 * Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : Affectation
@@ -27,33 +27,29 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 // Affectation commencée 15 minutes avant la pause mais a quand-même débordé de 15 minutes après la pause : 45 minutes ! Il semble largement possible de raccourcir, cependant.
 
 [[S2]]
-=== S2
+=== S2 (11)
 Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] “for Java Developers”
 
-* Exercice noté "commit" : commits, branches, et shell. Interdiction d’utiliser l’interface de GitHub pour vos commits. Votre `user.name` doit être égal à votre nom d’utilisateur sur GitHub (ID). Vous devrez entre autres indiquer votre n° d’étudiant dans un fichier. Documents du cours autorisés. Vous aurez 15 minutes.
-
-Créez un commit initial contenant uniquement un fichier texte `afile.txt` contenant `coucou`. Créez une branche `coucou` pointant vers ce commit. Sur la branche `master`, créez un deuxième commit contenant, en plus du fichier `afile.txt` inchangé, un nouveau fichier `myid.txt` contenant uniquement votre numéro d’étudiant de Dauphine. Laissez la branche `master` sur ce commit, créez une nouvelle branche `dev` à cet endroit et basculez dessus. Créez dans cette branche un troisième commit, contenant en plus un fichier dont le chemin, relativement à un sous-répertoire `sub/` de votre répertoire de travail, serait `some sub sub folder/../a/another file.txt` (peu importe son contenu). Notez les espaces dans le nom. Vous devez donc créer les répertories intermédiaires nécessaires (inutile par contre de créer des répertoires vides). Utilisez la commande `git push origin master coucou dev` pour envoyer vos branches sur le dépôt distant.
-
-//** [Énoncé an passé ! Cette année, inclusion : branches et Shell] Créez votre dépôt de remise https://classroom.github.com/a/hQKmTt6U[ici]. Créez dans un commit initial (COMMIT) un fichier texte `id.txt` (ID_FILE_EXISTS) contenant uniquement votre numéro d’étudiant de Dauphine (ID_FILE_CONTENTS). Faites en sorte que ce commit, et seulement ce commit (ONE_COMMIT), apparaisse dans votre dépôt de remise.
-
+* Exercice noté https://github.com/oliviercailloux/java-course/blob/master/Git/Commit.adoc[commit]
 * https://github.com/oliviercailloux/java-course/blob/master/Dev%20tools/Eclipse.adoc[Eclipse] basics
 * Git : push, fetch
-* Les cas d’utilisation en UML
+* Les cas d’utilisation en UML (https://raw.githubusercontent.com/oliviercailloux/UML/master/Use%20cases.svg[Illustration])
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 * Projets - Instructions https://github.com/oliviercailloux/java-course/blob/master/L3/Projets.adoc[générales] et https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions%20UML.adoc[UML]
 
-[[S3]]
-=== S3
-* Les diagrammes de classes en UML
-* Travail sur projet
+// Débordé de 30 minutes sur deuxième créneau avec les cas d’utilisation, mais ça devrait aller plus vite avec un meilleur tableau.
 
-Remise livraison 1 : fin du 16 mars. Prévoir 8h de travail efficace par binôme en Java pour l’itération 1. (Vous pouvez également préparer l’itération 2.)
+[[S3]]
+=== S3 (25)
+* Exercice noté : Use cases. S’assurer que le `user.name` de git égale votre identifiant GitHub. Construire un modèle Papyrus permettant de déduire quelques diagrammes de cas fournis dans l’énoncé.
+* Les diagrammes de classes en UML
+*  Démarrage du projet  : établir en équipe un plan de première itération à discuter avec moi.
 
 [[S4]]
-=== S4 (20 mars)
+=== S4 (…)
 * Travail sur projet : commentaires suite livraison 1 ; préparation livraison 2
 
-Remise livraison 2 : fin du 30 mars. Consigne : améliorer votre première livraison suite aux commentaires ; préparer _minutieusement_ la première itération Java à l’aide de diagrammes détaillés. Créer un document `It2.adoc` qui liste vos modifications et la répartition des tâches par sous-équipes.
+Remise livraison 1 : fin du 14 février. Prévoir 8h de travail efficace par binôme.
 
 [[S5]]
 === S5
