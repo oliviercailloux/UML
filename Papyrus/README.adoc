@@ -11,4 +11,5 @@ First: https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#I
 == References
 * A https://github.com/oliviercailloux/Simple-Papyrus-project[Simple Papyrus project]
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc[Various] remarks
+* https://github.com/oliviercailloux/UML-metamodel-in-Papyrus[UML metamodel in Papyrus]
 
