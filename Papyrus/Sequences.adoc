@@ -3,7 +3,7 @@
 :emptyattribute:
 
 == Prerequisites
-You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[created] a Papyrus model and followed the https://github.com/oliviercailloux/UML/blob/master/Papyrus/Classes.adoc[Classes] tutorial.
+You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[created] a Papyrus model and followed the https://github.com/oliviercailloux/UML/blob/master/Papyrus/Classes/Classes.adoc[Classes] tutorial.
 
 == Sequences
 You should already have in your model a class `Person` with a `fullName` and an ability to `sayHello()`, and a specialization of it, `User`, who has a `contact` person.
