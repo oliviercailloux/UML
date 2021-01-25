@@ -22,7 +22,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 * Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : Affectation
 * https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
-* https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
+* https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://docs.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
 
 // Affectation commencée 15 minutes avant la pause mais a quand-même débordé de 15 minutes après la pause : 45 minutes ! Il semble largement possible de raccourcir, cependant.
 
