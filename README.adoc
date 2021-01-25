@@ -43,7 +43,7 @@ Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] 
 === S3 (25)
 * Exercice noté : https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Exercice.adoc[Admin manages users]. S’assurer que le `user.name` de git égale votre identifiant GitHub. Construire un modèle Papyrus permettant de déduire quelques diagrammes de cas fournis dans l’énoncé.
 * Les diagrammes de classes en UML
-*  Démarrage du projet  : établir en équipe un plan de première itération à discuter avec moi.
+*  https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] du projet  : établir en équipe un plan de première itération à discuter avec moi.
 
 [[S4]]
 === S4 (…)

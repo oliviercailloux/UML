@@ -1,5 +1,5 @@
 = Exercice: Admin manages users
-In this graded exercice we will create a Papyrus model that allows us to show that our system allows an administrator to manage users, and more precisely, to create and delete users.
+In this graded exercice we will create a Papyrus model that allows us to show that our system allows an administrator to manage users, and more precisely, to create and delete users. (End at 14:11 + max 5 minutes for late returns)
 
 Accept https://classroom.github.com/a/yH9kBSeP[this assignment]. This creates a repository to which you must push the Papyrus model file that you will create.
 
