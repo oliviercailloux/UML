@@ -46,8 +46,10 @@ Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] 
 *  https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] du projet  : établir en équipe un plan de première itération à discuter avec moi.
 
 [[S4]]
-=== S4 (…)
-* Travail sur projet : commentaires suite livraison 1 ; préparation livraison 2
+=== S4 (8 février)
+Préparation : établir en équipe un plan de première itération à discuter avec moi.
+
+* Travail sur projet & tutoriel diagrammes de classes
 
 Remise livraison 1 : fin du 14 février. Prévoir 8h de travail efficace par binôme.
 
