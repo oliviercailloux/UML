@@ -6,7 +6,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.477143Z"
+        "when": "2021-01-25T16:35:55.809419Z"
     },
     {
         "url": "Notes.adoc#_langage",
@@ -15,7 +15,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.507309Z"
+        "when": "2021-01-25T16:35:55.840951Z"
     },
     {
         "url": "Notes.adoc#_modèle",
@@ -24,7 +24,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.520074Z"
+        "when": "2021-01-25T16:35:55.860590Z"
     },
     {
         "url": "Notes.adoc#_unifié",
@@ -33,7 +33,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.538604Z"
+        "when": "2021-01-25T16:35:55.882763Z"
     },
     {
         "url": "Notes.adoc#_cas_dutilisation",
@@ -42,7 +42,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.558839Z"
+        "when": "2021-01-25T16:35:55.905549Z"
     },
     {
         "url": "Notes.adoc#_classes",
@@ -51,7 +51,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.575902Z"
+        "when": "2021-01-25T16:35:55.924887Z"
     },
     {
         "url": "Notes.adoc#_état",
@@ -60,7 +60,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.593202Z"
+        "when": "2021-01-25T16:35:55.958093Z"
     },
     {
         "url": "Notes.adoc#_séquence",
@@ -69,7 +69,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.619334Z"
+        "when": "2021-01-25T16:35:55.997117Z"
     },
     {
         "url": "Notes.adoc#_conclusion",
@@ -78,7 +78,7 @@
         ],
         "response": 1,
         "satisfied": true,
-        "when": "2021-01-05T15:58:44.647496Z"
+        "when": "2021-01-25T16:35:56.022566Z"
     },
     {
         "url": "https://en.wikipedia.org/wiki/Unified_Modeling_Language#/media/File:OO_Modeling_languages_history.jpg",
@@ -87,7 +87,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:45.942436Z"
+        "when": "2021-01-25T16:35:57.500725Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc",
@@ -97,7 +97,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:46.548821Z"
+        "when": "2021-01-25T16:35:58.123248Z"
     },
     {
         "url": "https://github.com/oliviercailloux/java-course/blob/master/L3/Projets.adoc",
@@ -107,29 +107,47 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:46.951851Z"
+        "when": "2021-01-25T16:35:58.444299Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc",
         "sources": [
+            "Papyrus/Classes/Classes.adoc",
             "Papyrus/Sequences.adoc",
-            "Papyrus/Classes.adoc",
             "Papyrus/README.adoc",
             "Papyrus/Use cases/Use cases.adoc"
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:47.329235Z"
+        "when": "2021-01-25T16:35:58.806046Z"
     },
     {
-        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Classes.adoc",
+        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Import",
         "sources": [
-            "Papyrus/Sequences.adoc",
+            "Papyrus/Classes/Classes.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:35:59.158765Z"
+    },
+    {
+        "url": "https://www.eclipse.org/forums/index.php/m/954561/?srch=papyrus+operation+multiplicity#msg_954561",
+        "sources": [
+            "Papyrus/Classes/Classes.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:35:59.864685Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Use%20cases.adoc",
+        "sources": [
+            "Papyrus/Classes/Classes.adoc",
             "Papyrus/README.adoc"
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:47.789389Z"
+        "when": "2021-01-25T16:36:00.305246Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install",
@@ -139,7 +157,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:48.272821Z"
+        "when": "2021-01-25T16:36:00.806847Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#storage-of-properties",
@@ -148,17 +166,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:48.366906Z"
-    },
-    {
-        "url": "https://www.eclipse.org/papyrus/download.html",
-        "sources": [
-            "README.adoc",
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:58:49.029949Z"
+        "when": "2021-01-25T16:36:00.886641Z"
     },
     {
         "url": "https://en.wikipedia.org/wiki/Version_control",
@@ -167,7 +175,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:49.479074Z"
+        "when": "2021-01-25T16:36:00.960021Z"
     },
     {
         "url": "https://app.diagrams.net",
@@ -176,7 +184,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:49.800593Z"
+        "when": "2021-01-25T16:36:01.302695Z"
     },
     {
         "url": "https://wiki.eclipse.org/Papyrus_User_Guide",
@@ -185,7 +193,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:50.465160Z"
+        "when": "2021-01-25T16:36:01.945299Z"
     },
     {
         "url": "https://www.eclipse.org/forums/index.php/f/121/",
@@ -194,7 +202,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:50.685224Z"
+        "when": "2021-01-25T16:36:02.185735Z"
     },
     {
         "url": "https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&limit=0&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED",
@@ -203,7 +211,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:55.449729Z"
+        "when": "2021-01-25T16:36:06.907315Z"
     },
     {
         "url": "https://github.com/education/classroom/issues",
@@ -212,7 +220,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:58:56.121299Z"
+        "when": "2021-01-25T16:36:07.683740Z"
     },
     {
         "url": "https://bugs.eclipse.org/bugs/buglist.cgi?product=JDT&limit=0&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED",
@@ -221,7 +229,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:02.599699Z"
+        "when": "2021-01-25T16:36:14.635066Z"
     },
     {
         "url": "https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&limit=0&chfield=%5BBug%20creation%5D&chfieldfrom=2019-01-01&chfieldto=2019-12-31",
@@ -230,7 +238,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:03.547422Z"
+        "when": "2021-01-25T16:36:16.593514Z"
     },
     {
         "url": "https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&limit=0&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&chfield=resolution&chfieldvalue=FIXED&chfieldfrom=2019-01-01&chfieldto=2019-12-31",
@@ -239,7 +247,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:04.270923Z"
+        "when": "2021-01-25T16:36:17.374799Z"
     },
     {
         "url": "https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&j_top=OR&f4=OP&j4=AND_G&f5=bug_status&f6=bug_status&f7=bug_status&o5=changedto&o6=changedafter&o7=changedbefore&v5=RESOLVED&v6=2019-01-01&v7=2019-12-31&f8=CP&f9=OP&j9=AND_G&f10=bug_status&f11=bug_status&f12=bug_status&o10=changedto&o11=changedafter&o12=changedbefore&v10=VERIFIED&v11=2019-01-01&v12=2019-12-31&f13=CP&f14=OP&j14=AND_G&f15=bug_status&f16=bug_status&f17=bug_status&o15=changedto&o16=changedafter&o17=changedbefore&v15=CLOSED&v16=2019-01-01&v17=2019-12-31&f18=CP",
@@ -248,7 +256,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:05.495480Z"
+        "when": "2021-01-25T16:36:18.490498Z"
     },
     {
         "url": "https://bugs.eclipse.org/bugs/buglist.cgi?product=Papyrus&limit=0&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&chfield=%5BBug%20creation%5D&chfieldfrom=2018-01-01&chfieldto=2018-12-31",
@@ -257,25 +265,17 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:06.313390Z"
+        "when": "2021-01-25T16:36:19.270451Z"
     },
     {
-        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Import",
+        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Classes/Classes.adoc",
         "sources": [
-            "Papyrus/Classes.adoc"
+            "Papyrus/Sequences.adoc",
+            "Papyrus/README.adoc"
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:06.538655Z"
-    },
-    {
-        "url": "https://www.eclipse.org/forums/index.php/m/954561/?srch=papyrus+operation+multiplicity#msg_954561",
-        "sources": [
-            "Papyrus/Classes.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:07.032363Z"
+        "when": "2021-01-25T16:36:19.834120Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc",
@@ -285,7 +285,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:08.012704Z"
+        "when": "2021-01-25T16:36:20.201113Z"
     },
     {
         "url": "https://github.com/oliviercailloux/Simple-Papyrus-project",
@@ -294,7 +294,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:08.391826Z"
+        "when": "2021-01-25T16:36:20.668520Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc",
@@ -303,7 +303,52 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:08.471797Z"
+        "when": "2021-01-25T16:36:21.075692Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/UML-metamodel-in-Papyrus",
+        "sources": [
+            "Papyrus/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:21.452316Z"
+    },
+    {
+        "url": "https://classroom.github.com/a/yH9kBSeP",
+        "sources": [
+            "Papyrus/Use cases/Exercice.adoc"
+        ],
+        "response": 302,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:21.993871Z"
+    },
+    {
+        "url": "Papyrus/Use%20cases/Admin%20manages%20users.svg",
+        "sources": [
+            "Papyrus/Use cases/Exercice.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:22.013030Z"
+    },
+    {
+        "url": "Papyrus/Use%20cases/Use%20cases%20relationships.svg",
+        "sources": [
+            "Papyrus/Use cases/Exercice.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:22.028200Z"
+    },
+    {
+        "url": "Papyrus/Use%20cases/Admin%20creates%20user.svg",
+        "sources": [
+            "Papyrus/Use cases/Exercice.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:22.055029Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Representation",
@@ -312,7 +357,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:08.550398Z"
+        "when": "2021-01-25T16:36:22.136666Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Synchronization",
@@ -321,7 +366,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:08.628733Z"
+        "when": "2021-01-25T16:36:22.235425Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/.github/Last%20results.json",
@@ -330,7 +375,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:09.006447Z"
+        "when": "2021-01-25T16:36:22.604103Z"
     },
     {
         "url": "https://app.gosoapbox.com/event/290081765/",
@@ -340,7 +385,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:10.635631Z"
+        "when": "2021-01-25T16:36:23.670492Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Notes.adoc",
@@ -350,7 +395,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:11.046840Z"
+        "when": "2021-01-25T16:36:24.082322Z"
     },
     {
         "url": "https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4@thread.tacv2/1609694419561",
@@ -359,7 +404,7 @@
         ],
         "response": 302,
         "satisfied": true,
-        "when": "2021-01-05T15:59:11.441314Z"
+        "when": "2021-01-25T16:36:24.417565Z"
     },
     {
         "url": "https://github.com/oliviercailloux/Teaching/blob/main/README.adoc#take-notes",
@@ -368,7 +413,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:11.955338Z"
+        "when": "2021-01-25T16:36:24.830548Z"
     },
     {
         "url": "https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf",
@@ -377,7 +422,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:12.455469Z"
+        "when": "2021-01-25T16:36:25.079658Z"
     },
     {
         "url": "https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc",
@@ -386,7 +431,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:13.155255Z"
+        "when": "2021-01-25T16:36:25.444948Z"
     },
     {
         "url": "https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc",
@@ -395,7 +440,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:13.641272Z"
+        "when": "2021-01-25T16:36:25.793043Z"
     },
     {
         "url": "https://classroom.github.com/a/mgecjMoT",
@@ -404,7 +449,25 @@
         ],
         "response": 302,
         "satisfied": true,
-        "when": "2021-01-05T15:59:14.123912Z"
+        "when": "2021-01-25T16:36:25.944690Z"
+    },
+    {
+        "url": "https://www.eclipse.org/downloads/packages/",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:27.031883Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/java-course/blob/master/Git/Commit.adoc",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:27.355679Z"
     },
     {
         "url": "https://github.com/oliviercailloux/java-course/blob/master/Dev%20tools/Eclipse.adoc",
@@ -413,7 +476,16 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:14.918858Z"
+        "when": "2021-01-25T16:36:27.731715Z"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/oliviercailloux/UML/master/Use%20cases.svg",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:27.792674Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc",
@@ -422,7 +494,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:15.330575Z"
+        "when": "2021-01-25T16:36:28.189184Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions%20UML.adoc",
@@ -431,7 +503,34 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:15.658534Z"
+        "when": "2021-01-25T16:36:28.529015Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Exercice.adoc",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:28.892604Z"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/oliviercailloux/UML/master/Papyrus/Classes/Example%3A%20classes%20and%20metamodel.svg",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:28.958776Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/UML-metamodel-in-Papyrus/tree/classes-car",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:29.342783Z"
     },
     {
         "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#avoid-labels",
@@ -440,7 +539,7 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:15.736326Z"
+        "when": "2021-01-25T16:36:29.427694Z"
     },
     {
         "url": "https://www.uml-diagrams.org/uml-core.html",
@@ -450,172 +549,17 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:16.274756Z"
+        "when": "2021-01-25T16:36:29.973603Z"
     },
     {
-        "url": "https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html",
+        "url": "https://www.eclipse.org/papyrus/download.html",
         "sources": [
             "README.adoc",
             "Pré-rentrée/README.adoc"
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T15:59:16.924928Z"
-    },
-    {
-        "url": "https://www.lamsade.dauphine.fr/~negre/coursfr.html",
-        "sources": [
-            "README.adoc",
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:16.987158Z"
-    },
-    {
-        "url": "https://www.youtube.com/watch?v=yaLGw-ZSUKk",
-        "sources": [
-            "README.adoc",
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:17.620376Z"
-    },
-    {
-        "url": ".github/Links%20check.svg",
-        "sources": [
-            "README.adoc"
-        ],
-        "response": 1,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:17.630626Z"
-    },
-    {
-        "url": "Pré-rentrée/Exercices.adoc#_introduction",
-        "sources": [
-            "Pré-rentrée/Exercices.adoc"
-        ],
-        "response": 1,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:17.638069Z"
-    },
-    {
-        "url": "Pré-rentrée/Exercices.adoc#_revues",
-        "sources": [
-            "Pré-rentrée/Exercices.adoc"
-        ],
-        "response": 1,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:17.647103Z"
-    },
-    {
-        "url": "Pré-rentrée/Exercices.adoc#_soins_de_santé",
-        "sources": [
-            "Pré-rentrée/Exercices.adoc"
-        ],
-        "response": 1,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:17.653641Z"
-    },
-    {
-        "url": "Pré-rentrée/Exercices.adoc#_projets",
-        "sources": [
-            "Pré-rentrée/Exercices.adoc"
-        ],
-        "response": 1,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:17.661593Z"
-    },
-    {
-        "url": "https://www.lamsade.dauphine.fr/~manouvri/UML/CORRECTION_EXOS/",
-        "sources": [
-            "Pré-rentrée/Exercices.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:17.722962Z"
-    },
-    {
-        "url": "https://github.com/oliviercailloux/UML/blob/master/Pr%C3%A9-rentr%C3%A9e/Exercices.adoc",
-        "sources": [
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:18.214125Z"
-    },
-    {
-        "url": "https://app.wooclap.com/UML",
-        "sources": [
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:18.579151Z"
-    },
-    {
-        "url": "https://www.youtube.com/watch?v=AffuwyJZTQQ",
-        "sources": [
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:19.032681Z"
-    },
-    {
-        "url": "https://doi.org/10.1177/0956797614524581",
-        "sources": [
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 302,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:19.375590Z"
-    },
-    {
-        "url": "https://www.edx.org/bio/eric-s-lander",
-        "sources": [
-            "Pré-rentrée/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:19.663302Z"
-    },
-    {
-        "url": "https://universitedauphine-my.sharepoint.com/:x:/g/personal/olivier_cailloux_lamsade_dauphine_fr/Edx2GVhss0dFk1cq3LtScj8BnvsPy6_d50sYeCcrFZpBnw?e=qCjocf",
-        "sources": [
-            "Projets - Démarrage.adoc"
-        ],
-        "response": 403,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:20.309521Z"
-    },
-    {
-        "url": "https://classroom.github.com/g/kQjleEgF",
-        "sources": [
-            "Projets - Démarrage.adoc"
-        ],
-        "response": 302,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:20.865973Z"
-    },
-    {
-        "url": "https://github.com/oliviercailloux/UML",
-        "sources": [
-            "Intro/presentation.pdf"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T15:59:21.340846Z"
-    },
-    {
-        "url": "https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/deleting-a-repository",
-        "sources": [
-            "README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-05T16:10:06.235432Z"
+        "when": "2021-01-25T16:36:30.496959Z"
     },
     {
         "url": "https://staruml.io/",
@@ -625,43 +569,171 @@
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-05T16:10:06.923146Z"
+        "when": "2021-01-25T16:36:31.203270Z"
     },
     {
-        "url": "https://www.eclipse.org/downloads/packages/",
+        "url": "https://www.lamsade.dauphine.fr/~manouvri/UML/CoursUML_MM.html",
+        "sources": [
+            "README.adoc",
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:31.547301Z"
+    },
+    {
+        "url": "https://www.lamsade.dauphine.fr/~negre/coursfr.html",
+        "sources": [
+            "README.adoc",
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:31.610717Z"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=yaLGw-ZSUKk",
+        "sources": [
+            "README.adoc",
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.285374Z"
+    },
+    {
+        "url": ".github/Links%20check.svg",
+        "sources": [
+            "README.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.297243Z"
+    },
+    {
+        "url": "Pré-rentrée/Exercices.adoc#_introduction",
+        "sources": [
+            "Pré-rentrée/Exercices.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.314118Z"
+    },
+    {
+        "url": "Pré-rentrée/Exercices.adoc#_revues",
+        "sources": [
+            "Pré-rentrée/Exercices.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.337219Z"
+    },
+    {
+        "url": "Pré-rentrée/Exercices.adoc#_soins_de_santé",
+        "sources": [
+            "Pré-rentrée/Exercices.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.358277Z"
+    },
+    {
+        "url": "Pré-rentrée/Exercices.adoc#_projets",
+        "sources": [
+            "Pré-rentrée/Exercices.adoc"
+        ],
+        "response": 1,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.377711Z"
+    },
+    {
+        "url": "https://www.lamsade.dauphine.fr/~manouvri/UML/CORRECTION_EXOS/",
+        "sources": [
+            "Pré-rentrée/Exercices.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.458107Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/UML/blob/master/Pr%C3%A9-rentr%C3%A9e/Exercices.adoc",
+        "sources": [
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:32.871037Z"
+    },
+    {
+        "url": "https://app.wooclap.com/UML",
+        "sources": [
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:33.199242Z"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=AffuwyJZTQQ",
+        "sources": [
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:33.712092Z"
+    },
+    {
+        "url": "https://doi.org/10.1177/0956797614524581",
+        "sources": [
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 302,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:34.066729Z"
+    },
+    {
+        "url": "https://www.edx.org/bio/eric-s-lander",
+        "sources": [
+            "Pré-rentrée/README.adoc"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:34.467704Z"
+    },
+    {
+        "url": "https://universitedauphine-my.sharepoint.com/:x:/g/personal/olivier_cailloux_lamsade_dauphine_fr/Edx2GVhss0dFk1cq3LtScj8BnvsPy6_d50sYeCcrFZpBnw?e=qCjocf",
+        "sources": [
+            "Projets - Démarrage.adoc"
+        ],
+        "response": 403,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:35.014609Z"
+    },
+    {
+        "url": "https://classroom.github.com/g/kQjleEgF",
+        "sources": [
+            "Projets - Démarrage.adoc"
+        ],
+        "response": 302,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:35.498527Z"
+    },
+    {
+        "url": "https://github.com/oliviercailloux/UML",
+        "sources": [
+            "Intro/presentation.pdf"
+        ],
+        "response": 200,
+        "satisfied": true,
+        "when": "2021-01-25T16:36:35.960998Z"
+    },
+    {
+        "url": "https://docs.github.com/en/github/administering-a-repository/deleting-a-repository",
         "sources": [
             "README.adoc"
         ],
         "response": 200,
         "satisfied": true,
-        "when": "2021-01-11T15:23:37.521252Z"
-    },
-    {
-        "url": "https://github.com/oliviercailloux/java-course/blob/master/Git/Commit.adoc",
-        "sources": [
-            "README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-11T15:23:38.417964Z"
-    },
-    {
-        "url": "https://raw.githubusercontent.com/oliviercailloux/UML/master/Use%20cases.svg",
-        "sources": [
-            "README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-11T15:23:39.003727Z"
-    },
-    {
-        "url": "https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Use%20cases.adoc",
-        "sources": [
-            "Papyrus/Classes.adoc",
-            "Papyrus/README.adoc"
-        ],
-        "response": 200,
-        "satisfied": true,
-        "when": "2021-01-24T11:53:46.477944Z"
+        "when": "2021-01-25T16:39:04.554327Z"
     }
 ]
