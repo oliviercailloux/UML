@@ -49,7 +49,7 @@ Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] 
 === S4 (8 février)
 Préparation : établir en équipe un plan de première itération à discuter avec moi.
 
-* Travail sur projet & tutoriel diagrammes de classes
+* Travail sur projet & https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[tutoriel] diagrammes de classes
 
 Remise livraison 1 : fin du 14 février. Prévoir 8h de travail efficace par binôme.
 
