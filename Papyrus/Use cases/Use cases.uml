@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_NEtrAF4pEeuO9596SX_tzA" name="Use cases">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_Cfkb0F4qEeuO9596SX_tzA" name="System" useCase="_MA0IkF4qEeuO9596SX_tzA _C2hGwF4rEeuO9596SX_tzA _EZUWQF4rEeuO9596SX_tzA">
+    <nestedClassifier xmi:type="uml:Actor" xmi:id="_b_a6UF4qEeuO9596SX_tzA" name="Admin"/>
+    <nestedClassifier xmi:type="uml:UseCase" xmi:id="_MA0IkF4qEeuO9596SX_tzA" name="Manage users" subject="_Cfkb0F4qEeuO9596SX_tzA"/>
+    <nestedClassifier xmi:type="uml:Association" xmi:id="_YNh1sF4tEeu8hqhSxzZegw" name="Admin manages users" memberEnd="_YNxGQF4tEeu8hqhSxzZegw _YNy7cF4tEeu8hqhSxzZegw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YNpxgF4tEeu8hqhSxzZegw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YNpxgV4tEeu8hqhSxzZegw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YNxGQF4tEeu8hqhSxzZegw" name="manage users" type="_MA0IkF4qEeuO9596SX_tzA" association="_YNh1sF4tEeu8hqhSxzZegw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YNy7cF4tEeu8hqhSxzZegw" name="admin" type="_b_a6UF4qEeuO9596SX_tzA" association="_YNh1sF4tEeu8hqhSxzZegw"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:UseCase" xmi:id="_C2hGwF4rEeuO9596SX_tzA" name="Create user" visibility="public" subject="_Cfkb0F4qEeuO9596SX_tzA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_NF_LcF4rEeuO9596SX_tzA" general="_MA0IkF4qEeuO9596SX_tzA"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:UseCase" xmi:id="_EZUWQF4rEeuO9596SX_tzA" name="Delete user" subject="_Cfkb0F4qEeuO9596SX_tzA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_J2X4AF4vEeukjPE5yKwQpg" general="_MA0IkF4qEeuO9596SX_tzA"/>
+    </nestedClassifier>
+  </packagedElement>
+</uml:Model>
