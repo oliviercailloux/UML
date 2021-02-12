@@ -11,10 +11,14 @@
 Les énoncés contiennent _beaucoup_ plus de propositions que ce que vous serez capables d’implémenter cette année. Placez l’emphase sur ce qui vous intéresse.
 
 == Démarrage
+Une personne de votre groupe doit effectuer les étapes suivantes pour initialiser le projet.
+
 * Acceptez https://classroom.github.com/g/kQjleEgF[cette mission], avec le nom d’équipe précisément égal au nom du dépôt existant (le nom technique du projet). Cela crée un nouveau « remote » pour votre projet.
 * Clonez le projet dont vous partez sur votre machine pour créer un dépôt local contenant l’historique actuel du projet.
-* Utilisez la commande `git remote` pour effacer le « remote » `origin` sur votre dépôt local.
+* Utilisez la commande `git remote` pour renommer le « remote » `origin` en `cailloux` sur votre dépôt local (vous pouvez aussi l’effacer, mais le conserver avec un autre nom peut être utile plus tard).
 * Suivez les instructions de GitHub pour ajouter le nouveau « remote » que vous venez de créer pour votre projet.
+
+Chaque membre du groupe pourra ensuite cloner le projet ainsi créé sur sa machine locale et contribuer ses commits.
 
 Prenez le temps de réfléchir ensemble globalement au projet et tracez les grandes lignes de votre ambition à la fin de l’année. Inutile d’élaborer un plan détaillé, car il serait impossible à respecter, mais cette étape de réflexion dans les grandes lignes est utile pour vous donner un sens commun de votre objectif global.
 
