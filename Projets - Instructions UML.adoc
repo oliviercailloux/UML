@@ -3,7 +3,7 @@
 Voir aussi : https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] ; https://github.com/oliviercailloux/java-course/blob/master/L3/Projets.adoc[Instructions générales].
 Ce document contient les instructions spécifiques au cours UML.
 
-Une itération UML se conclut par une livraison, qui a pour objectif de documenter le projet ou le futur du projet. Elle ne touche, sauf exception, qu’au contenu du sous-répertoire `Doc`.
+Une itération UML se conclut par une livraison, qui a pour objectif de documenter le projet ou le futur du projet. Elle ne touche, sauf exception, qu’au contenu du sous-répertoire `Doc`. (DOC)
 
 Vos contributions devraient concerner les deux éléments suivants.
 
@@ -13,5 +13,10 @@ Vos contributions devraient concerner les deux éléments suivants.
 Votre plan de démarrage d’itération doit faire référence à ces documents.
 
 == Instructions de modélisation
-Ne collez pas à la structure Java si ce n’est pas justifié. Votre objectif principal est la clarté conceptuelle. Par exemple : indiquez en UML une propriété publique plutôt qu’une propriété privée assortie d’un getter et d’un setter ; utilisez les paramètres par défaut bien qu’ils ne soient pas implémentés tels quels en Java.
+Votre objectif principal est la clarté conceptuelle. 
+
+* Ne collez pas à la structure Java si ce n’est pas justifié. Par exemple : indiquez en UML une propriété publique plutôt qu’une propriété privée assortie d’un getter et d’un setter ; utilisez les paramètres par défaut bien qu’ils ne soient pas implémentés tels quels en Java ; utilisez les cardinalités UML plutôt que les types `List` ou autres collections.
+* Supprimez les compartiments vides dans les diagrammes de classe et autres éléments visuels non informatifs. (ESSENTIAL)
+
+Veuillez exporter vos diagrammes issus du modèle UML en SVG et les présenter, ne fût-ce que succinctement, dans des documents Asciidoctor. Votre documentation doit être lisible via un navigateur web, pas uniquement depuis Papyrus. (SVG)
 
