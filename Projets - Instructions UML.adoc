@@ -20,3 +20,8 @@ Votre objectif principal est la clarté conceptuelle.
 
 Veuillez exporter vos diagrammes issus du modèle UML en SVG et les présenter, ne fût-ce que succinctement, dans des documents Asciidoctor. Votre documentation doit être lisible via un navigateur web, pas uniquement depuis Papyrus. (SVG)
 
+== Instructions de remise
+Résumez dans la description de la PR créée ce que vous proposez, en un paragraphe (référez à un document soumis si utile). Si vous modifiez des diagrammes, ajoutez dans la description de la PR des liens vers les versions précédentes (utilisez l’historique accessible sur GitHub), pour que je puisse mesurer votre travail.
+
+De manière générale : vos documents soumis doivent comporter la documentation du projet utile aux contributeurs du projet ; la description de la PR doit comporter les informations qui ne sont utiles que pour mon évaluation de votre travail.
+
