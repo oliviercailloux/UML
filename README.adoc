@@ -41,7 +41,7 @@ Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] 
 
 [[S3]]
 === S3 (25)
-* Exercice noté : https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Exercice.adoc[Admin manages users]. S’assurer que le `user.name` de git égale votre identifiant GitHub. Construire un modèle Papyrus permettant de déduire quelques diagrammes de cas fournis dans l’énoncé.
+* Exercice noté : https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Exercice.adoc[Admin manages users]. S’assurer que le `user.name` de git égale votre identifiant GitHub. Construire un modèle Papyrus permettant de déduire quelques diagrammes de cas fournis dans l’énoncé. Remise sans pénalité au plus tard à 14:11. J’ai compté 10% de pénalité par minute de retard au lieu des 20% habituels (donc la note tombe à zéro à 14:21).
 * Les diagrammes de classes en UML : https://raw.githubusercontent.com/oliviercailloux/UML/master/Papyrus/Classes/Example%3A%20classes%20and%20metamodel.svg[Exemple discuté] (modèle https://github.com/oliviercailloux/UML-metamodel-in-Papyrus/tree/classes-car[ici])
 * https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] du projet  : établir en équipe un plan de première itération à discuter avec moi.
 
