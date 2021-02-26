@@ -54,11 +54,11 @@ Préparation : établir en équipe un plan de première itération à discuter a
 Remise livraison 1 : fin du 14 février. Prévoir 8h de travail efficace par binôme.
 
 [[S5]]
-=== S5
-* Diagrammes de https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc[séquences]
+=== S5 (1 mars)
+* Diagrammes de https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc[séquences] (cf. https://lipn.univ-paris13.fr/~gerard/uml-s2/uml-cours05.html[cours de Pierre Gérard], IUT de Villetaneuse)
 * Travail sur projet
 
-Remise livraison 3 : fin du 26 avril. Appliquer https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#avoid-labels[Avoid labels]. Tentez d’inclure au moins un diagramme de cas et un de séquences. Veillez à ce que vos diagrammes soient liés : liens visibles entre cas et classes ; signatures des messages correspondant aux opérations.
+Remise livraison 2 : fin du 14 mars.
 
 [[S6]]
 === S6
