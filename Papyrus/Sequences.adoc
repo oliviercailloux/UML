@@ -12,7 +12,7 @@ We will now create two lifelines that represent a user sending a message `sayHel
 * Add an `Interaction` element as a sub-element of your root element, name it `User to contact`.
 * Add a `Property` element as a sub-element of `User to contact`, name it `user` and give it a type of `User`.
 ** Remember to use auto-completion for choosing the type, as we have learned in the Classes document.
-* Add a `Lifeline` element named `User lifeline` as another sub-element of your root element
+* Add a `Lifeline` element named `User lifeline` as another sub-element of `User to contact`
 ** In the properties of `User lifeline`, indicates that it represents your property `user`.
 * Add another `Lifeline` element named `Contact lifeline`; indicate that it represents the property `contact` of the class `User`.
 
