@@ -62,15 +62,11 @@ Remise livraison 2 : fin du 14 mars.
 
 [[S6]]
 === S6
-Travail sur projet
-
-[[S7]]
-=== S7 
-Remise livraison 4 fin du 24 mai. Veillez à examiner vos issues et à préparer soigneusement votre prochaine itération Java.
+Remise livraison 3 : fin du 12 avril.
 
 [[S10]]
 === S10 
-Remise livraison 5 fin du 21 juin.
+//Remise livraison 5 fin du 21 juin.
 
 * Effacer Itx.adoc, laisser uniquement le dernier, It5.adoc.
 * Trier les archives en priorité. Effacer ce qui n’est plus utile, intégrer ce qui l’est. Il ne doit pas rester d’archives.
@@ -96,4 +92,5 @@ Bilan
 * Livre : Fowler - UML Distilled: A Brief Guide to the Standard Object Modeling Language (2003), comment bien ne pas respecter la spécification
 * Livre : Roques - UML 2 par la pratique - Études de cas et exercices corrigés, Sixième édition (2008)
 * https://www.youtube.com/watch?v=yaLGw-ZSUKk[Vidéo] : UML and Rhapsody Workflows for Embedded Code Development
+⋅ https://www-info.iutv.univ-paris13.fr/dokuwiki/doku.php?id=m2104:start[DUT Informatique, module M2104 : Introduction à la conception orientée objet (COO)]
 
