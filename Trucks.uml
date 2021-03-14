@@ -50,10 +50,10 @@
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_KgFecISyEeuyXtIdbr5nGQ" name="user execution end" covered="_TO8W4ISwEeuyXtIdbr5nGQ" execution="_KgB0EISyEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_uiJM4ISxEeuyXtIdbr5nGQ" name="Create truck" messageSort="createMessage" receiveEvent="_uiWoQISxEeuyXtIdbr5nGQ" sendEvent="_uiSW0ISxEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_bhPSUISyEeuyXtIdbr5nGQ" name="get driver message" receiveEvent="_bhRHgISyEeuyXtIdbr5nGQ" sendEvent="_bhQgcISyEeuyXtIdbr5nGQ" signature="_LenVgIStEeuyXtIdbr5nGQ"/>
-    <message xmi:type="uml:Message" xmi:id="_biM7oISyEeuyXtIdbr5nGQ" name="return driver message" messageSort="reply" receiveEvent="_biP-8ISyEeuyXtIdbr5nGQ" sendEvent="_biOw0ISyEeuyXtIdbr5nGQ"/>
+    <message xmi:type="uml:Message" xmi:id="_biM7oISyEeuyXtIdbr5nGQ" name="usualDriver" messageSort="reply" receiveEvent="_biP-8ISyEeuyXtIdbr5nGQ" sendEvent="_biOw0ISyEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_W6cbcIS0EeuyXtIdbr5nGQ" name="in truck message 1" receiveEvent="_W6eQoIS0EeuyXtIdbr5nGQ" sendEvent="_W6dpkIS0EeuyXtIdbr5nGQ" signature="_F_6GkISsEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_W7SwAIS0EeuyXtIdbr5nGQ" name="false" messageSort="reply" receiveEvent="_W7T-IIS0EeuyXtIdbr5nGQ" sendEvent="_W7TXEIS0EeuyXtIdbr5nGQ"/>
-    <message xmi:type="uml:Message" xmi:id="_7sxeUIS1EeuyXtIdbr5nGQ" name="start truck message" receiveEvent="_7syscIS1EeuyXtIdbr5nGQ" sendEvent="_7syFYIS1EeuyXtIdbr5nGQ"/>
+    <message xmi:type="uml:Message" xmi:id="_7sxeUIS1EeuyXtIdbr5nGQ" name="start truck message" receiveEvent="_7syscIS1EeuyXtIdbr5nGQ" sendEvent="_7syFYIS1EeuyXtIdbr5nGQ" signature="__C174IStEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_7tqPIIS1EeuyXtIdbr5nGQ" name="start truck return message" messageSort="reply" receiveEvent="_7tq2MYS1EeuyXtIdbr5nGQ" sendEvent="_7tq2MIS1EeuyXtIdbr5nGQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_3jfHAISwEeuyXtIdbr5nGQ" name="User"/>
