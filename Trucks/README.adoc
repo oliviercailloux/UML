@@ -9,6 +9,8 @@ Consider the diagrams below. They show the public behavior of trucks and drivers
 
 Your mission is to complete the diagrams so as to show one possible implementation of this API (there are several correct answers). In particular, you will need to indicate which attributes the classes have; and complete the sequence diagram to show how the publicDriver is created, and what happens that permits the driver to answer differently the second call to isInTruck() than the first one.
 
+Clone this repository and import this folder’s Papyrus files in order to extend the model.
+
 [[Class]]
 .A class diagram showing the publicly accessible operations on our main classes.
 image::Public%20view.svg[opts="inline"]
@@ -16,5 +18,4 @@ image::Public%20view.svg[opts="inline"]
 [[Sequence]]
 .A sequence diagram showing the desired behavior of our publicly accessible operations.
 image::Driver%20overview.svg[opts="inline"]
-
 
