@@ -3,22 +3,31 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_s_RzUISuEeuyXtIdbr5nGQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_yWny0ISrEeuyXtIdbr5nGQ" name="Truck">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9ZtFwISrEeuyXtIdbr5nGQ" name="usualDriver" visibility="package" type="__rHHsISrEeuyXtIdbr5nGQ"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_LenVgIStEeuyXtIdbr5nGQ" name="getUsualDriver" visibility="public">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_gl_X4IStEeuyXtIdbr5nGQ" name="usualDriver" type="__rHHsISrEeuyXtIdbr5nGQ" direction="return"/>
-    </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="__C174IStEeuyXtIdbr5nGQ" name="start" visibility="public"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_C-TE0ISuEeuyXtIdbr5nGQ" name="stop" visibility="public"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="__rHHsISrEeuyXtIdbr5nGQ" name="Person">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_BVwroISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="package">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-    </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_F_6GkISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="public">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WhDksISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="public" direction="return">
+  <packagedElement xmi:type="uml:Package" xmi:id="_NIb2MISxEeuyXtIdbr5nGQ" name="Main">
+    <packagedElement xmi:type="uml:Class" xmi:id="_yWny0ISrEeuyXtIdbr5nGQ" name="Truck">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9ZtFwISrEeuyXtIdbr5nGQ" name="usualDriver" visibility="package" type="__rHHsISrEeuyXtIdbr5nGQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LenVgIStEeuyXtIdbr5nGQ" name="getUsualDriver" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_gl_X4IStEeuyXtIdbr5nGQ" name="usualDriver" type="__rHHsISrEeuyXtIdbr5nGQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="__C174IStEeuyXtIdbr5nGQ" name="start" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_C-TE0ISuEeuyXtIdbr5nGQ" name="stop" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__rHHsISrEeuyXtIdbr5nGQ" name="Person">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BVwroISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="package">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      </ownedParameter>
-    </ownedOperation>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_F_6GkISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_WhDksISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="public" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_BCzWkISwEeuyXtIdbr5nGQ" name="Driver overview">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nZaFEISwEeuyXtIdbr5nGQ" name="truck" type="_yWny0ISrEeuyXtIdbr5nGQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8O5tQISwEeuyXtIdbr5nGQ" name="user" type="_3jfHAISwEeuyXtIdbr5nGQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_TO8W4ISwEeuyXtIdbr5nGQ" name="user lifeline" represents="_8O5tQISwEeuyXtIdbr5nGQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_gkHBMISwEeuyXtIdbr5nGQ" name="truck lifeline" represents="_nZaFEISwEeuyXtIdbr5nGQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3jfHAISwEeuyXtIdbr5nGQ" name="User"/>
 </uml:Model>
