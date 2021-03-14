@@ -12,4 +12,5 @@ First: https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#I
 * A https://github.com/oliviercailloux/Simple-Papyrus-project[Simple Papyrus project]
 * https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc[Various] remarks
 * https://github.com/oliviercailloux/UML-metamodel-in-Papyrus[UML metamodel in Papyrus]
+* https://www.formalmind.com/blog/eclipse-papyrus/[Is Eclipse Papyrus Ready for Industry?], a very personal view on Papyrus by a software architect
 
