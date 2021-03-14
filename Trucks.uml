@@ -26,11 +26,20 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_BCzWkISwEeuyXtIdbr5nGQ" name="Driver overview">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_nZaFEISwEeuyXtIdbr5nGQ" name="truck" type="_yWny0ISrEeuyXtIdbr5nGQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8O5tQISwEeuyXtIdbr5nGQ" name="user" type="_3jfHAISwEeuyXtIdbr5nGQ"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_TO8W4ISwEeuyXtIdbr5nGQ" name="user lifeline" represents="_8O5tQISwEeuyXtIdbr5nGQ" coveredBy="_uiSW0ISxEeuyXtIdbr5nGQ"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_gkHBMISwEeuyXtIdbr5nGQ" name="truck lifeline" represents="_nZaFEISwEeuyXtIdbr5nGQ" coveredBy="_uiWoQISxEeuyXtIdbr5nGQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_TO8W4ISwEeuyXtIdbr5nGQ" name="user lifeline" represents="_8O5tQISwEeuyXtIdbr5nGQ" coveredBy="_uiSW0ISxEeuyXtIdbr5nGQ _bhQgcISyEeuyXtIdbr5nGQ _biP-8ISyEeuyXtIdbr5nGQ _KgFecISyEeuyXtIdbr5nGQ _KgB0EISyEeuyXtIdbr5nGQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_gkHBMISwEeuyXtIdbr5nGQ" name="truck lifeline" represents="_nZaFEISwEeuyXtIdbr5nGQ" coveredBy="_uiWoQISxEeuyXtIdbr5nGQ _bhRHgISyEeuyXtIdbr5nGQ _biOw0ISyEeuyXtIdbr5nGQ _biEYwISyEeuyXtIdbr5nGQ"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uiSW0ISxEeuyXtIdbr5nGQ" name="Create truck SendEvent" covered="_TO8W4ISwEeuyXtIdbr5nGQ" message="_uiJM4ISxEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_KgB0EISyEeuyXtIdbr5nGQ" name="user execution" covered="_TO8W4ISwEeuyXtIdbr5nGQ" finish="_KgFecISyEeuyXtIdbr5nGQ" start="_uiSW0ISxEeuyXtIdbr5nGQ"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uiWoQISxEeuyXtIdbr5nGQ" name="Create truck ReceiveEvent" covered="_gkHBMISwEeuyXtIdbr5nGQ" message="_uiJM4ISxEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bhQgcISyEeuyXtIdbr5nGQ" name="get driver send" covered="_TO8W4ISwEeuyXtIdbr5nGQ" message="_bhPSUISyEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bhRHgISyEeuyXtIdbr5nGQ" name="get driver receive" covered="_gkHBMISwEeuyXtIdbr5nGQ" message="_bhPSUISyEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_biEYwISyEeuyXtIdbr5nGQ" name="get driver execution" covered="_gkHBMISwEeuyXtIdbr5nGQ" finish="_biOw0ISyEeuyXtIdbr5nGQ" start="_bhRHgISyEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_biOw0ISyEeuyXtIdbr5nGQ" name="return driver send" covered="_gkHBMISwEeuyXtIdbr5nGQ" message="_biM7oISyEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_biP-8ISyEeuyXtIdbr5nGQ" name="return driver receive" covered="_TO8W4ISwEeuyXtIdbr5nGQ" message="_biM7oISyEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_KgFecISyEeuyXtIdbr5nGQ" name="user execution end" covered="_TO8W4ISwEeuyXtIdbr5nGQ" execution="_KgB0EISyEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_uiJM4ISxEeuyXtIdbr5nGQ" name="Create truck" messageSort="createMessage" receiveEvent="_uiWoQISxEeuyXtIdbr5nGQ" sendEvent="_uiSW0ISxEeuyXtIdbr5nGQ"/>
+    <message xmi:type="uml:Message" xmi:id="_bhPSUISyEeuyXtIdbr5nGQ" name="get driver message" receiveEvent="_bhRHgISyEeuyXtIdbr5nGQ" sendEvent="_bhQgcISyEeuyXtIdbr5nGQ"/>
+    <message xmi:type="uml:Message" xmi:id="_biM7oISyEeuyXtIdbr5nGQ" name="return driver message" messageSort="reply" receiveEvent="_biP-8ISyEeuyXtIdbr5nGQ" sendEvent="_biOw0ISyEeuyXtIdbr5nGQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_3jfHAISwEeuyXtIdbr5nGQ" name="User"/>
 </uml:Model>
