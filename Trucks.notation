@@ -232,18 +232,5 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7tWtIIS1EeuyXtIdbr5nGQ" id="(0.5,0.4085714285714286)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7tXUMIS1EeuyXtIdbr5nGQ" id="(0.5,0.35669781931464173)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_7tsEUIS1EeuyXtIdbr5nGQ" type="Message_ReplyEdge" source="_tB8a4ISwEeuyXtIdbr5nGQ" target="_jeUIgISwEeuyXtIdbr5nGQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_7tsEU4S1EeuyXtIdbr5nGQ" type="Message_ReplyNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_7tsEVIS1EeuyXtIdbr5nGQ" x="1" y="-13"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_7tsEVYS1EeuyXtIdbr5nGQ" type="Message_ReplyStereotypeLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_7tsEVoS1EeuyXtIdbr5nGQ" x="1" y="-33"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_7tsEUYS1EeuyXtIdbr5nGQ"/>
-      <element xmi:type="uml:Message" href="Trucks.uml#_7tqPIIS1EeuyXtIdbr5nGQ"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7tsEUoS1EeuyXtIdbr5nGQ" points="[0, 0, 260, 0]$[-270, 0, -10, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7tvHoIS1EeuyXtIdbr5nGQ" id="(0.5,0.3878504672897196)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7tvHoYS1EeuyXtIdbr5nGQ" id="(0.5,0.43714285714285717)"/>
-    </edges>
   </notation:Diagram>
 </xmi:XMI>
