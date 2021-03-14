@@ -61,7 +61,10 @@ Remise livraison 1 : fin du 14 février. Prévoir 8h de travail efficace par bin
 Remise livraison 2 : fin du 14 mars.
 
 [[S6]]
-=== S6
+=== S6 (15 mars)
+* Exercice https://github.com/oliviercailloux/UML/blob/master/Papyrus/Trucks/README.adoc[trucks]
+* Travail sur projet
+
 Remise livraison 3 : fin du 12 avril.
 
 [[S10]]
