@@ -38,7 +38,7 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_biP-8ISyEeuyXtIdbr5nGQ" name="return driver receive" covered="_TO8W4ISwEeuyXtIdbr5nGQ" message="_biM7oISyEeuyXtIdbr5nGQ"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_KgFecISyEeuyXtIdbr5nGQ" name="user execution end" covered="_TO8W4ISwEeuyXtIdbr5nGQ" execution="_KgB0EISyEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_uiJM4ISxEeuyXtIdbr5nGQ" name="Create truck" messageSort="createMessage" receiveEvent="_uiWoQISxEeuyXtIdbr5nGQ" sendEvent="_uiSW0ISxEeuyXtIdbr5nGQ"/>
-    <message xmi:type="uml:Message" xmi:id="_bhPSUISyEeuyXtIdbr5nGQ" name="get driver message" receiveEvent="_bhRHgISyEeuyXtIdbr5nGQ" sendEvent="_bhQgcISyEeuyXtIdbr5nGQ"/>
+    <message xmi:type="uml:Message" xmi:id="_bhPSUISyEeuyXtIdbr5nGQ" name="get driver message" receiveEvent="_bhRHgISyEeuyXtIdbr5nGQ" sendEvent="_bhQgcISyEeuyXtIdbr5nGQ" signature="_LenVgIStEeuyXtIdbr5nGQ"/>
     <message xmi:type="uml:Message" xmi:id="_biM7oISyEeuyXtIdbr5nGQ" name="return driver message" messageSort="reply" receiveEvent="_biP-8ISyEeuyXtIdbr5nGQ" sendEvent="_biOw0ISyEeuyXtIdbr5nGQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_3jfHAISwEeuyXtIdbr5nGQ" name="User"/>

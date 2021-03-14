@@ -145,10 +145,10 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bh4LgYSyEeuyXtIdbr5nGQ" id="(0.5,0.13862928348909656)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_biQmAISyEeuyXtIdbr5nGQ" type="Message_ReplyEdge" source="_tB8a4ISwEeuyXtIdbr5nGQ" target="_jeUIgISwEeuyXtIdbr5nGQ">
-      <children xmi:type="notation:DecorationNode" xmi:id="_biSbMISyEeuyXtIdbr5nGQ" type="Message_ReplyNameLabel">
+      <children xmi:type="notation:DecorationNode" xmi:id="_biSbMISyEeuyXtIdbr5nGQ" visible="false" type="Message_ReplyNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_biSbMYSyEeuyXtIdbr5nGQ" x="1" y="-13"/>
       </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_biSbMoSyEeuyXtIdbr5nGQ" type="Message_ReplyStereotypeLabel">
+      <children xmi:type="notation:DecorationNode" xmi:id="_biSbMoSyEeuyXtIdbr5nGQ" visible="false" type="Message_ReplyStereotypeLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_biSbM4SyEeuyXtIdbr5nGQ" x="1" y="-33"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_biQmAYSyEeuyXtIdbr5nGQ"/>
