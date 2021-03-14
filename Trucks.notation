@@ -90,7 +90,7 @@
               <layoutConstraint xmi:type="notation:Location" xmi:id="_KgOoYYSyEeuyXtIdbr5nGQ" x="18" y="18"/>
             </children>
             <element xmi:type="uml:BehaviorExecutionSpecification" href="Trucks.uml#_KgB0EISyEeuyXtIdbr5nGQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KgNaQYSyEeuyXtIdbr5nGQ" x="40" y="66" width="20" height="401"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KgNaQYSyEeuyXtIdbr5nGQ" x="40" y="66" width="20" height="301"/>
           </children>
           <element xmi:type="uml:Lifeline" href="Trucks.uml#_TO8W4ISwEeuyXtIdbr5nGQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jeUIgYSwEeuyXtIdbr5nGQ" x="154" y="10"/>
@@ -136,7 +136,7 @@
               <layoutConstraint xmi:type="notation:Location" xmi:id="_83vnMYS2EeuyXtIdbr5nGQ" x="18" y="18"/>
             </children>
             <element xmi:type="uml:BehaviorExecutionSpecification" href="Trucks.uml#_83tK8IS2EeuyXtIdbr5nGQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_83vAIYS2EeuyXtIdbr5nGQ" x="65" y="346" width="20" height="21"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_83vAIYS2EeuyXtIdbr5nGQ" x="65" y="345" width="20" height="21"/>
           </children>
           <element xmi:type="uml:Lifeline" href="Trucks.uml#_JNT9EIS0EeuyXtIdbr5nGQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mc7TsYS0EeuyXtIdbr5nGQ" x="614" y="10" width="150"/>
@@ -163,7 +163,7 @@
       <element xmi:type="uml:Message" href="Trucks.uml#_uiJM4ISxEeuyXtIdbr5nGQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uiyGEoSxEeuyXtIdbr5nGQ" points="[0, 0, -201, 0]$[201, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ulI2gISxEeuyXtIdbr5nGQ" id="(0.5,0.09428571428571429)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ulJdkISxEeuyXtIdbr5nGQ" id="(0.5,0.014018691588785047)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ulJdkISxEeuyXtIdbr5nGQ" id="(0.5,0.01)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_bhdUwISyEeuyXtIdbr5nGQ" type="Message_SynchEdge" source="_jeUIgISwEeuyXtIdbr5nGQ" target="_tB8a4ISwEeuyXtIdbr5nGQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_bhdUw4SyEeuyXtIdbr5nGQ" type="Message_SynchNameLabel">
@@ -176,7 +176,7 @@
       <element xmi:type="uml:Message" href="Trucks.uml#_bhPSUISyEeuyXtIdbr5nGQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bhdUwoSyEeuyXtIdbr5nGQ" points="[-10, 6, -211, -20]$[201, 26, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bh4LgISyEeuyXtIdbr5nGQ" id="(0.5,0.20857142857142857)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bh4LgYSyEeuyXtIdbr5nGQ" id="(0.5,0.13862928348909656)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bh4LgYSyEeuyXtIdbr5nGQ" id="(0.5,0.13862928348909653)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_biQmAISyEeuyXtIdbr5nGQ" type="Message_ReplyEdge" source="_tB8a4ISwEeuyXtIdbr5nGQ" target="_jeUIgISwEeuyXtIdbr5nGQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_biSbMISyEeuyXtIdbr5nGQ" type="Message_ReplyNameLabel">
@@ -194,7 +194,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_biQmAYSyEeuyXtIdbr5nGQ"/>
       <element xmi:type="uml:Message" href="Trucks.uml#_biM7oISyEeuyXtIdbr5nGQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_biQmAoSyEeuyXtIdbr5nGQ" points="[0, 0, 201, 0]$[-211, 0, -10, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_biVegISyEeuyXtIdbr5nGQ" id="(0.5,0.16978193146417445)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_biVegISyEeuyXtIdbr5nGQ" id="(0.5,0.16978193146417442)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_biVegYSyEeuyXtIdbr5nGQ" id="(0.5,0.23714285714285716)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_W6oosIS0EeuyXtIdbr5nGQ" type="Message_SynchEdge" source="_jeUIgISwEeuyXtIdbr5nGQ" target="_Mc7TsIS0EeuyXtIdbr5nGQ">
