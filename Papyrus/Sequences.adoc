@@ -24,7 +24,7 @@ Let’s now display these two lifelines in a diagram and add a message from `use
 * In the `Edges` Palette (to the right of the Papyrus diagram editor), click `Message Sync`, then click the `user` lifeline representation, then click the `contact` lifeline representation.
 ** You see an arrow appear from one lifeline to its neighbor lifeline, representing the message being sent.
 ** Name it `User says hello message`.
-** In the properties of the `User says hello message`, choose the operation `sayHello()` (defined on `Person`) as its signature.
+** In the properties of the `User says hello message`; as its signature, choose the operation `sayHello()` (defined on `Person`).
 ** Observe that the label displayed on this message representation in the sequence diagram changes to indicate the signature instead of its name. This is what we want.
 ** Observe that Papyrus has created several elements for you in supplement to the message send: a `BehaviorExecutionSpecification` representing the execution required to treat the message; a return message that is sent when the object has finished treating the message; and four event occurrences, produced when the messages are sent and received. Give to the `BehaviorExecutionSpecification` element the name `sayHello execution`.
 ** Finally, hide the label on the representation of the message returning from the contact lifeline back to the user lifeline, with `Filters` / `Hide All Labels`.
