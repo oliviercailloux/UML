@@ -91,7 +91,7 @@
         <children xmi:type="notation:Shape" xmi:id="_tB8a4ISwEeuyXtIdbr5nGQ" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_tB8a4oSwEeuyXtIdbr5nGQ" type="Lifeline_NameLabel"/>
           <element xmi:type="uml:Lifeline" href="Trucks.uml#_gkHBMISwEeuyXtIdbr5nGQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tB8a4YSwEeuyXtIdbr5nGQ" x="487" y="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tB8a4YSwEeuyXtIdbr5nGQ" x="487" y="67" width="100" height="642"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DURC5ISwEeuyXtIdbr5nGQ"/>
       </children>
@@ -101,8 +101,21 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_DURC5oSwEeuyXtIdbr5nGQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_DURC54SwEeuyXtIdbr5nGQ"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_DURC6ISwEeuyXtIdbr5nGQ" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
-      <owner xmi:type="uml:Model" href="Trucks.uml#_KW_tgISqEeuyXtIdbr5nGQ"/>
+      <owner xmi:type="uml:Interaction" href="Trucks.uml#_BCzWkISwEeuyXtIdbr5nGQ"/>
     </styles>
     <element xmi:type="uml:Interaction" href="Trucks.uml#_BCzWkISwEeuyXtIdbr5nGQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_uiyGEISxEeuyXtIdbr5nGQ" type="Message_CreateEdge" source="_jeUIgISwEeuyXtIdbr5nGQ" target="_tB8a4ISwEeuyXtIdbr5nGQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uiytIISxEeuyXtIdbr5nGQ" type="Message_CreateNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uiz7QISxEeuyXtIdbr5nGQ" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_uiz7QYSxEeuyXtIdbr5nGQ" type="Message_CreateStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_uiz7QoSxEeuyXtIdbr5nGQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_uiyGEYSxEeuyXtIdbr5nGQ"/>
+      <element xmi:type="uml:Message" href="Trucks.uml#_uiJM4ISxEeuyXtIdbr5nGQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uiyGEoSxEeuyXtIdbr5nGQ" points="[0, 0, -201, 0]$[201, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ulI2gISxEeuyXtIdbr5nGQ" id="(0.5,0.09428571428571429)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ulJdkISxEeuyXtIdbr5nGQ" id="(0.5,0.014018691588785048)"/>
+    </edges>
   </notation:Diagram>
 </xmi:XMI>

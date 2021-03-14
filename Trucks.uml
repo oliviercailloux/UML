@@ -26,8 +26,11 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_BCzWkISwEeuyXtIdbr5nGQ" name="Driver overview">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_nZaFEISwEeuyXtIdbr5nGQ" name="truck" type="_yWny0ISrEeuyXtIdbr5nGQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8O5tQISwEeuyXtIdbr5nGQ" name="user" type="_3jfHAISwEeuyXtIdbr5nGQ"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_TO8W4ISwEeuyXtIdbr5nGQ" name="user lifeline" represents="_8O5tQISwEeuyXtIdbr5nGQ"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_gkHBMISwEeuyXtIdbr5nGQ" name="truck lifeline" represents="_nZaFEISwEeuyXtIdbr5nGQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_TO8W4ISwEeuyXtIdbr5nGQ" name="user lifeline" represents="_8O5tQISwEeuyXtIdbr5nGQ" coveredBy="_uiSW0ISxEeuyXtIdbr5nGQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_gkHBMISwEeuyXtIdbr5nGQ" name="truck lifeline" represents="_nZaFEISwEeuyXtIdbr5nGQ" coveredBy="_uiWoQISxEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uiSW0ISxEeuyXtIdbr5nGQ" name="Create truck SendEvent" covered="_TO8W4ISwEeuyXtIdbr5nGQ" message="_uiJM4ISxEeuyXtIdbr5nGQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uiWoQISxEeuyXtIdbr5nGQ" name="Create truck ReceiveEvent" covered="_gkHBMISwEeuyXtIdbr5nGQ" message="_uiJM4ISxEeuyXtIdbr5nGQ"/>
+    <message xmi:type="uml:Message" xmi:id="_uiJM4ISxEeuyXtIdbr5nGQ" name="Create truck" messageSort="createMessage" receiveEvent="_uiWoQISxEeuyXtIdbr5nGQ" sendEvent="_uiSW0ISxEeuyXtIdbr5nGQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_3jfHAISwEeuyXtIdbr5nGQ" name="User"/>
 </uml:Model>
