@@ -5,17 +5,17 @@
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_yWny0ISrEeuyXtIdbr5nGQ" name="Truck">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9ZtFwISrEeuyXtIdbr5nGQ" name="usualDriver" visibility="package" type="__rHHsISrEeuyXtIdbr5nGQ"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_LenVgIStEeuyXtIdbr5nGQ" name="getUsualDriver">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LenVgIStEeuyXtIdbr5nGQ" name="getUsualDriver" visibility="public">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_gl_X4IStEeuyXtIdbr5nGQ" name="usualDriver" type="__rHHsISrEeuyXtIdbr5nGQ" direction="return"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="__C174IStEeuyXtIdbr5nGQ" name="start"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_C-TE0ISuEeuyXtIdbr5nGQ" name="stop"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__C174IStEeuyXtIdbr5nGQ" name="start" visibility="public"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_C-TE0ISuEeuyXtIdbr5nGQ" name="stop" visibility="public"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="__rHHsISrEeuyXtIdbr5nGQ" name="Person">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_BVwroISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="package">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_F_6GkISsEeuyXtIdbr5nGQ" name="isInTruck">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_F_6GkISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="public">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_WhDksISsEeuyXtIdbr5nGQ" name="isInTruck" visibility="public" direction="return">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedParameter>
