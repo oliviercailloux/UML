@@ -1,15 +1,15 @@
 = Trucks
 An exercice about UML and object-oriented design.
 
-We are building an API to manage trucks and their drivers. We have defined a Person: someone that may be driving a truck (or may be idle). We also have a concept of a Truck: something that we can start, stop, and that has a designated (or “usual”) driver. 
+We are building an API to manage trucks and their drivers. We have defined a `Person`: someone that may be driving a truck (or may be idle). We also have a concept of a `Truck`: something that we can start and stop, and that has a designated (or “usual”) driver. 
 
-A driver of a truck is in the truck if and only if its truck is started.
+A driver of a truck is in the truck if and only if her truck is started.
 
 Consider the diagrams below. They show the public behavior of trucks and drivers, that is, what we expect our API user to be able to do with it and how it should react. In particular, the sequence diagram shows that a driver is initially considered idle, but after having started a truck, its driver should then be considered in the truck.
 
-Your mission is to complete the diagrams so as to show one possible implementation of this API (there are several correct answers). In particular, you will need to indicate which attributes the classes have; and complete the sequence diagram to show how the publicDriver is created, and what happens that permits the driver to answer differently the second call to isInTruck() than the first one.
+Your mission is to complete the diagrams so as to show one possible implementation of this API (there are several correct answers). In particular, you will need to indicate which attributes the classes have; and complete the sequence diagram to show how the `usualDriver` gets created, and what happens that permits the driver to answer differently to the second call of `isInTruck()`, compared to the first call.
 
-Clone this repository and import this folder’s Papyrus files in order to extend the model.
+You can clone this repository and import this folder’s Papyrus files, to work on the basis of the existing model.
 
 [[Class]]
 .A class diagram showing the publicly accessible operations on our main classes.
