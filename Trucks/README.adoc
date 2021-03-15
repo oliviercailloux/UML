@@ -20,6 +20,16 @@ image::Public%20view.svg[opts="inline"]
 .A sequence diagram showing the desired behavior of our publicly accessible operations.
 image::Driver%20overview.svg[opts="inline"]
 
+.Elements of correction
+[%collapsible]
+====
+. A truck must have a `usualDriver`: `Truck` must be associated to `Person` (a Composition would be adequate here)
+. The sequence diagram must show that `truck` creates a `usualDriver` when `truck` is created
+. A `Person` must have a boolean attribute `isInTruck`
+. This attribute must be `false` by default
+. `truck` must send a message to `usualDriver` to change its state when the truck starts: `Person` must have an operation `startDriving` (it is implied, or can be documented by text, that this will change the value of its attribute `isInTruck`)
+====
+
 == Shared drivers
 We now wish to make it possible for several trucks to share a driver. A driver can still be in at most one truck at a time, of course. To ensure this, we decide that starting one truck automatically stops all the trucks that have the same driver.
 
