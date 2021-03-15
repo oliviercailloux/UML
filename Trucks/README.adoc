@@ -21,7 +21,7 @@ image::Public%20view.svg[opts="inline"]
 image::Driver%20overview.svg[opts="inline"]
 
 == Shared drivers
-We now wish to make it possible for several trucks to share the same driver. A driver can still be in at most one truck at a time, of course. To ensure this, we decide that starting one truck automatically stops all the trucks that have the same driver.
+We now wish to make it possible for several trucks to share a driver. A driver can still be in at most one truck at a time, of course. To ensure this, we decide that starting one truck automatically stops all the trucks that have the same driver.
 
 Change your model in order to produce a class diagram showing how this design can be achieved. Produce a sequence diagram, featuring two trucks sharing one driver, in order to show what happens (in details) when one truck is started, then the other truck is started. Add an operation `isStarted()` to your `Truck` in order to show their behaviors clearly.
 
