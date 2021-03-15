@@ -12,11 +12,13 @@ Vos contributions devraient concerner les deux éléments suivants.
 
 Votre plan de démarrage d’itération doit faire référence à ces documents.
 
+Attention, votre lecteur n’est pas intéressé par l’historique de votre projet. Il faut construire un seul document cohérent, comportant uniquement les informations intéressant votre lecteur : l’état actuel ou futur du projet, pas son état passé (sauf exceptions). Votre documentation ne doit donc pas indiquer, par exemple, ce que vous avez ajouté spécifiquement cette année. Remplacez les parties adéquates de documentation existante par vos propositions, et ajoutez ce qui convient aux endroits adéquats. (Vous pouvez cependant occasionnellement et temporairement indiquer un lien vers une ancienne version d’un diagramme en attendant de coder vos changements proposés, par exemple.) (MAINTAIN)
+
 == Instructions de modélisation
 Votre objectif principal est la clarté conceptuelle. 
 
 * Ne collez pas à la structure Java si ce n’est pas justifié. Par exemple : indiquez en UML une propriété publique plutôt qu’une propriété privée assortie d’un getter et d’un setter ; utilisez les paramètres par défaut bien qu’ils ne soient pas implémentés tels quels en Java ; utilisez les cardinalités UML plutôt que les types `List` ou autres collections.
-* Supprimez les compartiments vides dans les diagrammes de classe et autres éléments visuels non informatifs. (ESSENTIAL)
+* Supprimez les compartiments vides dans les diagrammes de classe et autres éléments visuels non informatifs; ne représentez pas de façon redondante les mêmes propriétés dans une association et comme un attribut. (ESSENTIAL)
 
 Veuillez exporter vos diagrammes issus du modèle UML en SVG et les présenter, ne fût-ce que succinctement, dans des documents Asciidoctor. Votre documentation doit être lisible via un navigateur web, pas uniquement depuis Papyrus. (SVG)
 
