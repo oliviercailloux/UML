@@ -23,11 +23,13 @@ image::Driver%20overview.svg[opts="inline"]
 .Elements of correction
 [%collapsible]
 ====
-. A truck must have a `usualDriver`: `Truck` must be associated to `Person` (a Composition would be adequate here)
+. A truck must have a `usualDriver`: `Truck` must be associated to `Person` and the association must be navigable from `Truck` to `Person` (a Composition would be adequate here)
 . The sequence diagram must show that `truck` creates a `usualDriver` when `truck` is created
 . A `Person` must have a boolean attribute `isInTruck`
 . This attribute must be `false` by default
 . `truck` must send a message to `usualDriver` to change its state when the truck starts: `Person` must have an operation `startDriving` (it is implied, or can be documented by text, that this will change the value of its attribute `isInTruck`)
+
+This is only one possible correction. Others are possible. For example, the association could be navigable from the person to its truck, which permits to get rid of the `isInTruck` attribute, by adding an `isStarted()` operation on the truck.
 ====
 
 == Shared drivers
