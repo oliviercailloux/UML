@@ -65,6 +65,8 @@ Remise livraison 2 : fin du 14 mars.
 * Exercice https://github.com/oliviercailloux/UML/blob/master/Trucks/README.adoc[trucks]
 * Travail sur projet
 
+*NB les livraisons à partir de 3 comptent deux à trois fois plus que les deux premières.*
+
 Remise livraison 3 : fin du 12 avril.
 
 [[S10]]
