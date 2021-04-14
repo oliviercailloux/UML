@@ -17,7 +17,7 @@ Attention, votre lecteur n’est pas intéressé par l’historique de votre pro
 == Instructions de modélisation
 Votre objectif principal est la clarté conceptuelle. 
 
-* Ne collez pas à la structure Java si ce n’est pas justifié. Par exemple : indiquez en UML une propriété publique plutôt qu’une propriété privée assortie d’un getter et d’un setter ; utilisez les paramètres par défaut bien qu’ils ne soient pas implémentés tels quels en Java ; utilisez les multiplicités UML plutôt que les types `List` ou autres collections.
+* Ne collez pas à la structure Java si ce n’est pas justifié. Par exemple : indiquez en UML une propriété publique plutôt qu’une propriété privée assortie d’un getter et d’un setter ; utilisez les paramètres par défaut bien qu’ils ne soient pas implémentés tels quels en Java ; utilisez les multiplicités UML plutôt que les types `List` ou autres collections (à moins que les nuances soient importantes bien sûr).
 * Supprimez les compartiments vides dans les diagrammes de classe et autres éléments visuels non informatifs; ne représentez pas de façon redondante les mêmes propriétés dans une association et comme un attribut. (ESSENTIAL)
 
 Veuillez exporter vos diagrammes issus du modèle UML en SVG et les présenter, ne fût-ce que succinctement, dans des documents Asciidoctor. Votre documentation doit être lisible via un navigateur web, pas uniquement depuis Papyrus. (SVG)
