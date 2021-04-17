@@ -72,8 +72,18 @@ Remise livraison 3 : fin du 12 avril.
 === S7 (12 avril)
 Travail sur projet. Posez-moi vos questions !
 
+Remise livraison 4 : fin du 3 mai.
+
+=== S8 (3 mai)
+Note : vos deux meilleures livraisons compteront aussi pour le CC, si cela vous avantage.
+
+Travail sur projet. Préparez vos questions !
+
+=== S9 (31 mai)
+Travail sur projet.
+
 [[S10]]
-=== S10 
+=== S10 (28 juin)
 //Remise livraison 5 fin du 21 juin.
 
 * Effacer Itx.adoc, laisser uniquement le dernier, It5.adoc.
