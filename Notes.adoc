@@ -101,7 +101,7 @@ Une classe peut être associée à d’autres classes. (Une Association lie des 
 
 Association peut être vers même classe. On peut préciser : {ordered}, {sequence}…
 
-Une association peut indiquer, à un bout, une aggrégation [en fait indiquée par la propriété], soit shared soit composite. Association qualifiée pour dictionnaires (réduit la multiplicité). 
+Une association peut indiquer, à un bout, une aggrégation [en fait indiquée par la propriété], soit shared soit composite (cf. https://en.wikipedia.org/wiki/Object_composition#/media/File:Aggregation-Composition3.png[exemple Wikipedia]: `University` est un aggrégat (_composite_) d’éléments `Department`, eux-mêmes aggrégeant (_shared_) des éléments `Professor`). Association qualifiée pour dictionnaires (réduit la multiplicité). 
 
 Une classe association (à la fois classe et association) peut être accolée à l’association, via une ligne pointillée. (Exemple : a user of a car and the days of week.)
 
