@@ -72,6 +72,8 @@ Remise livraison 3 : fin du 12 avril.
 === S7 (12 avril)
 Travail sur projet. Posez-moi vos questions !
 
+*Note : Il est particulièrement important à ce stade de réfléchir à l’évolution du projet en vue de converger vers un ajout effectif de fonctionalités, et de prendre en compte les mentions FUTURE et mes autres commentaires sur les PRs passées comme demandé dans les instructions. C’est particulièrement, mais pas uniquement, la responsabilité du SM/PO, travaillant en accord avec son équipe. Cette préoccupation doit entre autres se refléter dans le plan pour cette itération.*
+
 Remise livraison 4 : fin du 3 mai.
 
 === S8 (3 mai)
