@@ -8,7 +8,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
-* https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4@thread.tacv2/1609694419561[Teams]
+* https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4%40thread.tacv2/1620042250895?context=%7B%22Tid%22%3A%2281e7c4de-26c9-4531-b076-b70e2d75966e%22%2C%22Oid%22%3A%22db290b1a-6988-4d6b-91c6-9ddd729313f6%22%7D[Teams] (https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4@thread.tacv2/1609694419561[ancien lien])
 * https://github.com/oliviercailloux/Teaching/blob/main/README.adoc#take-notes[Take notes]!
 
 // https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4@thread.tacv2/1609694419561?context={"Tid"%3A"81e7c4de-26c9-4531-b076-b70e2d75966e"%2C"Oid"%3A"db290b1a-6988-4d6b-91c6-9ddd729313f6"}
