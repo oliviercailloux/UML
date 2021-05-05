@@ -82,7 +82,7 @@ Note : vos deux meilleures livraisons compteront aussi pour le CC, si cela vous 
 * Conception interface utilisateur : cf. Martin Fowler, https://www.martinfowler.com/eaaDev/SeparatedPresentation.html[SeparatedPresentation] & https://www.martinfowler.com/eaaDev/SupervisingPresenter.html[Supervising Controller]
 * Travail sur projet. Préparez vos questions !
 
-Remise livraison 5 : fin du 31 mai
+Remise livraison 5 / 6 : fin du 31 mai
 
 === S9 (31 mai)
 Travail sur projet.
