@@ -12,7 +12,7 @@ Vos contributions devraient concerner les deux éléments suivants.
 
 Votre plan de démarrage d’itération doit faire référence à ces documents.
 
-Attention, votre lecteur n’est pas intéressé par l’historique de votre projet. Il faut construire un seul document cohérent, comportant uniquement les informations intéressant votre lecteur : l’état actuel ou futur du projet, pas son état passé (sauf exceptions). Votre documentation ne doit donc pas indiquer, par exemple, ce que vous avez ajouté spécifiquement cette année. Remplacez les parties adéquates de documentation existante par vos propositions, et ajoutez ce qui convient aux endroits adéquats. (Vous pouvez cependant occasionnellement et temporairement indiquer un lien vers une ancienne version d’un diagramme en attendant de coder vos changements proposés, par exemple.) (MAINTAIN)
+Attention, votre lecteur n’est pas intéressé par l’historique de votre projet. Il faut construire une documentation cohérente, comportant uniquement les informations intéressant votre lecteur : l’état actuel ou futur du projet, pas son état passé (sauf exceptions). Votre documentation ne doit donc pas indiquer, par exemple, ce que vous avez ajouté spécifiquement cette année. Remplacez les parties adéquates de documentation existante par vos propositions, et ajoutez ce qui convient aux endroits adéquats. (Vous pouvez cependant occasionnellement et temporairement indiquer un lien vers une ancienne version d’un diagramme en attendant de coder vos changements proposés, par exemple.) (CURRENT)
 
 == Instructions de modélisation
 Votre objectif principal est la clarté conceptuelle. 
