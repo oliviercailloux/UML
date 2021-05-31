@@ -89,7 +89,7 @@ Travail sur projet.
 
 Remise livraison 6 : fin du 28 juin. Veuillez en particulier aux points suivants, si pertinents pour votre projet.
 
-* Simplifier la structure de votre doc : un sous-répertoire Papyrus contenant un sous-répertoire Diagrams, qqs autres sous-répertoires seulement si nécessaire, et un fichier README qui mène à tous les documents. Appliquer CURRENT (cf. instructions).
+* Soyez gentils avec vos successeurs : clarifiez l’état actuel du projet, effacez les fichiers inutiles, simplifiez ce que vous pouvez… Appliquer CURRENT (cf. instructions).
 * Proposer des évolutions à vos successeurs, dans les grandes lignes ou en détails pour certains points. (Exemples : réusiner tel aspect, insatisfaisant pour telle raison ; viser à remplacer telle bibliothèque qui ne gère pas bien telle chose ; ajouter telle fonction.) Proposer des priorités pour orienter le travail.
 * Séparer clairement la doc de ce qui existe de ce que vous proposez comme améliorations (à mettre par exemple en fin de README).
 
