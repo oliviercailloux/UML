@@ -87,17 +87,14 @@ Remise livraison 5 / 6 : fin du 31 mai
 === S9 (31 mai)
 Travail sur projet.
 
+Remise livraison 6 : fin du 28 juin. Veuillez en particulier aux points suivants, si pertinents pour votre projet.
+
+* Simplifier la structure de votre doc : un sous-répertoire Papyrus contenant un sous-répertoire Diagrams, qqs autres sous-répertoires seulement si nécessaire, et un fichier README qui mène à tous les documents. Appliquer CURRENT (cf. instructions).
+* Proposer des évolutions à vos successeurs, dans les grandes lignes ou en détails pour certains points. (Exemples : réusiner tel aspect, insatisfaisant pour telle raison ; viser à remplacer telle bibliothèque qui ne gère pas bien telle chose ; ajouter telle fonction.) Proposer des priorités pour orienter le travail.
+* Séparer clairement la doc de ce qui existe de ce que vous proposez comme améliorations (à mettre par exemple en fin de README).
+
 [[S10]]
 === S10 (28 juin)
-//Remise livraison 5 fin du 21 juin.
-
-* Effacer Itx.adoc, laisser uniquement le dernier, It5.adoc.
-* Trier les archives en priorité. Effacer ce qui n’est plus utile, intégrer ce qui l’est. Il ne doit pas rester d’archives.
-* Effacer calendriers de remise, les informations destinées uniquement à l’évaluation, et autres informations inutiles pour vos lecteurs. Effacez ou modifiez les phrases du type « We plan to… ».
-* La doc doit indiquer où elle n’est pas à jour.
-* Proposer des évolutions à vos successeurs, dans les grandes lignes ou en détails pour certains points. (Exemples : refactor de tel aspect, insatisfaisant pour telle raison ; viser à remplacer telle bibliothèque qui ne gère pas bien telle chose ; ajouter telle fonction.) Proposer des priorités pour orienter le travail.
-* Simplifier la structure de votre doc : un sous-répertoire Papyrus contenant un sous-répertoire Diagrams, qqs autres sous-répertoires seulement si nécessaire, et un fichier README qui mène à tous les documents. Ne pas trier par itération, cela ne concerne pas vos successeurs.
-* Séparer clairement la doc de ce qui existe de ce que vous proposez comme améliorations (à mettre par exemple en fin de README).
 
 Bilan
 
