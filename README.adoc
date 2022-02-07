@@ -16,20 +16,22 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 
 == Plan
 [[S1]]
-=== S1 (4 janvier 2021)
+=== S1 (14 février 2022)
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
-* Présentation d’UML
-* Projets - https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] : Affectation
 * https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
+* Projets : https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Affectation]
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
 * https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://docs.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
+* QCM ?
 
-// Affectation commencée 15 minutes avant la pause mais a quand-même débordé de 15 minutes après la pause : 45 minutes ! Il semble largement possible de raccourcir, cependant.
+// Affectation à commencer 10 minutes avant la pause (45 minutes en 2021, mais devrait pouvoir être réduite).
+// Annoncer : ordi ; git ; projets.
 
 [[S2]]
 === S2 (11)
 Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] “for Java Developers”
 
+* Présentation d’UML
 * Exercice noté https://github.com/oliviercailloux/java-course/blob/master/Git/Commit.adoc[commit]
 * https://github.com/oliviercailloux/java-course/blob/master/Dev%20tools/Eclipse.adoc[Eclipse] basics
 * Git : push, fetch
