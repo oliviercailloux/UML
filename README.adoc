@@ -27,85 +27,6 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 // Affectation à commencer 10 minutes avant la pause (45 minutes en 2021, mais devrait pouvoir être réduite).
 // Annoncer : ordi ; git ; projets.
 
-[[S2]]
-=== S2 (11)
-Prerequisites: install https://www.eclipse.org/downloads/packages/[Eclipse IDE] “for Java Developers”
-
-* Présentation d’UML
-* Exercice noté https://github.com/oliviercailloux/java-course/blob/master/Git/Commit.adoc[commit]
-* https://github.com/oliviercailloux/java-course/blob/master/Dev%20tools/Eclipse.adoc[Eclipse] basics
-* Git : push, fetch
-* Les cas d’utilisation en UML (https://raw.githubusercontent.com/oliviercailloux/UML/master/Use%20cases.svg[Illustration])
-* https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
-* Projets - Instructions https://github.com/oliviercailloux/java-course/blob/master/L3/Projets.adoc[générales] et https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20Instructions%20UML.adoc[UML]
-
-// Débordé de 30 minutes sur deuxième créneau avec les cas d’utilisation, mais ça devrait aller plus vite avec un meilleur tableau.
-
-[[S3]]
-=== S3 (25)
-* Exercice noté : https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Exercice.adoc[Admin manages users]. S’assurer que le `user.name` de git égale votre identifiant GitHub. Construire un modèle Papyrus permettant de déduire quelques diagrammes de cas fournis dans l’énoncé. Remise sans pénalité au plus tard à 14:11. J’ai compté 10% de pénalité par minute de retard au lieu des 20% habituels (donc la note tombe à zéro à 14:21).
-* Les diagrammes de classes en UML : https://raw.githubusercontent.com/oliviercailloux/UML/master/Papyrus/Classes/Example%3A%20classes%20and%20metamodel.svg[Exemple discuté] (modèle https://github.com/oliviercailloux/UML-metamodel-in-Papyrus/tree/classes-car[ici])
-* https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] du projet  : établir en équipe un plan de première itération à discuter avec moi.
-
-[[S4]]
-=== S4 (8 février)
-Préparation : établir en équipe un plan de première itération à discuter avec moi.
-
-* Travail sur projet & https://github.com/oliviercailloux/UML/blob/master/Papyrus/README.adoc[tutoriel] diagrammes de classes
-
-Remise livraison 1 : fin du 14 février. Prévoir 8h de travail efficace par binôme.
-
-[[S5]]
-=== S5 (1 mars)
-* Diagrammes de https://github.com/oliviercailloux/UML/blob/master/Papyrus/Sequences.adoc[séquences] (cf. https://lipn.univ-paris13.fr/~gerard/uml-s2/uml-cours05.html[cours de Pierre Gérard], IUT de Villetaneuse)
-* Travail sur projet
-
-Remise livraison 2 : fin du 14 mars.
-
-[[S6]]
-=== S6 (15 mars)
-* Exercice https://github.com/oliviercailloux/UML/blob/master/Trucks/README.adoc[trucks]
-* Travail sur projet
-
-*NB les livraisons à partir de 3 comptent deux à trois fois plus que les deux premières.*
-
-Remise livraison 3 : fin du 12 avril.
-
-=== S7 (12 avril)
-Travail sur projet. Posez-moi vos questions !
-
-*Note : Il est particulièrement important à ce stade de réfléchir à l’évolution du projet en vue de converger vers un ajout effectif de fonctionalités, et de prendre en compte les mentions FUTURE et mes autres commentaires sur les PRs passées comme demandé dans les instructions. C’est particulièrement, mais pas uniquement, la responsabilité du SM/PO, travaillant en accord avec son équipe. Cette préoccupation doit entre autres se refléter dans le plan pour cette itération.*
-
-Remise livraison 4 : fin du 3 mai.
-
-=== S8 (3 mai)
-Note : vos deux meilleures livraisons compteront aussi pour le CC, si cela vous avantage.
-
-* Conception interface utilisateur : cf. Martin Fowler, https://www.martinfowler.com/eaaDev/SeparatedPresentation.html[SeparatedPresentation] & https://www.martinfowler.com/eaaDev/SupervisingPresenter.html[Supervising Controller]
-* Travail sur projet. Préparez vos questions !
-
-Remise livraison 5 / 6 : fin du 31 mai
-
-=== S9 (31 mai)
-Travail sur projet.
-
-Remise livraison 6 : fin du 28 juin. Veuillez en particulier aux points suivants, si pertinents pour votre projet.
-
-* Soyez gentils avec vos successeurs : clarifiez l’état actuel du projet, effacez les fichiers inutiles, simplifiez ce que vous pouvez… Appliquer CURRENT (cf. instructions).
-* Proposer des évolutions à vos successeurs, dans les grandes lignes ou en détails pour certains points. (Exemples : réusiner tel aspect, insatisfaisant pour telle raison ; viser à remplacer telle bibliothèque qui ne gère pas bien telle chose ; ajouter telle fonction.) Proposer des priorités pour orienter le travail.
-* Séparer clairement la doc de ce qui existe de ce que vous proposez comme améliorations (à mettre par exemple en fin de documentation dans une section dédiée).
-
-[[S10]]
-=== S10 (28 juin)
-
-Bilan
-
-* UML : un langage (usage des construits UML pour s’exprimer ; proximité à choisir entre la doc et l’implémentation ; …)
-* Un modèle (pas seulement des diagrammes)
-* Permet des discussions de haut niveau pour économiser des efforts
-* Respect des spécifications : plutôt strict dans ce cours, autres usages possibles
-* Méthodo : plus ou moins agile selon les contextes
-
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
 * https://www.eclipse.org/papyrus/download.html[Papyrus], une implémentation open source très respectueuse de la spécification (mais prise en main difficile) (alternative : on m’a recommandé https://staruml.io/[StarUML], mais closed source et payant)
@@ -113,6 +34,6 @@ Bilan
 * https://www.lamsade.dauphine.fr/~negre/coursfr.html[Cours] de Elsa Negre
 * Livre : Fowler - UML Distilled: A Brief Guide to the Standard Object Modeling Language (2003), comment bien ne pas respecter la spécification
 * Livre : Roques - UML 2 par la pratique - Études de cas et exercices corrigés, Sixième édition (2008)
-* https://www.youtube.com/watch?v=yaLGw-ZSUKk[Vidéo] : UML and Rhapsody Workflows for Embedded Code Development
-⋅ https://www-info.iutv.univ-paris13.fr/dokuwiki/doku.php?id=m2104:start[DUT Informatique, module M2104 : Introduction à la conception orientée objet (COO)]
+* https://www.youtube.com/watch?v=yaLGw-ZSUKk[Vidéo] : UML and Rhapsody Workflows for Embedded Code Development (emploi d’UML dans l’industrie)
+* https://www-info.iutv.univ-paris13.fr/dokuwiki/doku.php?id=m2104:start[DUT Informatique, module M2104 : Introduction à la conception orientée objet (COO)]
 
