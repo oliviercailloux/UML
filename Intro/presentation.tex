@@ -45,13 +45,13 @@
 		\item Vue haut niveau sur architectures des systèmes 
 		\item Vue bas niveau sur la modélisation des besoins
 	\end{itemize}
-	Ce cours adopte le deuxième point de vue
+	Ce cours adopte le deuxième point de vue et se concentre sur l’application d’UML
 	\begin{itemize}
 		\item UML très utile pour développement de haut niveau
 		\item Standard largement adopté dans le monde industriel
 		\item Longue histoire et encore en évolution
 		\item Facilite la communication entre développeurs
-		\item Facilite (parfois) la communication avec les clients
+		\item Facilite la communication avec les usagers
 		\item Démarche de modélisation importante !
 	\end{itemize}
 \end{frame}
@@ -60,8 +60,8 @@
 	\frametitle{Objectifs}
 	\begin{itemize}
 		\item Un deuxième cours d’UML ?
-		\item Focus différent !
 		\item UML ? \onslide<2->{Un \emph{langage} de \emph{modélisation}}
+		\item Focus différent : le \emph{modèle}
 		\item Diagrammes \emph{issus} du modèle, donc \emph{cohérents}
 		\item Pour soutenir un projet
 	\end{itemize}
@@ -88,9 +88,9 @@
 	\begin{block}{Itérations, livraisons}
 		\begin{itemize}
 			\item Développement en \emph{itérations} clôturées par des \emph{livraisons}
-			\item Plusieurs livraisons (5 ?) d’un modèle UML évoluant
+			\item Plusieurs livraisons (6 ?) d’un modèle UML évoluant
 			\item Livraisons via git
-			\item Équipe projet : binômes changeants à chaque itération
+			\item Équipe projet (3 à 7) : binômes changeants à chaque itération
 		\end{itemize}
 	\end{block}
 	\begin{block}{UML VS Java}
@@ -104,8 +104,8 @@
 \begin{frame}
 	\frametitle{Évaluation}
 	\begin{itemize}
-		\item Notes pour chaque binôme à chaque livraison (partie des 50\% Projet)
-		\item Notes pour exercices en séance (partie des 50\% CC)
+		\item \hrefblue{https://github.com/oliviercailloux/java-course/blob/master/L3/Projets.adoc\#\%C3\%A9valuation}{Notes} par sous-équipe et par livraison (50\% Projet)
+		\item Notes pour exercices notés en séance (50\% CC)
 		\item Note finale individuelle (aggrégation des notes)
 	\end{itemize}
 \end{frame}
@@ -120,7 +120,12 @@
 		\item Papyrus : Logiciel de modélisation respectueux du standard
 		\item Collaboration via GitHub
 		\item Diagrammes de cas, de classes, de séquences principalement
-		\item Travail sur projet : 4 ECTS ⇒ (100 − 10 × 3) / 5 = 14 heures de travail maison par livraison par personne
+		\pgfmathsetmacro{\mycalcNbReleases}{6}
+		\pgfmathsetmacro{\mycalcHPerRelease}{6}
+		\pgfmathsetmacro{\mycalcHBetweenSessionsMin}{(25 * 4 - 10 * 3 - \mycalcNbReleases * \mycalcHPerRelease) / (10 - 1)}
+		\pgfmathsetmacro{\mycalcHBetweenSessionsMax}{(30 * 4 - 10 * 3 - \mycalcNbReleases * \mycalcHPerRelease) / (10 - 1)}
+		\item Travail sur projet : \num{\mycalcHPerRelease} heures de travail maison par livraison par personne en moyenne
+		\item Travail entre chaque séance : 4 ECTS ⇒ \num[round-mode=places, round-precision=1, mode=text]{\mycalcHBetweenSessionsMin} à \num[round-mode=places, round-precision=1, mode=text]{\mycalcHBetweenSessionsMax} heures de travail maison par inter-séance en moyenne
 	\end{itemize}
 \end{frame}
 \end{document}
