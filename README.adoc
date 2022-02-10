@@ -20,8 +20,9 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
 * Projets : https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Affectation]
-* https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] (plus exercices)
-* https://classroom.github.com/a/mgecjMoT[Starter]: créez votre dépôt privé ici ; créez un dépôt local où vous placez un commit contenant un fichier "coucou.txt" ; connectez votre dépôt local à ce dépôt privé et envoyez-y votre commit. Pour recommencer, https://docs.github.com/en/github/administering-a-repository/deleting-a-repository[effacez] simplement votre dépôt privé.
+* https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git], https://learngitbranching.js.org/?NODEMO[Live demo]
+* Read the https://github.com/oliviercailloux/java-course/blob/master/Git/Graded%20exercices.adoc[graded exercices] procedure and take the “training” assignment; Practice with the exercices
+
 * QCM ?
 
 // Affectation à commencer 10 minutes avant la pause (45 minutes en 2021, mais devrait pouvoir être réduite).
