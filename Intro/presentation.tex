@@ -74,7 +74,7 @@
 	\end{itemize}
 	\begin{block}{Qu’apprendra-t-on ?}
 		\begin{itemize}
-			\item Travailler en équipe sur un projet
+			\item Travailler en équipe sur un projet \emph{avec git}
 			\item Utiliser UML pour planifier un développement
 			\item Appliquer une méthodologie de développement agile
 			\item Distinguer le modèle des diagrammes
@@ -88,7 +88,7 @@
 	\frametitle{Organisation du projet}
 	\begin{block}{Projet}
 		\begin{itemize}
-			\item Projets ≠ par équipe, d’envergure
+			\item Projets ≠ par équipe (3 à 7), d’envergure
 			\item Satisfaction de besoins réels
 		\end{itemize}
 	\end{block}
@@ -97,13 +97,13 @@
 			\item Développement en \emph{itérations} clôturées par des \emph{livraisons}
 			\item Plusieurs livraisons (6 ?) d’un modèle UML évoluant
 			\item Livraisons via git
-			\item Équipe projet (3 à 7) : binômes changeants à chaque itération
+			\item Équipe projet : sous-équipes changeantes à chaque itération
 		\end{itemize}
 	\end{block}
 	\begin{block}{UML VS Java}
 		\begin{itemize}
 			\item Même équipe et même projet que cours de Java
-			\item Binômes non nécessairement identiques
+			\item Sous-équipes non nécessairement identiques
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -128,11 +128,13 @@
 		\item Collaboration via GitHub
 		\item Diagrammes de cas, de classes, de séquences principalement
 		\pgfmathsetmacro{\mycalcNbReleases}{6}
-		\pgfmathsetmacro{\mycalcHPerRelease}{6}
+		\pgfmathsetmacro{\mycalcHPerRelease}{7}
 		\pgfmathsetmacro{\mycalcHBetweenSessionsMin}{(25 * 4 - 10 * 3 - \mycalcNbReleases * \mycalcHPerRelease) / (10 - 1)}
+		\pgfmathsetmacro{\mycalcHBetweenSessionsAvg}{(27 * 4 - 10 * 3 - \mycalcNbReleases * \mycalcHPerRelease) / (10 - 1)}
 		\pgfmathsetmacro{\mycalcHBetweenSessionsMax}{(30 * 4 - 10 * 3 - \mycalcNbReleases * \mycalcHPerRelease) / (10 - 1)}
 		\item Travail sur projet : \num{\mycalcHPerRelease} heures de travail maison par livraison par personne en moyenne
-		\item Travail entre chaque séance : 4 ECTS ⇒ \num[round-mode=places, round-precision=1, mode=text]{\mycalcHBetweenSessionsMin} à \num[round-mode=places, round-precision=1, mode=text]{\mycalcHBetweenSessionsMax} heures de travail maison par inter-séance en moyenne
+		\item Travail entre chaque séance : 4 ECTS ⇒ \num[round-mode=places, round-precision=0, mode=text]{\mycalcHBetweenSessionsAvg} heures de travail maison par inter-séance en moyenne
+%		\item (Plus précisément : \num[round-mode=places, round-precision=1, mode=text]{\mycalcHBetweenSessionsMin} à \num[round-mode=places, round-precision=1, mode=text]{\mycalcHBetweenSessionsMax})
 	\end{itemize}
 \end{frame}
 \end{document}
