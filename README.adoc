@@ -8,22 +8,17 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
 * https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
-* https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4%40thread.tacv2/1620042250895?context=%7B%22Tid%22%3A%2281e7c4de-26c9-4531-b076-b70e2d75966e%22%2C%22Oid%22%3A%22db290b1a-6988-4d6b-91c6-9ddd729313f6%22%7D[Teams] (https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4@thread.tacv2/1609694419561[ancien lien])
 * https://github.com/oliviercailloux/Teaching/blob/main/README.adoc#take-notes[Take notes]!
-
-// https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4@thread.tacv2/1609694419561?context={"Tid"%3A"81e7c4de-26c9-4531-b076-b70e2d75966e"%2C"Oid"%3A"db290b1a-6988-4d6b-91c6-9ddd729313f6"}
-// * https://teams.microsoft.com/l/meetup-join/19%3ameeting_YThjOGQ2ZTgtNDFhNC00ZTA3LTk5NWUtMmQ0ZWNlZTFlMTYw%40thread.v2/0?context=%7b%22Tid%22%3a%2281e7c4de-26c9-4531-b076-b70e2d75966e%22%2c%22Oid%22%3a%22db290b1a-6988-4d6b-91c6-9ddd729313f6%22%7d[Teams]
 
 == Plan
 [[S1]]
 === S1 (14 février 2022)
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
 * https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
-* Projets : https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Affectation]
 * https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git], https://learngitbranching.js.org/?NODEMO[Live demo]
+* Projets : https://github.com/oliviercailloux/java-course/blob/master/L3/Projets%20-%20D%C3%A9marrage.adoc#affectation-initiale[Affectation]
 * Read the https://github.com/oliviercailloux/java-course/blob/master/Git/Graded%20exercices.adoc[graded exercices] procedure and take the “training” assignment; Practice with the exercices
-
-* QCM ?
+* QCM
 
 // Affectation à commencer 10 minutes avant la pause (45 minutes en 2021, mais devrait pouvoir être réduite).
 // Annoncer : ordi ; git ; projets.
