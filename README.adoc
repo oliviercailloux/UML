@@ -14,10 +14,12 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 [[S1]]
 === S1 (14 février 2022)
 * https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
-* https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] 
-* https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git], https://learngitbranching.js.org/?NODEMO[Live demo]
+* https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] : 2 exercices
+* https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] : Configure & Step by step (and https://learngitbranching.js.org/?NODEMO[Live demo])
 * Projets : https://github.com/oliviercailloux/java-course/blob/master/L3/Projets%20-%20D%C3%A9marrage.adoc#affectation-initiale[Affectation]
-* Read the https://github.com/oliviercailloux/java-course/blob/master/Git/Graded%20exercices.adoc[graded exercices] procedure and take the “training” assignment; Practice with the exercices
+
+TODO : terminer tous les exercices indiqués.
+// * Read the https://github.com/oliviercailloux/java-course/blob/master/Git/Graded%20exercices.adoc[graded exercices] procedure and take the “training” assignment; Practice with the exercices
 
 // * QCM
 // Affectation à commencer 10 minutes avant la pause (45 minutes en 2021, mais devrait pouvoir être réduite).
