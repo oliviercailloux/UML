@@ -1,25 +1,25 @@
 = UML
 
-image::.github/Links%20check.svg["Links check status", link="https://github.com/oliviercailloux/UML/blob/master/.github/Last%20results.json"]
+image::.github/Links%20check.svg["Links check status", link="https://github.com/oliviercailloux/UML/blob/main/.github/Last%20results.json"]
 
-// https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/oliviercailloux/UML/master/.github/Badge.json&label=links%20check
+// https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/oliviercailloux/UML/main/.github/Badge.json&label=links%20check
 // https://img.shields.io/static/v1?label=Links%20check&message=Pass%20(2021-01-05)&color=green
 // https://img.shields.io/static/v1?label=Links%20check&message=Fail&color=red
 
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
-* https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
+* https://github.com/oliviercailloux/UML/blob/main/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
 * https://github.com/oliviercailloux/Teaching/blob/main/README.adoc#take-notes[Take notes]!
 
 == Plan
 [[S1]]
 === S1 (14 février 2022)
-* https://raw.githubusercontent.com/oliviercailloux/UML/master/Intro/presentation.pdf[Organisation et objectif] du cours
-* https://github.com/oliviercailloux/java-course/blob/master/Git/Shell.adoc[Shell] : 2 exercices
-* https://github.com/oliviercailloux/java-course/blob/master/Git/README.adoc[Git] : Configure & Step by step (and https://learngitbranching.js.org/?NODEMO[Live demo])
-* Projets : https://github.com/oliviercailloux/java-course/blob/master/L3/Projets%20-%20D%C3%A9marrage.adoc#affectation-initiale[Affectation]
+* https://raw.githubusercontent.com/oliviercailloux/UML/main/Intro/presentation.pdf[Organisation et objectif] du cours
+* https://github.com/oliviercailloux/java-course/blob/main/Git/Shell.adoc[Shell] : 2 exercices
+* https://github.com/oliviercailloux/java-course/blob/main/Git/README.adoc[Git] : Configure & Step by step (and https://learngitbranching.js.org/?NODEMO[Live demo])
+* Projets : https://github.com/oliviercailloux/java-course/blob/main/L3/Projets%20-%20D%C3%A9marrage.adoc#affectation-initiale[Affectation]
 
-TODO : terminer tous les exercices indiqués.
-// * Read the https://github.com/oliviercailloux/java-course/blob/master/Git/Graded%20exercices.adoc[graded exercices] procedure and take the “training” assignment; Practice with the exercices
+TODO à la maison : terminer tous les exercices indiqués.
+// * Read the https://github.com/oliviercailloux/java-course/blob/main/Git/Graded%20exercices.adoc[graded exercices] procedure and take the “training” assignment; Practice with the exercices
 
 // * QCM
 // Affectation à commencer 10 minutes avant la pause (45 minutes en 2021, mais devrait pouvoir être réduite).

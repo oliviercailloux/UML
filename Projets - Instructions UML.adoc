@@ -1,6 +1,6 @@
 = Projets : Instructions UML
 
-Voir aussi : https://github.com/oliviercailloux/UML/blob/master/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] ; https://github.com/oliviercailloux/java-course/blob/master/L3/Projets.adoc[Instructions générales].
+Voir aussi : https://github.com/oliviercailloux/java-course/blob/main/L3/Projets%20-%20D%C3%A9marrage.adoc[Démarrage] ; https://github.com/oliviercailloux/java-course/blob/main/L3/Projets.adoc[Instructions générales].
 Ce document contient les instructions spécifiques au cours UML.
 
 Une itération UML se conclut par une livraison, qui a pour objectif de documenter le projet ou le futur du projet. Elle ne touche, sauf exception, qu’au contenu du sous-répertoire `Doc`. (DOC)
