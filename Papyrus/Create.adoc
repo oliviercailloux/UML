@@ -1,7 +1,7 @@
 = Starting up a Papyrus model
 
 == Prerequisites
-You know how to manipulate Eclipse views. You have https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Install[installed] Papyrus.
+You know how to manipulate Eclipse views. You have https://github.com/oliviercailloux/UML/blob/main/Papyrus/Various.adoc#Install[installed] Papyrus.
 
 == A new Papyrus model
 
@@ -23,6 +23,6 @@ You know how to manipulate Eclipse views. You have https://github.com/oliviercai
 * Open up the `Properties` view. Make sure that both the `Model Explorer` and the `Properties` view are visible on your screen at the same time.
 * Select your root model element. In general, the properties view permit to edit all kinds of properties of your model elements. All the properties you will need to edit in this course are in the `UML` tab in the properties view, thus, you can neglect the other tabs such as `Profile` or `Advanced`. You may edit the name of your root model element if you wish (you can also rename your element directly from the `Model Explorer` view). When we will create other model elements, this view will be important.
 
-Note for the curious users: if you wonder where the properties you specified when creating the model (for example, the architecture contexts) are stored, see https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#storage-of-properties[this remark]. 
+Note for the curious users: if you wonder where the properties you specified when creating the model (for example, the architecture contexts) are stored, see https://github.com/oliviercailloux/UML/blob/main/Papyrus/Various.adoc#storage-of-properties[this remark]. 
 
 

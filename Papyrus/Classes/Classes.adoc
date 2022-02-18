@@ -3,7 +3,7 @@
 :emptyattribute:
 
 == Prerequisites
-You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[created] a Papyrus model.
+You https://github.com/oliviercailloux/UML/blob/main/Papyrus/Create.adoc[created] a Papyrus model.
 
 == Classes
 Let’s add a few classes and properties to our model, then display them in a diagram. In our (silly) example, we will model that any person can say hello; that some persons are users (of our system); and that each user has been assigned a contact person.
@@ -11,7 +11,7 @@ Let’s add a few classes and properties to our model, then display them in a di
 * Add a `Class` element as a child of your root element, name it `Person`.
 * Add a `Property` element as a child of `Person`, name it `fullName`.
 ** To type this property, we need the type String. We do not have to define this type ourselves, suffices to import the right package.
-** From your root element, `Import` / `Import Registered Package`, choose `UML Primitive Types`, make sure you https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Import[select `Import`] and not `Load` as action.
+** From your root element, `Import` / `Import Registered Package`, choose `UML Primitive Types`, make sure you https://github.com/oliviercailloux/UML/blob/main/Papyrus/Various.adoc#Import[select `Import`] and not `Load` as action.
 ** In the `Properties` view of the `fullName` property, click the button next to `Type` and select (under `UMLPrimitiveTypes`) `« EDataType » String` as its type.
 ** Observe that the property is now shown as `fullName: String` in the `Model Explorer`.
 * Add a `Class` named `User` as another child of your root element.
@@ -37,4 +37,4 @@ You will also need to import the `Java Primitive Types` package in order to use 
 
 Add an operation to a class, give it some `int` parameter with multiplicity `[1..*]`. Use the `Appearance` sub-menu (in `Properties` when the representation is selected) to display the multiplicity and to hide the parameter direction. (https://www.eclipse.org/forums/index.php/m/954561[This] might be useful.)
 
-Note that if you follow https://github.com/oliviercailloux/UML/blob/master/Papyrus/Use%20cases/Use%20cases.adoc[Use cases], you will also have a `User role` element in your model. In the scenario presented here, this element is considered as conceptually different than your `User` element. If these two things are in fact the same (thus, if the class represents a person playing the role of a user of a system), then you might want to create only one element (a `Class`) and use that class instead of the actor in the use case diagram.
+Note that if you follow https://github.com/oliviercailloux/UML/blob/main/Papyrus/Use%20cases/Use%20cases.adoc[Use cases], you will also have a `User role` element in your model. In the scenario presented here, this element is considered as conceptually different than your `User` element. If these two things are in fact the same (thus, if the class represents a person playing the role of a user of a system), then you might want to create only one element (a `Class`) and use that class instead of the actor in the use case diagram.

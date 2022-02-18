@@ -1,8 +1,8 @@
 = Introduction à UML
 
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
-* https://github.com/oliviercailloux/UML/blob/master/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
-* https://github.com/oliviercailloux/UML/blob/master/Pr%C3%A9-rentr%C3%A9e/Exercices.adoc[Exercices]
+* https://github.com/oliviercailloux/UML/blob/main/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
+* https://github.com/oliviercailloux/UML/blob/main/Pr%C3%A9-rentr%C3%A9e/Exercices.adoc[Exercices]
 * https://app.wooclap.com/UML[Quizz]
 
 == Prenez des notes

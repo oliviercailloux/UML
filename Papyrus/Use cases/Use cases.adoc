@@ -1,7 +1,7 @@
 = Use cases
 
 == Prerequisites
-You https://github.com/oliviercailloux/UML/blob/master/Papyrus/Create.adoc[created] a Papyrus model.
+You https://github.com/oliviercailloux/UML/blob/main/Papyrus/Create.adoc[created] a Papyrus model.
 
 == Use cases
 Let’s add a use case and related elements to our model, then display them in a diagram. Suppose we want to indicate that our system is able to say hello when demanded by a user.
@@ -24,8 +24,8 @@ Now for the diagram.
 ** The Association element appears in the model.
 ** It owns two properties, corresponding to the its ends: one that has the `User role` as type, and one that has the `Say hello` as type.
 * Right-click the line representing the association, `Filters` / `Show/Hide Labels`, unselect its name.
-* Remove the association representation https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Representation[from the diagram] and drag it again in the diagram.
+* Remove the association representation https://github.com/oliviercailloux/UML/blob/main/Papyrus/Various.adoc#Representation[from the diagram] and drag it again in the diagram.
 * Click the name of the association in the diagram and select `Delete from diagram`: this hides its label, as done previously through the `Filters` menu.
 
-In you are curious about the `Filters` / `Synchronized with Model` option, read https://github.com/oliviercailloux/UML/blob/master/Papyrus/Various.adoc#Synchronization[this].
+In you are curious about the `Filters` / `Synchronized with Model` option, read https://github.com/oliviercailloux/UML/blob/main/Papyrus/Various.adoc#Synchronization[this].
 
