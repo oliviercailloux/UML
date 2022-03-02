@@ -20,13 +20,15 @@ TODO à la maison : terminer tous les exercices indiqués.
 
 [[S2]]
 == S2 : 7 mars 2022
-
 * Graded exercice about git
 * Présentation d’UML
 ** https://github.com/oliviercailloux/UML/blob/main/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
-* https://github.com/oliviercailloux/java-course/blob/main/Dev%20tools/Eclipse.adoc[Eclipse] basics
+* https://github.com/oliviercailloux/java-course/blob/main/Dev%20tools/Eclipse.adoc[Eclipse]: Basics and Basic exercices
 * QCM
-* Les cas d’utilisation en UML (https://raw.githubusercontent.com/oliviercailloux/UML/main/Use%20cases.svg[Illustration])
+
+== S3
+* Les cas d’utilisation en UML
+// (https://raw.githubusercontent.com/oliviercailloux/UML/main/Use%20cases.svg[Illustration])
 * https://github.com/oliviercailloux/UML/blob/main/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 
 == Références
