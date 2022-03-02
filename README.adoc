@@ -7,7 +7,6 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 // https://img.shields.io/static/v1?label=Links%20check&message=Fail&color=red
 
 * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
-* https://github.com/oliviercailloux/UML/blob/main/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
 * https://github.com/oliviercailloux/Teaching/blob/main/README.adoc#take-notes[Take notes]!
 
 [[S1]]
@@ -23,8 +22,12 @@ TODO à la maison : terminer tous les exercices indiqués.
 == S2 : 7 mars 2022
 
 * Graded exercice about git
-
+* Présentation d’UML
+** https://github.com/oliviercailloux/UML/blob/main/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
+* https://github.com/oliviercailloux/java-course/blob/main/Dev%20tools/Eclipse.adoc[Eclipse] basics
 * QCM
+* Les cas d’utilisation en UML (https://raw.githubusercontent.com/oliviercailloux/UML/main/Use%20cases.svg[Illustration])
+* https://github.com/oliviercailloux/UML/blob/main/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
