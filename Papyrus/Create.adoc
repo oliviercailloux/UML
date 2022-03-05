@@ -17,7 +17,7 @@ You know how to manipulate Eclipse views. You have https://github.com/oliviercai
 ** `My model.uml` starts with a simple XML `uml:Model` element (`uml` references the namespace `\http://www.eclipse.org/uml2/5.0.0/UML`), but will evolve to record every UML elements you put in your model, excluding the graphical content.
 * Open up the `Model Explorer` view in Eclipse. You see your root model element.
 ** You can right-click elements in that view to add elements and diagrams to your model. Let us try to add and remove an element. Right-click your root element and, from the `New Child` menu, add a `Comment` element.
-** Your `Model Explorer` displays more details that you need. Click `Toggle advanced ModelExplorer` (if it was enabled) to make it display only your root element and the child element you just created.
+// ** Your `Model Explorer` displays more details that you need. Click `Toggle advanced ModelExplorer` (if it was enabled) to make it display only your root element and the child element you just created.
 ** Select this new element and hit the delete key to remove it. (You can also use `Undo`.)
 ** The `Model Explorer` view displays your components as a hierarchy, which reflects the _ownership_ hierarchy of UML elements: an element displayed as “contained” in another element in that view has that other element as its UML owner.
 * Open up the `Properties` view. Make sure that both the `Model Explorer` and the `Properties` view are visible on your screen at the same time.
