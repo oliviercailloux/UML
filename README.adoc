@@ -24,6 +24,7 @@ TODO à la maison : terminer tous les exercices indiqués.
 Create a commit that contains, in `Some file.txt`, the original content of `Some file.txt` together with the original content of `Another file.txt` (thus, two lines of text in that file, and one line in `Another file.txt`).
 Then create a commit with a third file, whose path, relative to the root of your repository, is `a subfolder/A third file.txt`, and that contains `Hello`. Make sure you use the right case.
 (You may have supplementary commits, the important point is that at least these two commits must exist with their expected content.)
+Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 * Présentation d’UML
 ** https://github.com/oliviercailloux/UML/blob/main/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
 * https://github.com/oliviercailloux/java-course/blob/main/Dev%20tools/Eclipse.adoc[Eclipse]: Basics and Basic exercices
