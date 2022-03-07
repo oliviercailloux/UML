@@ -27,13 +27,13 @@ Then create a commit with a third file, whose path, relative to the root of your
 Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 * Présentation d’UML
 ** https://github.com/oliviercailloux/UML/blob/main/Notes.adoc[Notes] de cours succinctes (ne remplace pas vos notes !)
+* Les cas d’utilisation en UML
 * https://github.com/oliviercailloux/java-course/blob/main/Dev%20tools/Eclipse.adoc[Eclipse]: Basics and Basic exercices
+* https://github.com/oliviercailloux/UML/blob/main/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 * https://oliviercailloux.github.io/Exams/[QCM]
 
 == S3
-* Les cas d’utilisation en UML
 // (https://raw.githubusercontent.com/oliviercailloux/UML/main/Use%20cases.svg[Illustration])
-* https://github.com/oliviercailloux/UML/blob/main/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
