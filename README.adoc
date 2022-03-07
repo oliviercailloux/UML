@@ -32,6 +32,8 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 * https://github.com/oliviercailloux/UML/blob/main/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 * https://oliviercailloux.github.io/Exams/[QCM]
 
+TODO à la maison : terminer intro Papyrus (Create)
+
 == S3
 // (https://raw.githubusercontent.com/oliviercailloux/UML/main/Use%20cases.svg[Illustration])
 
