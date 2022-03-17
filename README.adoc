@@ -37,7 +37,8 @@ TODO à la maison : terminer intro Papyrus (Create)
 [[S3]]
 == S3 : 21 mars
 * Graded exercice about git branching and merging, similar to the https://github.com/oliviercailloux/java-course/blob/main/Git/README.adoc[Git branching] exercices: https://github.com/oliviercailloux/java-course/blob/main/Git/Git%20branching%204.adoc[branching bis]
-* Tutoriel Papyrus Use Case.
+* Tutoriel Papyrus Use Case
+* https://github.com/oliviercailloux/UML/blob/main/Papyrus/Use%20cases/Exercice.adoc[Exercice Use Case]
 * Modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas (à partir de zéro)
 * Étudier le modèle existant de votre projet
 

@@ -1,7 +1,7 @@
 = Exercice: Admin manages users
 In this graded exercice we will create a Papyrus model that allows us to show that our system allows an administrator to manage users, and more precisely, to create and delete users.
 
-Accept https://classroom.github.com/a/yH9kBSeP[this assignment]. This creates a repository to which you must push the Papyrus model file that you will create.
+Accept https://classroom.github.com/a/yH9kBSeP[this assignment]. This creates a repository to which you must push the Papyrus model file that you will create (optional).
 
 Create a new Papyrus model. Create in that model the UML elements required to make the following three diagrams. Push your model file to your repository. (You may use intermediate folders, this does not matter)
 
@@ -24,12 +24,12 @@ You will be graded according to the following criteria (roughly by order of impo
 . The UML elements are all nicely sorted out, that is, they are all inside the subject that you created for these use cases
 . Only the model file is pushed to the repository, nothing else (you may of course create diagrams locally to help designing your model)
 
-== Some results
-Out of 27 answers, number of answers that have got more than zero, by criteria.
-
-* UC manage: exists 22; unique 16
-* Generalizes is the unique Manage UC: 15
-* No superfluous elements: 10
-* Sorted out: 2
-* Model only: 0 (cf. Papyrus/Create!)
+// == Some results
+// Out of 27 answers, number of answers that have got more than zero, by criteria.
+// 
+// * UC manage: exists 22; unique 16
+// * Generalizes is the unique Manage UC: 15
+// * No superfluous elements: 10
+// * Sorted out: 2
+// * Model only: 0 (cf. Papyrus/Create!)
 
