@@ -19,7 +19,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 TODO à la maison : terminer tous les exercices indiqués.
 
 [[S2]]
-== S2 : 7 mars 2022
+== S2 : 7 mars
 * Graded exercice about git: https://classroom.github.com/a/b4G09FPt[first].
 Create a commit that contains, in `Some file.txt`, the original content of `Some file.txt` together with the original content of `Another file.txt` (thus, two lines of text in that file, and one line in `Another file.txt`).
 Then create a commit with a third file, whose path, relative to the root of your repository, is `a subfolder/A third file.txt`, and that contains `Hello`. Make sure you use the right case.
@@ -34,8 +34,12 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 
 TODO à la maison : terminer intro Papyrus (Create)
 
-== S3
-// (https://raw.githubusercontent.com/oliviercailloux/UML/main/Use%20cases.svg[Illustration])
+[[S3]]
+== S3 : 21 mars
+* Graded exercice about git branching and merging, similar to the https://github.com/oliviercailloux/java-course/blob/main/Git/README.adoc[Git branching] exercices: https://github.com/oliviercailloux/java-course/blob/main/Git/Git%20branching%204.adoc[branching bis]
+* Tutoriel Papyrus Use Case.
+* Modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas (à partir de zéro)
+* Étudier le modèle existant de votre projet
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
