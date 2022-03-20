@@ -41,7 +41,7 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 * https://github.com/oliviercailloux/UML/blob/main/Papyrus/Use%20cases/Exercice.adoc[Exercice Use Case]
 * Projets : https://github.com/oliviercailloux/java-course/blob/main/L3/Projets%20-%20D%C3%A9marrage.adoc#démarrage[Démarrage]
 * Étudier le modèle existant de votre projet
-* Modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas, cf. instructions de votre projet
+* Modéliser un cas d’utilisation de votre projet et en tirer un ou plusieurs diagramme de cas, cf. instructions de votre projet
 
 *TODO @ home*
 
