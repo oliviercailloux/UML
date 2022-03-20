@@ -39,8 +39,16 @@ TODO à la maison : terminer intro Papyrus (Create)
 * Graded exercice about git branching and merging, similar to the https://github.com/oliviercailloux/java-course/blob/main/Git/README.adoc[Git branching] exercices: https://github.com/oliviercailloux/java-course/blob/main/Git/Git%20branching%204.adoc[branching bis]
 * Tutoriel Papyrus Use Case
 * https://github.com/oliviercailloux/UML/blob/main/Papyrus/Use%20cases/Exercice.adoc[Exercice Use Case]
-* Modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas (à partir de zéro)
+* Projets : https://github.com/oliviercailloux/java-course/blob/main/L3/Projets%20-%20D%C3%A9marrage.adoc#démarrage[Démarrage]
+* Modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas, cf. instructions de votre projet (exercice noté)
 * Étudier le modèle existant de votre projet
+
+TODO à la maison : lire https://github.com/oliviercailloux/java-course/blob/main/L3/Projets.adoc[Projets : Instructions générales] et remettre votre première livraison (comptera comme un exercice noté)
+
+[[S4]]
+== S4
+* Diagrammes de classes
+* Discussion par groupe concernant la première livraison
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
