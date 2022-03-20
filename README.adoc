@@ -16,7 +16,7 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 * https://github.com/oliviercailloux/java-course/blob/main/Git/README.adoc[Git] : Configure & Step by step (and https://learngitbranching.js.org/?NODEMO[Live demo])
 * Projets : https://github.com/oliviercailloux/java-course/blob/main/L3/Projets%20-%20D%C3%A9marrage.adoc#affectation-initiale[Affectation]
 
-TODO à la maison : terminer tous les exercices indiqués.
+*TODO @ home* : terminer tous les exercices indiqués.
 
 [[S2]]
 == S2 : 7 mars
@@ -32,7 +32,7 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 * https://github.com/oliviercailloux/UML/blob/main/Papyrus/README.adoc[Papyrus] : prise en main. Suivre les tutoriels, puis modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas.
 * https://oliviercailloux.github.io/Exams/[QCM]
 
-TODO à la maison : terminer intro Papyrus (Create)
+*TODO @ home* : terminer intro Papyrus (Create)
 
 [[S3]]
 == S3 : 21 mars
