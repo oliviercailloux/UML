@@ -40,10 +40,12 @@ TODO à la maison : terminer intro Papyrus (Create)
 * Tutoriel Papyrus Use Case
 * https://github.com/oliviercailloux/UML/blob/main/Papyrus/Use%20cases/Exercice.adoc[Exercice Use Case]
 * Projets : https://github.com/oliviercailloux/java-course/blob/main/L3/Projets%20-%20D%C3%A9marrage.adoc#démarrage[Démarrage]
-* Modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas, cf. instructions de votre projet (exercice noté)
 * Étudier le modèle existant de votre projet
+* Modéliser un cas d’utilisation de votre projet et en tirer un diagramme de cas, cf. instructions de votre projet
 
-TODO à la maison : lire https://github.com/oliviercailloux/java-course/blob/main/L3/Projets.adoc[Projets : Instructions générales] et remettre votre première livraison (comptera comme un exercice noté)
+*TODO @ home*
+* lire https://github.com/oliviercailloux/java-course/blob/main/L3/Projets.adoc[Projets : Instructions générales]
+// * remettre votre première livraison (comptera comme un exercice noté)
 
 [[S4]]
 == S4
