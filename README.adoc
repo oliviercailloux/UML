@@ -46,12 +46,13 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 *TODO @ home*
 
 * lire https://github.com/oliviercailloux/java-course/blob/main/L3/Projets.adoc[Projets : Instructions générales]
-* remettre votre première livraison (comptera comme un exercice noté)
+// * remettre votre première livraison *avant la fin du dimanche 3 avril* (comptera comme un exercice noté)
 
 [[S4]]
 == S4
+* Première livraison (comptera comme un exercice noté)
 * Diagrammes de classes
-* Discussion par groupe concernant la première livraison
+// * Discussion par groupe concernant la première livraison
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
