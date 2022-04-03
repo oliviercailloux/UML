@@ -51,7 +51,9 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 [[S4]]
 == S4
 * Première livraison (comptera comme un exercice noté)
-* Diagrammes de classes
+* Diagrammes de classes : simulation de véhicules
+* Tutoriel classes (cf. Papyrus)
+* Par groupes : classes à documenter
 // * Discussion par groupe concernant la première livraison
 
 == Références
