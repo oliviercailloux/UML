@@ -50,7 +50,7 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 
 [[S4]]
 == S4
-* Première livraison (comptera comme un exercice noté) : maximum 17h (pénalité linéaire au-delà, zéro à 20 minutes de retard)
+* Première livraison (comptera comme un exercice noté) : maximum 18h45 (bonus si livraison à 17h, pénalité linéaire au-delà, zéro à 20 minutes de retard)
 * Diagrammes de classes : simulation de véhicules
 * Tutoriel classes (cf. Papyrus)
 * Par groupes : classes à documenter
