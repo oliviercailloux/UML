@@ -54,7 +54,7 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 
 [[S5]]
 == S5 : 9 mai
-* Diagrammes de classes : simulation de véhicules. https://raw.githubusercontent.com/oliviercailloux/UML/main/Papyrus/Classes/Example%20classes%20and%20metamodel.svg[Exemple discuté], modèle https://github.com/oliviercailloux/UML-metamodel-in-Papyrus/tree/classes-car[ici]
+* Diagrammes de classes : simulation de véhicules. https://raw.githubusercontent.com/oliviercailloux/UML/main/Papyrus/Classes/Example%20classes%20and%20metamodel.svg[Exemple discuté], modèle https://github.com/oliviercailloux/UML-metamodel-in-Papyrus/[ici]
 * Tutoriel classes (cf. Papyrus)
 * Par groupes : classes à documenter
 // * Discussion par groupe concernant la première livraison
