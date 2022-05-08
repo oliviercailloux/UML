@@ -49,12 +49,17 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 // * remettre votre première livraison *avant la fin du dimanche 3 avril* (comptera comme un exercice noté)
 
 [[S4]]
-== S4
+== S4 : 4 avril
 * Première livraison (comptera comme un exercice noté) : maximum 18h45 (bonus si livraison à 17h, pénalité linéaire au-delà, zéro à 20 minutes de retard)
+
+[[S5]]
+== S5 : 9 mai
 * Diagrammes de classes : simulation de véhicules
 * Tutoriel classes (cf. Papyrus)
 * Par groupes : classes à documenter
 // * Discussion par groupe concernant la première livraison
+
+Deuxième livraison (comptera aussi comme un exercice noté), date limite fin du dimanche 22 mai.
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
