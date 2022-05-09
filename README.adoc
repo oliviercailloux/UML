@@ -7,7 +7,8 @@ image::.github/Links%20check.svg["Links check status", link="https://github.com/
 // https://img.shields.io/static/v1?label=Links%20check&message=Fail&color=red
 
 // * Le https://app.gosoapbox.com/event/290081765/[baromètre de confusion]
-* https://teams.microsoft.com/l/team/19%3a6b7b9ac374054bc6966d6cbeddad617b%40thread.tacv2/conversations?groupId=df066e1b-3326-4347-a02b-20ae51009352&tenantId=81e7c4de-26c9-4531-b076-b70e2d75966e[Équipe] associée au cours sur Teams
+// * https://teams.microsoft.com/l/team/19%3a6b7b9ac374054bc6966d6cbeddad617b%40thread.tacv2/conversations?groupId=df066e1b-3326-4347-a02b-20ae51009352&tenantId=81e7c4de-26c9-4531-b076-b70e2d75966e[Équipe] associée au cours sur Teams
+* https://teams.microsoft.com/l/meetup-join/19%3Aaaa1a5bbda774320a271ee4b5ba402e4%40thread.tacv2/1652096797827?context=%7B%22Tid%22%3A%2281e7c4de-26c9-4531-b076-b70e2d75966e%22%2C%22Oid%22%3A%22db290b1a-6988-4d6b-91c6-9ddd729313f6%22%7D[Teams]
 * https://github.com/oliviercailloux/Teaching/blob/main/README.adoc#take-notes[Take notes]!
 
 [[S1]]
