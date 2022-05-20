@@ -25,3 +25,5 @@ Résumez dans la description de la PR créée ce que vous proposez, en un paragr
 
 De manière générale : vos documents soumis doivent comporter la documentation du projet utile aux contributeurs du projet ; la description de la PR doit comporter les informations qui ne sont utiles que pour mon évaluation de votre travail.
 
+Les liens de votre doc vers votre doc doivent référencer la branche `main`. (L’inconvénient par rapport à la branche en cours est que le lien ne fonctionne pas tant que la PR n’est pas acceptée, mais l’avantage est que cela évite de devoir garder la branche à long terme ou modifier le lien par la suite.) Exemple : https://github.com/oliviercailloux/UML/blob/main/Projets%20-%20Instructions%20UML.adoc[ce lien] vers ce document référence la branche `main`.
+
