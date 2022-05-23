@@ -53,17 +53,30 @@ Deadline: 14h08. If you are late, your grade decreases linarily until 14h11.
 // * remettre votre première livraison *avant la fin du dimanche 3 avril* (comptera comme un exercice noté)
 
 [[S4]]
-== S4 : 4 avril
+== S4 : 4 avril (1.5)
 * Première livraison (comptera comme un exercice noté) : maximum 18h45 (bonus si livraison à 17h, pénalité linéaire au-delà, zéro à 20 minutes de retard)
 
 [[S5]]
-== S5 : 9 mai
+== S5.5 : 9 mai (1.5)
 * Diagrammes de classes : simulation de véhicules. https://raw.githubusercontent.com/oliviercailloux/UML/main/Papyrus/Classes/Example%20classes%20and%20metamodel.svg[Exemple discuté], modèle https://github.com/oliviercailloux/UML-metamodel-in-Papyrus/[ici]
 * Tutoriel classes (cf. Papyrus)
 * Par groupes : classes à documenter
-// * Discussion par groupe concernant la première livraison
 
 Deuxième livraison (comptera aussi comme un exercice noté), date limite fin du dimanche 22 mai.
+
+[[S7]]
+== S7 : 23 mai (1.5)
+* Discussion par groupe concernant la deuxième livraison
+* Préparation troisième livraison
+
+Date limite livraison 3 : fin du dimanche 19 juin.
+
+[[S8]]
+== S8.5 : 20 juin (1.5)
+
+[[S10]]
+== S10 : 4 juillet
+Présentations
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
