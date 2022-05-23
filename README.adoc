@@ -67,12 +67,14 @@ Deuxième livraison (comptera aussi comme un exercice noté), date limite fin du
 [[S7]]
 == S7 : 23 mai (1.5)
 * Discussion par groupe concernant la deuxième livraison
-* Préparation troisième livraison
+* Itération 3
 
 Date limite livraison 3 : fin du dimanche 19 juin.
 
 [[S8]]
 == S8.5 : 20 juin (1.5)
+* Diagrammes de séquence
+* Itération 4
 
 [[S10]]
 == S10 : 4 juillet
