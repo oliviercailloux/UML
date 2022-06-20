@@ -79,6 +79,11 @@ Date limite livraison 3 : fin du dimanche 19 juin.
 [[S10]]
 == S10 : 4 juillet
 Présentations
+* https://github.com/oliviercailloux-org/projet-2d-library/blob/main/Doc/Pr%C3%A9sentation.pdf
+* https://github.com/oliviercailloux-org/projet-apartments-1/blob/main/Doc/Pr%C3%A9sentation.pdf
+* https://github.com/oliviercailloux-org/projet-assisted-board-games-1/blob/main/Doc/Pr%C3%A9sentation.pdf
+* https://github.com/oliviercailloux-org/projet-j-confs/blob/main/Doc/Pr%C3%A9sentation.pdf
+* https://github.com/oliviercailloux-org/projet-mido-svg/blob/main/Doc/Pr%C3%A9sentation.pdf
 
 * Sur mon ordinateur
 * 15 minutes environ par groupe, max 30 minutes
