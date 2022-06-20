@@ -74,11 +74,18 @@ Date limite livraison 3 : fin du dimanche 19 juin.
 [[S8]]
 == S8.5 : 20 juin (1.5)
 * Diagrammes de séquence
-* Itération 4
+* Itération 4 (facultative, ne comptera pas négativement)
 
 [[S10]]
 == S10 : 4 juillet
 Présentations
+
+* Sur mon ordinateur
+* 15 minutes environ par groupe, max 30 minutes
+* Adressées à la salle, pas à moi (expliquez votre projet !)
+* Distinguez ce qui existait et vos contributions
+* Démo *obligatoirement uniquement* de votre branche `main` (mais vous pouvez parler et montrer des informations d’autres branches)
+* Note pour le groupe : intérêt pour l’audience ; compréhension par l’audience du contexte et de l’objectif du projet ; compréhension par l’audience de l’architecture du code et des aspects techniques ; distinction claire des fcts déjà présentes VS ajoutées ; originalité & créativité éventuelle ; …
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
@@ -89,4 +96,3 @@ Présentations
 * Livre : Roques - UML 2 par la pratique - Études de cas et exercices corrigés, Sixième édition (2008)
 * https://www.youtube.com/watch?v=yaLGw-ZSUKk[Vidéo] : UML and Rhapsody Workflows for Embedded Code Development (emploi d’UML dans l’industrie)
 * https://www-info.iutv.univ-paris13.fr/dokuwiki/doku.php?id=m2104:start[DUT Informatique, module M2104 : Introduction à la conception orientée objet (COO)]
-
