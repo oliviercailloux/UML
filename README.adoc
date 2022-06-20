@@ -80,11 +80,11 @@ Date limite livraison 3 : fin du dimanche 19 juin.
 == S10 : 4 juillet
 Présentations
 
-* https://github.com/oliviercailloux-org/projet-2d-library/blob/main/Doc/Pr%C3%A9sentation.pdf
-* https://github.com/oliviercailloux-org/projet-apartments-1/blob/main/Doc/Pr%C3%A9sentation.pdf
-* https://github.com/oliviercailloux-org/projet-assisted-board-games-1/blob/main/Doc/Pr%C3%A9sentation.pdf
-* https://github.com/oliviercailloux-org/projet-j-confs/blob/main/Doc/Pr%C3%A9sentation.pdf
-* https://github.com/oliviercailloux-org/projet-mido-svg/blob/main/Doc/Pr%C3%A9sentation.pdf
+* https://github.com/oliviercailloux-org/projet-mido-svg/blob/main/Doc/Pr%C3%A9sentation.pdf[MIDO SVG]
+* https://github.com/oliviercailloux-org/projet-apartments-1/blob/main/Doc/Pr%C3%A9sentation.pdf[Apartments]
+* https://github.com/oliviercailloux-org/projet-assisted-board-games-1/blob/main/Doc/Pr%C3%A9sentation.pdf[Assisted Board Games]
+* https://github.com/oliviercailloux-org/projet-j-confs/blob/main/Doc/Pr%C3%A9sentation.pdf[J-Confs]
+* https://github.com/oliviercailloux-org/projet-2d-library/blob/main/Doc/Pr%C3%A9sentation.pdf[2D Library]
 
 Instructions
 
@@ -94,6 +94,7 @@ Instructions
 * Distinguez ce qui existait et vos contributions
 * Démo *obligatoirement uniquement* de votre branche `main` (mais vous pouvez parler et montrer des informations d’autres branches)
 * Note pour le groupe : intérêt pour l’audience ; compréhension par l’audience du contexte et de l’objectif du projet ; compréhension par l’audience de l’architecture du code et des aspects techniques ; distinction claire des fcts déjà présentes VS ajoutées ; originalité & créativité éventuelle ; …
+* Placez votre présentation (sans review) sur la branche `main`, à l’endroit correspondant au lien ci-dessus
 
 == Références
 * https://www.uml-diagrams.org/uml-core.html[UML Core Elements] : informations précises concernant les modèles et diagrammes d’UML
