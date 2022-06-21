@@ -74,7 +74,7 @@ Date limite livraison 3 : fin du dimanche 19 juin.
 [[S8]]
 == S8.5 : 20 juin (1.5)
 * Diagrammes de séquence
-* Itération 4 (facultative, ne comptera pas négativement)
+* Itération 4 (facultative, ne comptera pas négativement), date limite fin du vendredi 1er juillet.
 
 [[S10]]
 == S10 : 4 juillet
