@@ -98,7 +98,7 @@ Instructions
 
 Vote pour la meilleure amélioration
 
-Déclaration de licences
+Déclaration de licence
 
 * À remettre à votre délégué, Rayan.
 * Remettre la https://github.com/oliviercailloux/projets/raw/main/Licences/Declaration%20of%20licensing.odt[déclaration de licence] papier avec toutes les signatures de l’équipe, ou votre décision collective de ne pas signer.
