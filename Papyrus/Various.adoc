@@ -38,7 +38,7 @@ Have a look at the key bindings, available using a link in the Papyrus https://w
 
 [[SVG]]
 == Graphics format
-Among the choices for exporting diagrams from Papyrus, the best format is the SVG format: it deals with transparency, and gives higher quality diagrams than PNG as it is a vector format. But a https://www.eclipse.org/forums/index.php/m/1839260[bug] sometimes makes these graphics too tall. To work around this, edit the XML file (using any text editor) and change the two `height` attributes in the header, choosing an appropriate value “manually”.
+Among the choices for exporting diagrams from Papyrus, the best format is the SVG format: it deals with transparency, and gives higher quality diagrams than PNG as SVG is a vector format. But a https://www.eclipse.org/forums/index.php/m/1839260[bug] sometimes makes these graphics too tall. To work around this, edit the XML file (using any text editor) and change the two `height` attributes in the header, choosing an appropriate value “manually”.
 
 == Evolution of Papyrus
 I find that Papyrus is a very active and promising software, which is the reason I use it for teaching. 
